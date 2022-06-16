@@ -27,9 +27,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.StringRes;
-import com.google.android.material.materialswitch.MaterialSwitch;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 
 /** A base class for controllable text field demos in the Catalog app. */
 public abstract class TextFieldControllableDemoFragment extends TextFieldDemoFragment {

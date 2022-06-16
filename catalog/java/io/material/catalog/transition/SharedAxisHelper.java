@@ -25,7 +25,7 @@ import android.widget.Button;
 import android.widget.RadioGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.transition.MaterialSharedAxis;
+import com.bottombar.navigation.material.transition.MaterialSharedAxis;
 
 /** A helper class that sets up and manages shared axis demo controls. */
 public class SharedAxisHelper {

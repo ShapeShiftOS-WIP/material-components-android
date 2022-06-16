@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.view.KeyEvent;
 import android.view.View;
-import com.google.android.material.slider.KeyUtils.KeyEventBuilder;
+import com.bottombar.navigation.material.slider.KeyUtils.KeyEventBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

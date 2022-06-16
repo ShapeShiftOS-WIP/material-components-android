@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomsheet;
+package com.bottombar.navigation.material.bottomsheet;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -58,11 +58,11 @@ import androidx.test.filters.MediumTest;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.testapp.BottomSheetBehaviorActivity;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.AccessibilityUtils;
-import com.google.android.material.testutils.DesignViewActions;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.testapp.BottomSheetBehaviorActivity;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.AccessibilityUtils;
+import com.bottombar.navigation.material.testutils.DesignViewActions;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.junit.Rule;

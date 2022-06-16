@@ -111,7 +111,7 @@ navigational elements at the bottom of the screen, such as a `BottomAppBar` or
 
 Temporary bottom bars can be implemented with other sorts of content layouts by
 subclassing
-[BaseTransientBottomBar](https://developer.android.com/reference/com/google/android/material/snackbar/BaseTransientBottomBar).
+[BaseTransientBottomBar](https://developer.android.com/reference/com.bottombar.navigation.material/snackbar/BaseTransientBottomBar).
 
 Android also provides a
 [Toast](https://developer.android.com/reference/android/widget/Toast.html) class
@@ -136,8 +136,8 @@ action that was just taken, or retrying an action that had failed.
 API and source code:
 
 *   `Snackbar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/snackbar/Snackbar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/snackbar/Snackbar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/snackbar/Snackbar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/snackbar/Snackbar.java)
 
 The following is an example of a snackbar with an action button:
 
@@ -200,9 +200,9 @@ Element                 | **Theme attribute**           | **Default value**
 **Text label style**    | `?attr/snackbarTextViewStyle` | `@style/Widget.Material3.Snackbar.TextView`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/snackbar/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/snackbar/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/snackbar/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/snackbar/res/values/attrs.xml).
 
 ## Theming snackbars
 
@@ -215,8 +215,8 @@ which can customize color and typography.
 API and source code:
 
 *   `Snackbar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/snackbar/Snackbar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/snackbar/Snackbar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/snackbar/Snackbar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/snackbar/Snackbar.java)
 
 The following is an example of a snackbar with an action button that uses the
 Material.io [Shrine](https://material.io/design/material-studies/shrine.html)

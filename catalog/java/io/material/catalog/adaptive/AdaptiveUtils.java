@@ -24,12 +24,12 @@ import android.view.View.OnClickListener;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.navigation.NavigationView.OnNavigationItemSelectedListener;
-import com.google.android.material.navigationrail.NavigationRailView;
+import com.bottombar.navigation.material.bottomnavigation.BottomNavigationView;
+import com.bottombar.navigation.material.floatingactionbutton.ExtendedFloatingActionButton;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.navigation.NavigationView;
+import com.bottombar.navigation.material.navigation.NavigationView.OnNavigationItemSelectedListener;
+import com.bottombar.navigation.material.navigationrail.NavigationRailView;
 
 /** Utility class for the Adaptive package. */
 class AdaptiveUtils {

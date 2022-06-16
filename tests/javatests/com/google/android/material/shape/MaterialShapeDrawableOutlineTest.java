@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.shape;
+package com.bottombar.navigation.material.shape;
 
 import static junit.framework.Assert.assertNotNull;
 import static org.hamcrest.core.Is.is;

@@ -43,7 +43,7 @@
           android:layout_marginEnd="16dp"
           android:layout_marginBottom="8dp"
           android:text="@string/cat_divider_subtitle"/>
-      <com.google.android.material.divider.MaterialDivider
+      <com.bottombar.navigation.material.divider.MaterialDivider
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
 
@@ -61,7 +61,7 @@
           android:layout_marginEnd="16dp"
           android:layout_marginBottom="8dp"
           android:text="@string/cat_divider_inset_subtitle"/>
-      <com.google.android.material.divider.MaterialDivider
+      <com.bottombar.navigation.material.divider.MaterialDivider
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           app:dividerInsetStart="32dp"/>
@@ -80,7 +80,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:text="@string/cat_divider_middle_subtitle"/>
-      <com.google.android.material.divider.MaterialDivider
+      <com.bottombar.navigation.material.divider.MaterialDivider
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:dividerInsetStart="32dp"
@@ -101,7 +101,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:text="@string/cat_divider_heavy_subtitle"/>
-      <com.google.android.material.divider.MaterialDivider
+      <com.bottombar.navigation.material.divider.MaterialDivider
         style="?attr/materialDividerHeavyStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

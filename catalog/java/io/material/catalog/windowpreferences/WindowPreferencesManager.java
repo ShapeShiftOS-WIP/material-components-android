@@ -21,7 +21,7 @@ import android.content.SharedPreferences;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.view.Window;
-import com.google.android.material.internal.EdgeToEdgeUtils;
+import com.bottombar.navigation.material.internal.EdgeToEdgeUtils;
 
 /** Helper that saves the current window preferences for the Catalog. */
 public class WindowPreferencesManager {

@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.testapp.theme">
+  package="com.bottombar.navigation.material.testapp.theme">
 
   <uses-sdk android:minSdkVersion="14"
     tools:overrideLibrary="androidx.test, android.app, androidx.test.rule, androidx.test.espresso, androidx.test.espresso.idling"/>

@@ -54,7 +54,7 @@ example of how to do it in response to a long click is shown below.
 In the layout:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     ...
     android:clickable="true"
     android:focusable="true"
@@ -62,7 +62,7 @@ In the layout:
 
     ...
 
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 In code:
@@ -115,12 +115,12 @@ In the layout:
     android:id="@+id/parentContainer"
     ...>
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
         ...>
 
         ...
 
-    </com.google.android.material.card.MaterialCardView>
+    </com.bottombar.navigation.material.card.MaterialCardView>
 
 </io.material.catalog.draggable.DraggableCoordinatorLayout>
 ```
@@ -187,7 +187,7 @@ private val cardDelegate = object : AccessibilityDelegate() {
 ```
 
 **Note:** Cards also support a swipe-to-dismiss behavior through the use of
-['SwipeDismissBehavior'](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/behavior/SwipeDismissBehavior.java).
+['SwipeDismissBehavior'](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/behavior/SwipeDismissBehavior.java).
 You can see an example
 [here](https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/card/CardSwipeDismissFragment.java).
 
@@ -207,8 +207,8 @@ purple](assets/cards/cards_basic.png)
 API and source code:
 
 *   `MaterialCardView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/card/MaterialCardView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/MaterialCardView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/card/MaterialCardView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/MaterialCardView.java)
 
 **Note:** You don't need to specify a style tag as long as you are using a
 Material Components Theme. If not, set the style to
@@ -223,7 +223,7 @@ The following example shows an outlined card.
 Action 2 buttons in purple"](assets/cards/cards_outlined.png)
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     android:id="@+id/card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -281,14 +281,14 @@ Action 2 buttons in purple"](assets/cards/cards_outlined.png)
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:orientation="horizontal">
-            <com.google.android.material.button.MaterialButton
+            <com.bottombar.navigation.material.button.MaterialButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:text="@string/action_1"
                 style="?attr/borderlessButtonStyle"
                 />
-            <com.google.android.material.button.MaterialButton
+            <com.bottombar.navigation.material.button.MaterialButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/action_2"
@@ -298,7 +298,7 @@ Action 2 buttons in purple"](assets/cards/cards_outlined.png)
 
     </LinearLayout>
 
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 #### Filled card
@@ -311,13 +311,13 @@ Action 2 buttons in purple"](assets/cards/cards_filled.png)
 In the layout:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     ...
     style="?attr/materialCardViewFilledStyle">
 
     ...
 
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 #### Elevated card
@@ -330,13 +330,13 @@ Action 2 buttons in purple"](assets/cards/cards_elevated.png)
 In the layout:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     ...
     style="?attr/materialCardViewElevatedStyle">
 
     ...
 
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 ### Anatomy and key properties
@@ -362,12 +362,12 @@ shown in the [card examples](#card-examples) section.
 Element              | Attribute                 | Related method(s)                                                   | Default value
 -------------------- | ------------------------- | ------------------------------------------------------------------- | -------------
 **Color**            | `app:cardBackgroundColor` | `setCardBackgroundColor`<br/>`getCardBackgroundColor`               | `?attr/colorSurface` or `?attr/colorSurfaceVariant` (filled style)
-**Foreground color** | `app:cardForegroundColor` | `setCardForegroundColor`<br/>`getCardForegroundColor`               | `@android:color/transparent` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/res/color/m3_card_foreground_color.xml))
+**Foreground color** | `app:cardForegroundColor` | `setCardForegroundColor`<br/>`getCardForegroundColor`               | `@android:color/transparent` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/res/color/m3_card_foreground_color.xml))
 **Stroke color**     | `app:strokeColor`         | `setStrokeColor`<br/>`getStrokeColor`<br/>`getStrokeColorStateList` | `?attr/colorOutline` (unchecked)<br/>`?attr/colorSecondary` (checked)
 **Stroke width**     | `app:strokeWidth`         | `setStrokeWidth`<br/>`getStrokeWidth`                               | `1dp` (outlined style)<br/>`0dp` (elevated or filled style)
 **Shape**            | `app:shapeAppearance`     | `setShapeAppearanceModel`<br/>`getShapeAppearanceModel`             | `?attr/shapeAppearanceMediumComponent`
 **Elevation**        | `app:cardElevation`       | `setCardElevation`<br/>`setCardMaxElevation`                        | `0dp` (outlined or filled style)<br/>`1dp` (elevated style)
-**Ripple color**     | `app:rippleColor`         | `setRippleColor`<br/>`setRippleColorResource`<br/>`getRippleColor`  | `?attr/colorOnSurfaceVariant` at 20% opacity (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/res/color/m3_card_ripple_color.xml))
+**Ripple color**     | `app:rippleColor`         | `setRippleColor`<br/>`setRippleColorResource`<br/>`getRippleColor`  | `?attr/colorOnSurfaceVariant` at 20% opacity (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/res/color/m3_card_ripple_color.xml))
 
 **Note:** We recommend that cards on mobile have `8dp` margins.
 `android:layout_margin` will [**NOT**](https://stackoverflow.com/a/13365288)
@@ -382,7 +382,7 @@ border, regardless of the `app:strokeWidth` value.
 
 Element       | Attribute            | Related method(s)                                                                    | Default value
 ------------- | -------------------- | ------------------------------------------------------------------------------------ | -------------
-**Icon**      | `checkedIcon`        | `setCheckedIcon`<br/>`setCheckedIconResource`<br/>`getCheckedIcon`                   | [`@drawable/ic_mtrl_checked_circle.xml`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/resources/res/drawable/ic_mtrl_checked_circle.xml)
+**Icon**      | `checkedIcon`        | `setCheckedIcon`<br/>`setCheckedIconResource`<br/>`getCheckedIcon`                   | [`@drawable/ic_mtrl_checked_circle.xml`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/resources/res/drawable/ic_mtrl_checked_circle.xml)
 **Color**     | `checkedIconTint`    | `setCheckedIconTint`<br/>`getCheckedIconTint`                                        | `?attr/colorOutline` (unchecked)<br/>`?attr/colorSecondary` (checked)
 **Checkable** | `android:checkable`  | `setCheckable`<br/>`isCheckable`                                                     | `false`
 **Size**      | `checkedIconSize`    | `setCheckedIconSize`<br/>`setCheckedIconSizeResource`<br/>`getCheckedIconSize`       | `24dp`
@@ -411,9 +411,9 @@ Additional style theme attributes: `?attr/materialCardViewOutlinedStyle`,
 `?attr/materialCardViewFilledStyle`, `?attr/materialCardViewElevatedStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/res/values/styles.xml)
 and
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/res/values/attrs.xml).
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/res/values/attrs.xml).
 
 ## Theming cards
 
@@ -426,8 +426,8 @@ customized in terms of color, typography and shape.
 API and source code
 
 *   `MaterialCardView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/card/MaterialCardView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/card/MaterialCardView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/card/MaterialCardView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/card/MaterialCardView.java)
 
 The following example shows a card with Material Theming.
 
@@ -478,7 +478,7 @@ theme to all cards but does not affect other components:
 Use the style in the layout. This affects only this specific card:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     ...
     style="@style/Widget.App.CardView"
 />
@@ -486,25 +486,25 @@ Use the style in the layout. This affects only this specific card:
 
 In order to optimize shape theming, some (optional) adjustments need to be made
 to the card layout to incorporate
-[ShapeableImageView](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/imageview/ShapeableImageView.java).
+[ShapeableImageView](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/imageview/ShapeableImageView.java).
 
 In the layout:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     ...
     app:cardPreventCornerOverlap="false">
 
     ...
 
         <!-- Media -->
-        <com.google.android.material.imageview.ShapeableImageView
+        <com.bottombar.navigation.material.imageview.ShapeableImageView
             ...
             app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.Card.Media"
             />
 
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 In `res/values/styles.xml`:

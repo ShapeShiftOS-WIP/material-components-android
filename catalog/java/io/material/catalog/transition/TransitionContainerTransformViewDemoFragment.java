@@ -33,7 +33,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 import androidx.transition.TransitionManager;
-import com.google.android.material.transition.MaterialContainerTransform;
+import com.bottombar.navigation.material.transition.MaterialContainerTransform;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.OnBackPressedHandler;
 

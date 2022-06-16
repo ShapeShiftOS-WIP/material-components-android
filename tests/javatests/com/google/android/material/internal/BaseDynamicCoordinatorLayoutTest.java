@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.internal;
+package com.bottombar.navigation.material.internal;
 
 import static androidx.test.InstrumentationRegistry.getInstrumentation;
 import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
@@ -29,8 +29,8 @@ import androidx.core.view.ViewCompat;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.material.testapp.DynamicCoordinatorLayoutActivity;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.testapp.DynamicCoordinatorLayoutActivity;
+import com.bottombar.navigation.material.testapp.R;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;

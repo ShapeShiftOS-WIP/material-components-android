@@ -68,7 +68,7 @@
 
     </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
         android:id="@+id/vertical_card_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,9 +113,9 @@
             android:contentDescription="@string/cat_transition_body_content_desc"/>
       </LinearLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </com.bottombar.navigation.material.card.MaterialCardView>
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
         android:id="@+id/horizontal_card_item"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -168,9 +168,9 @@
 
       </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </com.bottombar.navigation.material.card.MaterialCardView>
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
         android:id="@+id/grid_card_item"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -213,9 +213,9 @@
             android:text="@string/cat_transition_lorem_ipsum" />
       </LinearLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </com.bottombar.navigation.material.card.MaterialCardView>
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
         android:id="@+id/grid_tall_card_item"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
@@ -258,7 +258,7 @@
             android:text="@string/cat_transition_lorem_ipsum" />
       </LinearLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </com.bottombar.navigation.material.card.MaterialCardView>
   </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

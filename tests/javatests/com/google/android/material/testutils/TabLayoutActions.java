@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayingAtLeast;
 
@@ -24,7 +24,7 @@ import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
 import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.viewpager.widget.ViewPager;
-import com.google.android.material.tabs.TabLayout;
+import com.bottombar.navigation.material.tabs.TabLayout;
 import org.hamcrest.Matcher;
 
 public class TabLayoutActions {

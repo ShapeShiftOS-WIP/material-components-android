@@ -83,14 +83,14 @@ Top app bars use the following APIs and source code:
 *   `CoordinatorLayout`
     *   [Class definition](https://developer.android.com/reference/androidx/coordinatorlayout/widget/CoordinatorLayout)
 *   `AppBarLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/appbar/AppBarLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/AppBarLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/appbar/AppBarLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/AppBarLayout.java)
 *   `MaterialToolbar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/appbar/MaterialToolbar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/MaterialToolbar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/appbar/MaterialToolbar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/MaterialToolbar.java)
 *   `CollapsingToolbarLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/appbar/CollapsingToolbarLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/CollapsingToolbarLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/appbar/CollapsingToolbarLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/CollapsingToolbarLayout.java)
 
 ## Regular top app bars
 
@@ -112,11 +112,11 @@ In the layout:
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <com.bottombar.navigation.material.appbar.MaterialToolbar
             android:id="@+id/topAppBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -124,7 +124,7 @@ In the layout:
             app:menu="@menu/top_app_bar"
             app:navigationIcon="@drawable/ic_close_24dp" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     <!-- Note: A RecyclerView can also be used -->
     <androidx.core.widget.NestedScrollView
@@ -221,15 +221,15 @@ In the layout:
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     ...>
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...
         app:liftOnScroll="true">
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <com.bottombar.navigation.material.appbar.MaterialToolbar
             ...
             />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -251,15 +251,15 @@ In the layout:
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     ...>
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...>
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <com.bottombar.navigation.material.appbar.MaterialToolbar
             ...
             app:layout_scrollFlags="scroll|enterAlways|snap"
             />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -306,7 +306,7 @@ Element                         | Attribute                   | Related method(s
 ------------------------------- | --------------------------- | ------------------------------------------------ | -------------
 **Color**                       | `android:background`        | `setBackground`<br>`getBackground`               | `?attr/colorSurface`
 **`MaterialToolbar` elevation** | `android:elevation`         | `setElevation`<br>`getElevation`                 | `4dp`
-**`AppBarLayout` elevation**    | `android:stateListAnimator` | `setStateListAnimator`<br>`getStateListAnimator` | `0dp` to `4dp` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/res/animator-v21/design_appbar_state_list_animator.xml))
+**`AppBarLayout` elevation**    | `android:stateListAnimator` | `setStateListAnimator`<br>`getStateListAnimator` | `0dp` to `4dp` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/res/animator-v21/design_appbar_state_list_animator.xml))
 
 #### Navigation icon attributes
 
@@ -397,9 +397,9 @@ Additional style theme attributes: `?attr/collapsingToolbarLayoutMediumStyle`,
 `?attr/collapsingToolbarLayoutLargeStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/res/values/attrs.xml).
 
 ## Collapsing top app bars
 
@@ -420,24 +420,24 @@ In the layout:
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     ...>
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <com.bottombar.navigation.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutMediumStyle"
             android:layout_width="match_parent"
             android:layout_height="?attr/collapsingToolbarLayoutMediumSize">
 
-            <com.google.android.material.appbar.MaterialToolbar
+            <com.bottombar.navigation.material.appbar.MaterialToolbar
                 ...
                 android:elevation="0dp" />
 
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.bottombar.navigation.material.appbar.CollapsingToolbarLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -458,24 +458,24 @@ In the layout:
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     ...>
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <com.bottombar.navigation.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
             android:layout_height="?attr/collapsingToolbarLayoutLargeSize">
 
-            <com.google.android.material.appbar.MaterialToolbar
+            <com.bottombar.navigation.material.appbar.MaterialToolbar
                 ...
                 android:elevation="0dp" />
 
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.bottombar.navigation.material.appbar.CollapsingToolbarLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -497,13 +497,13 @@ In the layout:
     ...
     android:fitsSystemWindows="true">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <com.bottombar.navigation.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
             android:layout_width="match_parent"
             android:layout_height="?attr/collapsingToolbarLayoutLargeSize">
@@ -516,13 +516,13 @@ In the layout:
                 android:fitsSystemWindows="true"
                 android:contentDescription="@string/content_description_media" />
 
-            <com.google.android.material.appbar.MaterialToolbar
+            <com.bottombar.navigation.material.appbar.MaterialToolbar
                 ...
                 android:background="@android:color/transparent" />
 
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.bottombar.navigation.material.appbar.CollapsingToolbarLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -548,24 +548,24 @@ In the layout:
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     ...>
 
-    <com.google.android.material.appbar.AppBarLayout
+    <com.bottombar.navigation.material.appbar.AppBarLayout
         ...>
 
-        <com.google.android.material.appbar.CollapsingToolbarLayout
+        <com.bottombar.navigation.material.appbar.CollapsingToolbarLayout
             ...
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:contentScrim="?attr/colorPrimary">
 
             ...
 
-            <com.google.android.material.appbar.MaterialToolbar
+            <com.bottombar.navigation.material.appbar.MaterialToolbar
                 ...
                 app:layout_collapseMode="pin"
                 />
 
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.bottombar.navigation.material.appbar.CollapsingToolbarLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </com.bottombar.navigation.material.appbar.AppBarLayout>
 
     ...
 
@@ -755,11 +755,11 @@ customize color, typography and shape.
 API and source code:
 
 *   `AppBarLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/appbar/AppBarLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/AppBarLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/appbar/AppBarLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/AppBarLayout.java)
 *   `MaterialToolbar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/appbar/MaterialToolbar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/appbar/MaterialToolbar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/appbar/MaterialToolbar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/appbar/MaterialToolbar.java)
 
 A regular top app bar with Material Theming:
 
@@ -816,7 +816,7 @@ all top app bars but does not affect other components:
 Use the style in the layout, which affects only this top app bar:
 
 ```xml
-<com.google.android.material.appbar.MaterialToolbar
+<com.bottombar.navigation.material.appbar.MaterialToolbar
     ...
     app:title="@string/flow_shirt_blouse"
     app:menu="@menu/top_app_bar_shrine"

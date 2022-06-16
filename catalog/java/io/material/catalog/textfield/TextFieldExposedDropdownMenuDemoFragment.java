@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 
 /**
  * A fragment that displays the filled text field demos with start and end icons and controls for

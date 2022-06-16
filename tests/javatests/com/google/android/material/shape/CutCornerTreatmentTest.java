@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.shape;
+package com.bottombar.navigation.material.shape;
 
 import static org.junit.Assert.assertTrue;
 

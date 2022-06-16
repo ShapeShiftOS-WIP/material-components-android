@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.color;
+package com.bottombar.navigation.material.color;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static com.google.common.truth.Truth.assertThat;
@@ -29,8 +29,8 @@ import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.util.TypedValue;
 import androidx.appcompat.view.ContextThemeWrapper;
-import com.google.android.material.color.DynamicColors.Precondition;
-import com.google.android.material.resources.MaterialAttributes;
+import com.bottombar.navigation.material.color.DynamicColors.Precondition;
+import com.bottombar.navigation.material.resources.MaterialAttributes;
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;
 import org.junit.Test;
@@ -43,7 +43,7 @@ import org.robolectric.shadow.api.Shadow;
 import org.robolectric.shadows.ShadowContextThemeWrapper;
 import org.robolectric.util.ReflectionHelpers;
 
-/** Tests the logic of {@link com.google.android.material.color.DynamicColors} utility class. */
+/** Tests the logic of {@link com.bottombar.navigation.material.color.DynamicColors} utility class. */
 @RunWith(ParameterizedRobolectricTestRunner.class)
 public class DynamicColorsTest {
 

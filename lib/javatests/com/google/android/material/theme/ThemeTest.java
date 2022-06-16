@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.google.android.material.theme;
+package com.bottombar.navigation.material.theme;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.appcompat.view.ContextThemeWrapper;
-import com.google.android.material.resources.MaterialAttributes;
-import com.google.android.material.testing.ResourceNameLookup;
+import com.bottombar.navigation.material.resources.MaterialAttributes;
+import com.bottombar.navigation.material.testing.ResourceNameLookup;
 import com.google.common.base.Predicates;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;

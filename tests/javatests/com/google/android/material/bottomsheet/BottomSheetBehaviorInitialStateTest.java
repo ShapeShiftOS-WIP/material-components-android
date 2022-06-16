@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomsheet;
+package com.bottombar.navigation.material.bottomsheet;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
@@ -25,7 +25,7 @@ import androidx.test.InstrumentationRegistry;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.BottomSheetBehaviorActivity;
+import com.bottombar.navigation.material.testapp.BottomSheetBehaviorActivity;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

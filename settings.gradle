@@ -1,10 +1,10 @@
 include ':lib'
 
-include ':testing:java:com:google:android:material:testapp'
-include ':testing:java:com:google:android:material:testapp:animation'
-include ':testing:java:com:google:android:material:testapp:base'
-include ':testing:java:com:google:android:material:testapp:custom'
-include ':testing:java:com:google:android:material:testapp:theme'
+include ':testing:java:com:bottombar:navigation:material:testapp'
+include ':testing:java:com:bottombar:navigation:material:testapp:animation'
+include ':testing:java:com:bottombar:navigation:material:testapp:base'
+include ':testing:java:com:bottombar:navigation:material:testapp:custom'
+include ':testing:java:com:bottombar:navigation:material:testapp:theme'
 
 include ':catalog'
 

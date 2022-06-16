@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomappbar;
+package com.bottombar.navigation.material.bottomappbar;
 
 import static org.junit.Assert.assertTrue;
 

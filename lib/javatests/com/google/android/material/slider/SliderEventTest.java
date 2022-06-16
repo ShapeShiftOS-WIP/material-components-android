@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
-import static com.google.android.material.slider.SliderHelper.dragSliderBetweenValues;
-import static com.google.android.material.slider.SliderHelper.touchSliderAtValue;
+import static com.bottombar.navigation.material.slider.SliderHelper.dragSliderBetweenValues;
+import static com.bottombar.navigation.material.slider.SliderHelper.touchSliderAtValue;
 import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.ArgumentMatchers.anyFloat;
 import static org.mockito.ArgumentMatchers.eq;
@@ -33,7 +33,7 @@ import android.os.SystemClock;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.MotionEvent;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.slider.Slider.OnChangeListener;
+import com.bottombar.navigation.material.slider.Slider.OnChangeListener;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -42,7 +42,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.LooperMode;
 
-/** Tests for events of {@link com.google.android.material.slider.Slider} */
+/** Tests for events of {@link com.bottombar.navigation.material.slider.Slider} */
 @LooperMode(LEGACY)
 @RunWith(RobolectricTestRunner.class)
 public class SliderEventTest {

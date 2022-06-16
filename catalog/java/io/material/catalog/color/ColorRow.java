@@ -27,7 +27,7 @@ import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.color.MaterialColors;
 
 /**
  * A class for the items in a color row. A ColorRow consists of two {@link ColorRoleItem} objects.

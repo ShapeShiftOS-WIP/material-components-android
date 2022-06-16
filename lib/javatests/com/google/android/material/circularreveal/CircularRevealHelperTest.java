@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.circularreveal;
+package com.bottombar.navigation.material.circularreveal;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.anyFloat;
@@ -35,8 +35,8 @@ import android.view.View;
 import android.view.View.MeasureSpec;
 import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
-import com.google.android.material.circularreveal.CircularRevealWidget.RevealInfo;
-import com.google.android.material.math.MathUtils;
+import com.bottombar.navigation.material.circularreveal.CircularRevealWidget.RevealInfo;
+import com.bottombar.navigation.material.math.MathUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

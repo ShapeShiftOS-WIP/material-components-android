@@ -35,7 +35,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.math.MathUtils;
 import androidx.core.view.ViewCompat;
-import com.google.android.material.appbar.AppBarLayout;
+import com.bottombar.navigation.material.appbar.AppBarLayout;
 import dagger.android.support.DaggerFragment;
 import io.material.catalog.feature.FeatureDemo;
 import io.material.catalog.feature.FeatureDemoUtils;

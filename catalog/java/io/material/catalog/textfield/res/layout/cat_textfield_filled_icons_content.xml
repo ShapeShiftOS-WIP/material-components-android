@@ -22,7 +22,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledDenseStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -34,13 +34,13 @@
       app:helperText="@string/cat_textfield_filled_dense_password_helper_text"
       app:helperTextEnabled="true"
       app:placeholderText="@string/cat_textfield_placeholder_text">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -52,12 +52,12 @@
       app:helperText="@string/cat_textfield_filled_clear_button_helper_text"
       app:helperTextEnabled="true"
       app:placeholderText="@string/cat_textfield_placeholder_text">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -71,12 +71,12 @@
       app:helperText="@string/cat_textfield_filled_custom_end_icon_helper_text"
       app:helperTextEnabled="true"
       app:placeholderText="@string/cat_textfield_placeholder_text">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -91,12 +91,12 @@
       app:startIconContentDescription="@string/cat_textfield_custom_start_icon_content_description"
       app:startIconDrawable="@drawable/ic_search_24px"
       app:placeholderText="@string/cat_textfield_placeholder_text">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -114,9 +114,9 @@
       app:startIconContentDescription="@string/cat_textfield_custom_start_icon_content_description"
       app:startIconDrawable="@drawable/ic_search_24px"
       app:placeholderText="@string/cat_textfield_placeholder_text">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
 </LinearLayout>

@@ -22,7 +22,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -33,13 +33,13 @@
       app:helperText="@string/cat_textfield_filled_prefix_helper_text"
       app:helperTextEnabled="true"
       app:prefixText="@string/cat_textfield_prefix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -50,15 +50,15 @@
       app:helperText="@string/cat_textfield_filled_suffix_helper_text"
       app:helperTextEnabled="true"
       app:suffixText="@string/cat_textfield_suffix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textAlignment="textEnd"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -70,13 +70,13 @@
       app:helperTextEnabled="true"
       app:startIconDrawable="@drawable/ic_search_24px"
       app:prefixText="@string/cat_textfield_prefix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -88,15 +88,15 @@
       app:helperTextEnabled="true"
       app:endIconMode="clear_text"
       app:suffixText="@string/cat_textfield_suffix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textAlignment="textEnd"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -107,13 +107,13 @@
       app:helperText="@string/cat_textfield_outlined_prefix_helper_text"
       app:helperTextEnabled="true"
       app:prefixText="@string/cat_textfield_prefix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -124,15 +124,15 @@
       app:helperText="@string/cat_textfield_outlined_suffix_helper_text"
       app:helperTextEnabled="true"
       app:suffixText="@string/cat_textfield_suffix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textAlignment="textEnd"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -144,13 +144,13 @@
       app:helperTextEnabled="true"
       app:startIconDrawable="@drawable/ic_search_24px"
       app:prefixText="@string/cat_textfield_prefix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -162,12 +162,12 @@
       app:helperTextEnabled="true"
       app:endIconMode="clear_text"
       app:suffixText="@string/cat_textfield_suffix">
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textAlignment="textEnd"
         android:inputType="numberDecimal"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
 </LinearLayout>

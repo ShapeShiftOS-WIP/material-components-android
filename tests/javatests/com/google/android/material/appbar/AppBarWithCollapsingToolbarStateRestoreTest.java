@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static com.google.android.material.testutils.AppBarLayoutMatchers.isCollapsed;
-import static com.google.android.material.testutils.SwipeUtils.swipeUp;
-import static com.google.android.material.testutils.TestUtilsMatchers.hasZ;
+import static com.bottombar.navigation.material.testutils.AppBarLayoutMatchers.isCollapsed;
+import static com.bottombar.navigation.material.testutils.SwipeUtils.swipeUp;
+import static com.bottombar.navigation.material.testutils.TestUtilsMatchers.hasZ;
 
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.AppBarLayoutCollapsePinActivity;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.ActivityUtils;
+import com.bottombar.navigation.material.testapp.AppBarLayoutCollapsePinActivity;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.ActivityUtils;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

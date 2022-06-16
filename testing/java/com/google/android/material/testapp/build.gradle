@@ -5,8 +5,8 @@ dependencies {
   api compatibility("appcompat")
 
   api project(fromPath("lib"))
-  api project(fromPath("testing/java/com/google/android/material/testapp/base"))
-  api project(fromPath("testing/java/com/google/android/material/testapp/custom"))
+  api project(fromPath("testing/java/com/bottombar/navigation/material/testapp/base"))
+  api project(fromPath("testing/java/com/bottombar/navigation/material/testapp/custom"))
 
   api 'androidx.multidex:multidex:2.0.0'
 }

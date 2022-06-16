@@ -150,8 +150,8 @@ themes.
 ##### `MaterialShapeDrawable` or `ElevationOverlayProvider` (*advanced*)
 
 If you have a complicated use case, you can check if
-`com.google.android.material.shape.MaterialShapeDrawable` or
-`com.google.android.material.elevation.ElevationOverlayProvider` would serve
+`com.bottombar.navigation.material.shape.MaterialShapeDrawable` or
+`com.bottombar.navigation.material.elevation.ElevationOverlayProvider` would serve
 your needs. These two classes provide a set of APIs to help you calculate and
 render blended colors according to different background colors and elevations,
 with the same elevation overlay formula used across the Material libraries. Use
@@ -172,7 +172,7 @@ theme overlays to be used on the base Material 3 themes:
 
 To make it easier to implement dynamic color solutions, the Material 3 library
 provides a helper class to apply dynamic colors:
-`com.google.android.material.color.DynamicColors`. There are several ways to use
+`com.bottombar.navigation.material.color.DynamicColors`. There are several ways to use
 this helper class according to different scenarios:
 
 ##### Apply dynamic colors to all activities in the app
@@ -390,7 +390,7 @@ user's dynamically-generated color?"
 
 To make it easier to implement color harmonization to ensure visual cohesion in
 any M3 themes with dynamic colors enabled, MDC-Android provides the following
-`MaterialColors` helper method in the `com.google.android.material.color`
+`MaterialColors` helper method in the `com.bottombar.navigation.material.color`
 package:
 
 In your application class or activity/fragment/view, call:
@@ -410,7 +410,7 @@ harmonization won't happen and `colorToHarmonize` will be returned.
 ##### Color Resources Harmonization
 
 We've provided the `HarmonizedColors` and `HarmonizedColorsOptions` classes in
-the `com.google.android.material.color` package for color resources
+the `com.bottombar.navigation.material.color` package for color resources
 harmonization. `HarmonizedColorsOptions.Builder` is a Builder class and to
 construct a `HarmonizedColorsOptions`. You can optionally pass in an array of
 resource ids for the color resources you'd like to harmonize, a
@@ -569,7 +569,7 @@ MaterialColors.getColor(harmonizedContext, R.attr.customColor, -1);
 M3 schemes also include roles for much of the semantic meaning and other
 conventional uses of color that products are identified with. A single color
 scheme currently consists of 4 roles for utility colors. The `ColorRoles` class
-is available in the `com.google.android.material.color` package and has getter
+is available in the `com.bottombar.navigation.material.color` package and has getter
 methods defined for each utility color role. The luminance level value [0, 100]
 will be shifted for each color role based on the theme `LightTheme` or
 `DarkTheme`, and the Hue and Chroma values of the color role will stay the same.

@@ -27,7 +27,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.divider.MaterialDividerItemDecoration;
+import com.bottombar.navigation.material.divider.MaterialDividerItemDecoration;
 import io.material.catalog.feature.DemoFragment;
 
 /** Demo of the MaterialDividerItemDecoration. */

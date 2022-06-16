@@ -34,7 +34,7 @@ import androidx.annotation.Nullable;
 import androidx.core.view.AccessibilityDelegateCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat;
-import com.google.android.material.card.MaterialCardView;
+import com.bottombar.navigation.material.card.MaterialCardView;
 import io.material.catalog.feature.DemoFragment;
 import java.util.Locale;
 

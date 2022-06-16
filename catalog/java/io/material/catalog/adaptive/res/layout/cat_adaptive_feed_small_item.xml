@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.bottombar.navigation.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/feed_small_content_container"
   android:layout_width="match_parent"
@@ -39,7 +39,7 @@
       android:text="@string/cat_feed_fragment_title"
       android:textAppearance="?attr/textAppearanceHeadlineSmall"/>
 
-    <com.google.android.material.imageview.ShapeableImageView
+    <com.bottombar.navigation.material.imageview.ShapeableImageView
       android:id="@+id/feed_small_content_image"
       android:layout_width="120dp"
       android:layout_height="120dp"
@@ -52,4 +52,4 @@
       app:backgroundTint="?attr/colorSurfaceVariant"/>
 
   </RelativeLayout>
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>

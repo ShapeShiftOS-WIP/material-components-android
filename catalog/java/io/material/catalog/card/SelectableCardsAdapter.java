@@ -29,7 +29,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.selection.ItemDetailsLookup;
 import androidx.recyclerview.selection.ItemKeyProvider;
 import androidx.recyclerview.selection.SelectionTracker;
-import com.google.android.material.card.MaterialCardView;
+import com.bottombar.navigation.material.card.MaterialCardView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

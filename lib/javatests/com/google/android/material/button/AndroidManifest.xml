@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.button">
+  package="com.bottombar.navigation.material.button">
 
   <uses-sdk
     tools:overrideLibrary="androidx.test.core"/>

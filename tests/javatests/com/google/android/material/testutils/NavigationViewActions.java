@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
@@ -31,7 +31,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
-import com.google.android.material.navigation.NavigationView;
+import com.bottombar.navigation.material.navigation.NavigationView;
 import org.hamcrest.Matcher;
 
 public class NavigationViewActions {

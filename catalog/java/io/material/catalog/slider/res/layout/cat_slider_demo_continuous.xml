@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical">
 
-      <com.google.android.material.slider.Slider
+      <com.bottombar.navigation.material.slider.Slider
           android:id="@+id/slider_1"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical">
 
-      <com.google.android.material.slider.Slider
+      <com.bottombar.navigation.material.slider.Slider
           android:id="@+id/slider_2"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical">
 
-      <com.google.android.material.slider.Slider
+      <com.bottombar.navigation.material.slider.Slider
           android:id="@+id/slider_3"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
           android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <com.google.android.material.materialswitch.MaterialSwitch
+    <com.bottombar.navigation.material.materialswitch.MaterialSwitch
       android:id="@+id/switch_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

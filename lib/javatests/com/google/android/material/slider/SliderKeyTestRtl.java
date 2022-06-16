@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
 import static android.os.Looper.getMainLooper;
-import static com.google.android.material.slider.RtlTestUtils.applyRtlPseudoLocale;
-import static com.google.android.material.slider.RtlTestUtils.checkAppSupportsRtl;
-import static com.google.android.material.slider.RtlTestUtils.checkPlatformSupportsRtl;
+import static com.bottombar.navigation.material.slider.RtlTestUtils.applyRtlPseudoLocale;
+import static com.bottombar.navigation.material.slider.RtlTestUtils.checkAppSupportsRtl;
+import static com.bottombar.navigation.material.slider.RtlTestUtils.checkPlatformSupportsRtl;
 import static com.google.common.truth.Truth.assertThat;
 import static org.robolectric.Shadows.shadowOf;
 
@@ -27,7 +27,7 @@ import android.os.Build.VERSION_CODES;
 import android.view.KeyEvent;
 import android.view.View;
 import androidx.annotation.RequiresApi;
-import com.google.android.material.slider.KeyUtils.KeyEventBuilder;
+import com.bottombar.navigation.material.slider.KeyUtils.KeyEventBuilder;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

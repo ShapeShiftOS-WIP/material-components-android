@@ -61,7 +61,7 @@
       app:layout_constraintGuide_end="0dp"
       tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.button.MaterialButton
+    <com.bottombar.navigation.material.button.MaterialButton
       android:id="@+id/top_button"
       android:layout_width="0dp"
       android:layout_height="wrap_content"

@@ -38,7 +38,7 @@ Standard bottom sheet basic usage:
   <FrameLayout
     ...
     android:id="@+id/standard_bottom_sheet"
-    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    app:layout_behavior="com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior">
 
     <!-- Bottom sheet contents. -->
 
@@ -241,8 +241,8 @@ vertically to expose more or less content.
 API and source code:
 
 *   `BottomSheetBehavior`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetBehavior)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/BottomSheetBehavior.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior.java)
 
 ### Standard bottom sheet example
 
@@ -267,7 +267,7 @@ Apply the `BottomSheetBehavior` to a direct child `View` of `CoordinatorLayout`:
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="?attr/bottomSheetStyle"
-    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    app:layout_behavior="com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior">
 
     <!-- Bottom sheet contents. -->
     <TextView
@@ -289,7 +289,7 @@ Apply the `BottomSheetBehavior` to a direct child `View` of `CoordinatorLayout`:
     android:text="@string/action"
     .../>
 
-    <com.google.android.material.switchmaterial.SwitchMaterial
+    <com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/switch_label"/>
@@ -320,8 +320,8 @@ sliding them down completely.
 API and source code:
 
 *   `BottomSheetDialogFragment`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetDialogFragment)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/BottomSheetDialogFragment.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomsheet/BottomSheetDialogFragment)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/BottomSheetDialogFragment.java)
 
 ### Modal bottom sheet example
 
@@ -421,10 +421,10 @@ Default style theme attribute:`?attr/bottomSheetStyle`
 Default theme overlay attribute: `?attr/bottomSheetDialogTheme`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/res/values/styles.xml),
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/res/values/attrs.xml),
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/res/values/styles.xml),
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/res/values/attrs.xml),
 and
-[themes and theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/res/values/themes.xml).
+[themes and theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/res/values/themes.xml).
 
 ## Theming bottom sheets
 
@@ -437,11 +437,11 @@ can customize color and shape.
 API and source code:
 
 *   `BottomSheetBehavior`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetBehavior)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/BottomSheetBehavior.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior.java)
 *   `BottomSheetDialogFragment`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetDialogFragment)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/BottomSheetDialogFragment.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomsheet/BottomSheetDialogFragment)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/BottomSheetDialogFragment.java)
 
 The following example shows a bottom sheet with Material Theming, in its
 collapsed and expanded states.

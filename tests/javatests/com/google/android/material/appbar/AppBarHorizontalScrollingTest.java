@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.swipeLeft;
@@ -35,8 +35,8 @@ import androidx.test.InstrumentationRegistry;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.AppBarHorizontalScrollingActivity;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.testapp.AppBarHorizontalScrollingActivity;
+import com.bottombar.navigation.material.testapp.R;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

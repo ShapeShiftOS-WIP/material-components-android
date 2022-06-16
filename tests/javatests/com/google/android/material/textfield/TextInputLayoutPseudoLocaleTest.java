@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.textfield;
+package com.bottombar.navigation.material.textfield;
 
 import static androidx.test.InstrumentationRegistry.getTargetContext;
 import static androidx.test.espresso.Espresso.onView;
@@ -29,8 +29,8 @@ import androidx.test.filters.MediumTest;
 import androidx.test.filters.SdkSuppress;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testapp.TextInputLayoutActivity;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testapp.TextInputLayoutActivity;
 import java.util.Locale;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
@@ -27,7 +27,7 @@ import android.view.MotionEvent;
 import android.widget.LinearLayout;
 import androidx.annotation.FloatRange;
 import androidx.core.view.ViewCompat;
-import com.google.android.material.slider.KeyUtils.KeyEventBuilder;
+import com.bottombar.navigation.material.slider.KeyUtils.KeyEventBuilder;
 
 public class SliderHelper {
   private final LinearLayout container;

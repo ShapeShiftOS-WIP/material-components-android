@@ -28,8 +28,8 @@ import androidx.annotation.IdRes;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.transition.MaterialFadeThrough;
+import com.bottombar.navigation.material.bottomnavigation.BottomNavigationView;
+import com.bottombar.navigation.material.transition.MaterialFadeThrough;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays the Fade Through Transition demo for the Catalog app. */

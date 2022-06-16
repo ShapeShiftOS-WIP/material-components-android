@@ -22,7 +22,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
     android:orientation="vertical">
-  <com.google.android.material.bottomnavigation.BottomNavigationView
+  <com.bottombar.navigation.material.bottomnavigation.BottomNavigationView
       android:id="@+id/cat_bottom_nav2"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

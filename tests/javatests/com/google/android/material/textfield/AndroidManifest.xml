@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.textfield">
+  package="com.bottombar.navigation.material.textfield">
 
   <uses-sdk
     tools:overrideLibrary="androidx.test, android.app, androidx.test.rule,
@@ -28,5 +28,5 @@
 
   <instrumentation
     android:name="androidx.test.runner.AndroidJUnitRunner"
-    android:targetPackage="com.google.android.material.testapp"/>
+    android:targetPackage="com.bottombar.navigation.material.testapp"/>
 </manifest>

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.circularreveal;
+package com.bottombar.navigation.material.circularreveal;
 
 import static com.google.common.truth.Truth.assertThat;
 
-import com.google.android.material.circularreveal.CircularRevealWidget.CircularRevealEvaluator;
-import com.google.android.material.circularreveal.CircularRevealWidget.RevealInfo;
+import com.bottombar.navigation.material.circularreveal.CircularRevealWidget.CircularRevealEvaluator;
+import com.bottombar.navigation.material.circularreveal.CircularRevealWidget.RevealInfo;
 import com.google.common.collect.Range;
 import org.junit.Before;
 import org.junit.Test;

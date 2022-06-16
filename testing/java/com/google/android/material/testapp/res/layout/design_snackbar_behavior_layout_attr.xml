@@ -32,6 +32,6 @@
         android:textStyle="bold"
         android:padding="12dip"
         app:textAllCaps="true"
-        app:layout_behavior="com.google.android.material.testapp.custom.TestFloatingBehavior" />
+        app:layout_behavior="com.bottombar.navigation.material.testapp.custom.TestFloatingBehavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.button;
+package com.bottombar.navigation.material.button;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.view.View.GONE;
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
@@ -34,8 +34,8 @@ import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionItemInfoCompat;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.button.MaterialButtonToggleGroup.OnButtonCheckedListener;
-import com.google.android.material.shape.ShapeAppearanceModel;
+import com.bottombar.navigation.material.button.MaterialButtonToggleGroup.OnButtonCheckedListener;
+import com.bottombar.navigation.material.shape.ShapeAppearanceModel;
 import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
@@ -45,7 +45,7 @@ import org.robolectric.annotation.Config;
 import org.robolectric.annotation.LooperMode;
 
 @LooperMode(LooperMode.Mode.LEGACY)
-/** Tests for {@link com.google.android.material.button.MaterialButtonToggleGroup}. */
+/** Tests for {@link com.bottombar.navigation.material.button.MaterialButtonToggleGroup}. */
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = 21)
 public class MaterialButtonToggleGroupTest {

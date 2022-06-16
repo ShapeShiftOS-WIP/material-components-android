@@ -21,11 +21,11 @@ import io.material.catalog.R;
 import android.app.Application;
 import android.content.Context;
 import androidx.annotation.NonNull;
-import com.google.android.material.color.DynamicColors;
-import com.google.android.material.color.DynamicColors.Precondition;
-import com.google.android.material.color.DynamicColorsOptions;
-import com.google.android.material.color.HarmonizedColors;
-import com.google.android.material.color.HarmonizedColorsOptions;
+import com.bottombar.navigation.material.color.DynamicColors;
+import com.bottombar.navigation.material.color.DynamicColors.Precondition;
+import com.bottombar.navigation.material.color.DynamicColorsOptions;
+import com.bottombar.navigation.material.color.HarmonizedColors;
+import com.bottombar.navigation.material.color.HarmonizedColorsOptions;
 import com.google.common.collect.ImmutableList;
 
 /** Dynamic color preference to enable/disable dynamic colors. */

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.snackbar;
+package com.bottombar.navigation.material.snackbar;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Build.VERSION_CODES.JELLY_BEAN;
 import static com.google.common.truth.Truth.assertThat;
@@ -39,7 +39,7 @@ import org.robolectric.shadow.api.Shadow;
 import org.robolectric.shadows.ShadowAccessibilityManager;
 
 @LooperMode(LooperMode.Mode.LEGACY)
-/** Tests for {@link com.google.android.material.snackbar.Snackbar}. */
+/** Tests for {@link com.bottombar.navigation.material.snackbar.Snackbar}. */
 @RunWith(RobolectricTestRunner.class)
 @DoNotInstrument
 @Config(sdk = JELLY_BEAN)

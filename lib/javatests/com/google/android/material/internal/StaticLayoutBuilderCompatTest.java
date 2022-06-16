@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.google.android.material.internal;
+package com.bottombar.navigation.material.internal;
 
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
 import static com.google.common.truth.Truth.assertThat;

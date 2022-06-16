@@ -33,10 +33,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.bottomsheet.BottomSheetBehavior.BottomSheetCallback;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior.BottomSheetCallback;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetDialog;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.windowpreferences.WindowPreferencesManager;
 

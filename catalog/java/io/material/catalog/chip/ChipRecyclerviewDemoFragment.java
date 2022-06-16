@@ -26,7 +26,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import com.google.android.material.chip.Chip;
+import com.bottombar.navigation.material.chip.Chip;
 import io.material.catalog.feature.DemoFragment;
 import java.util.HashSet;
 import java.util.Set;

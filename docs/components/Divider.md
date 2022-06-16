@@ -32,8 +32,8 @@ page.
 API and source code:
 
 *   `MaterialDivider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/divider/MaterialDivider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/MaterialDivider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/divider/MaterialDivider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/MaterialDivider.java)
 
 The `MaterialDivider` is a view that can be used in layouts to separate content
 into clear groups.
@@ -48,7 +48,7 @@ The full-bleed divider is displayed below:
 On the layout:
 
 ```xml
-<com.google.android.material.divider.MaterialDivider
+<com.bottombar.navigation.material.divider.MaterialDivider
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 ```
@@ -57,7 +57,7 @@ By default, dividers will be full-bleed. You can use `app:dividerInsetStart` and
 `app:dividerInsetEnd` to achieve the look of an inset or middle divider:
 
 ```xml
-<com.google.android.material.divider.MaterialDivider
+<com.bottombar.navigation.material.divider.MaterialDivider
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:dividerInsetStart="16dp"
@@ -76,8 +76,8 @@ divider.setDividerInsetEnd(insetEnd)
 API and source code:
 
 *   `MaterialDividerItemDecoration`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/divider/MaterialDividerItemDecoration)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/MaterialDividerItemDecoration.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/divider/MaterialDividerItemDecoration)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/MaterialDividerItemDecoration.java)
 
 The `MaterialDividerItemDecoration` is a `RecyclerView.ItemDecoration`, similar
 to a `DividerItemDecoration`, that can be used as a divider between items of a
@@ -142,9 +142,9 @@ Element           | Style
 Default style theme attribute: `?attr/materialDividerStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/res/values/attrs.xml).
 
 ## Theming dividers
 
@@ -156,11 +156,11 @@ Dividers support
 API and source code:
 
 *   `MaterialDivider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/divider/MaterialDivider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/MaterialDivider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/divider/MaterialDivider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/MaterialDivider.java)
 *   `MaterialDividerItemDecoration`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/divider/MaterialDividerItemDecoration)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/divider/MaterialDividerItemDecoration.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/divider/MaterialDividerItemDecoration)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/divider/MaterialDividerItemDecoration.java)
 
 The following example shows a divider with Material Theming.
 
@@ -208,7 +208,7 @@ attribute:
 or use the style in the layout, which affects only this divider:
 
 ```xml
-<com.google.android.material.divider.MaterialDivider
+<com.bottombar.navigation.material.divider.MaterialDivider
     style="@style/Widget.App.MaterialDivider"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>

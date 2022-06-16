@@ -20,10 +20,10 @@ import io.material.catalog.R;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
-import static com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO;
-import static com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED;
-import static com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED;
-import static com.google.android.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED;
+import static com.bottombar.navigation.material.navigation.NavigationBarView.LABEL_VISIBILITY_AUTO;
+import static com.bottombar.navigation.material.navigation.NavigationBarView.LABEL_VISIBILITY_LABELED;
+import static com.bottombar.navigation.material.navigation.NavigationBarView.LABEL_VISIBILITY_SELECTED;
+import static com.bottombar.navigation.material.navigation.NavigationBarView.LABEL_VISIBILITY_UNLABELED;
 
 import android.util.DisplayMetrics;
 import android.util.TypedValue;

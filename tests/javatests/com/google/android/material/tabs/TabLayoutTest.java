@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.google.android.material.tabs;
+package com.bottombar.navigation.material.tabs;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.hasDescendant;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static com.google.android.material.testutils.TabLayoutActions.selectTab;
-import static com.google.android.material.testutils.TabLayoutActions.setScrollPosition;
-import static com.google.android.material.testutils.TabLayoutActions.setTabMode;
-import static com.google.android.material.testutils.TestUtilsActions.setLayoutDirection;
+import static com.bottombar.navigation.material.testutils.TabLayoutActions.selectTab;
+import static com.bottombar.navigation.material.testutils.TabLayoutActions.setScrollPosition;
+import static com.bottombar.navigation.material.testutils.TabLayoutActions.setTabMode;
+import static com.bottombar.navigation.material.testutils.TestUtilsActions.setLayoutDirection;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -61,10 +61,10 @@ import androidx.test.filters.SdkSuppress;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.tabs.TabLayout.Tab;
-import com.google.android.material.tabs.TabLayout.TabView;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.AccessibilityUtils;
+import com.bottombar.navigation.material.tabs.TabLayout.Tab;
+import com.bottombar.navigation.material.tabs.TabLayout.TabView;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.AccessibilityUtils;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Rule;
 import org.junit.Test;

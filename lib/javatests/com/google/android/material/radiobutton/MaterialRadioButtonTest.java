@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.radiobutton;
+package com.bottombar.navigation.material.radiobutton;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -28,7 +28,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RadioButton;
 import androidx.core.widget.CompoundButtonCompat;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.color.MaterialColors;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

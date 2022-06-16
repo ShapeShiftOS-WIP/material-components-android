@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.tabs;
+package com.bottombar.navigation.material.tabs;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -25,9 +25,9 @@ import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withParent;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static com.google.android.material.testutils.TabLayoutActions.setupWithViewPager;
-import static com.google.android.material.testutils.TabLayoutActions.showBadgeOnTab;
-import static com.google.android.material.testutils.ViewPagerActions.setAdapter;
+import static com.bottombar.navigation.material.testutils.TabLayoutActions.setupWithViewPager;
+import static com.bottombar.navigation.material.testutils.TabLayoutActions.showBadgeOnTab;
+import static com.bottombar.navigation.material.testutils.ViewPagerActions.setAdapter;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.not;
 import static org.hamcrest.core.Is.is;
@@ -56,12 +56,12 @@ import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testapp.TabLayoutWithViewPagerActivity;
-import com.google.android.material.testutils.TabLayoutActions;
-import com.google.android.material.testutils.TestUtilsActions;
-import com.google.android.material.testutils.TestUtilsMatchers;
-import com.google.android.material.testutils.ViewPagerActions;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testapp.TabLayoutWithViewPagerActivity;
+import com.bottombar.navigation.material.testutils.TabLayoutActions;
+import com.bottombar.navigation.material.testutils.TestUtilsActions;
+import com.bottombar.navigation.material.testutils.TestUtilsMatchers;
+import com.bottombar.navigation.material.testutils.ViewPagerActions;
 import java.util.ArrayList;
 import org.hamcrest.Matcher;
 import org.junit.Before;

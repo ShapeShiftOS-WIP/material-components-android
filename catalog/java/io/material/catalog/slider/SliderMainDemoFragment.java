@@ -25,10 +25,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import com.google.android.material.slider.RangeSlider;
-import com.google.android.material.slider.Slider;
-import com.google.android.material.slider.Slider.OnSliderTouchListener;
-import com.google.android.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.slider.RangeSlider;
+import com.bottombar.navigation.material.slider.Slider;
+import com.bottombar.navigation.material.slider.Slider.OnSliderTouchListener;
+import com.bottombar.navigation.material.snackbar.Snackbar;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays the main Slider demo for the Catalog app. */

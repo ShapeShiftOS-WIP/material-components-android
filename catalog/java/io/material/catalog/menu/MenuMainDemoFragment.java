@@ -49,7 +49,7 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.MenuRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.snackbar.Snackbar;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays the main menu demo for the Catalog app. */

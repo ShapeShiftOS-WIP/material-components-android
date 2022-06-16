@@ -42,7 +42,7 @@
           android:layout_height="wrap_content"
           android:text="@string/cat_transition_config_path_motion_title"/>
 
-      <com.google.android.material.button.MaterialButtonToggleGroup
+      <com.bottombar.navigation.material.button.MaterialButtonToggleGroup
           android:id="@+id/path_motion_button_group"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/cat_transition_config_path_motion_arc"/>
 
-      </com.google.android.material.button.MaterialButtonToggleGroup>
+      </com.bottombar.navigation.material.button.MaterialButtonToggleGroup>
 
       <View
         android:layout_width="match_parent"
@@ -87,7 +87,7 @@
           android:clipChildren="false"
           android:clipToPadding="false">
 
-        <com.google.android.material.slider.Slider
+        <com.bottombar.navigation.material.slider.Slider
             android:id="@+id/enter_duration_slider"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
           android:clipChildren="false"
           android:clipToPadding="false">
 
-        <com.google.android.material.slider.Slider
+        <com.bottombar.navigation.material.slider.Slider
             android:id="@+id/return_duration_slider"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
           android:layout_height="wrap_content"
           android:text="@string/cat_transition_config_overshoot" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/overshoot_tension_text_input_layout"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -191,12 +191,12 @@
           android:layout_marginEnd="4dp"
           android:hint="@string/cat_transition_config_overshoot_tension_hint">
 
-          <com.google.android.material.textfield.TextInputEditText
+          <com.bottombar.navigation.material.textfield.TextInputEditText
             android:id="@+id/overshoot_tension_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"/>
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.bottombar.navigation.material.textfield.TextInputLayout>
 
         <RadioButton
           android:id="@+id/radio_anticipate_overshoot"
@@ -204,7 +204,7 @@
           android:layout_height="wrap_content"
           android:text="@string/cat_transition_config_anticipate_overshoot" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/anticipate_overshoot_tension_text_input_layout"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -212,12 +212,12 @@
           android:layout_marginEnd="4dp"
           android:hint="@string/cat_transition_config_overshoot_tension_hint">
 
-          <com.google.android.material.textfield.TextInputEditText
+          <com.bottombar.navigation.material.textfield.TextInputEditText
             android:id="@+id/anticipate_overshoot_tension_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"/>
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.bottombar.navigation.material.textfield.TextInputLayout>
 
         <RadioButton
           android:id="@+id/radio_bounce"
@@ -241,7 +241,7 @@
           android:baselineAligned="false"
           android:orientation="horizontal">
 
-          <com.google.android.material.textfield.TextInputLayout
+          <com.bottombar.navigation.material.textfield.TextInputLayout
             android:id="@+id/x1_text_input_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -250,15 +250,15 @@
             android:layout_weight="1"
             android:hint="@string/cat_transition_config_cubic_bezier_control_x1_hint">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <com.bottombar.navigation.material.textfield.TextInputEditText
               android:id="@+id/x1_edit_text"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:imeOptions="actionNext"
               android:inputType="numberDecimal"/>
-          </com.google.android.material.textfield.TextInputLayout>
+          </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-          <com.google.android.material.textfield.TextInputLayout
+          <com.bottombar.navigation.material.textfield.TextInputLayout
             android:id="@+id/y1_text_input_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -267,15 +267,15 @@
             android:layout_weight="1"
             android:hint="@string/cat_transition_config_cubic_bezier_control_y1_hint">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <com.bottombar.navigation.material.textfield.TextInputEditText
               android:id="@+id/y1_edit_text"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:imeOptions="actionNext"
               android:inputType="numberDecimal"/>
-          </com.google.android.material.textfield.TextInputLayout>
+          </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-          <com.google.android.material.textfield.TextInputLayout
+          <com.bottombar.navigation.material.textfield.TextInputLayout
             android:id="@+id/x2_text_input_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -284,15 +284,15 @@
             android:layout_weight="1"
             android:hint="@string/cat_transition_config_cubic_bezier_control_x2_hint">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <com.bottombar.navigation.material.textfield.TextInputEditText
               android:id="@+id/x2_edit_text"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:imeOptions="actionNext"
               android:inputType="numberDecimal"/>
-          </com.google.android.material.textfield.TextInputLayout>
+          </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-          <com.google.android.material.textfield.TextInputLayout
+          <com.bottombar.navigation.material.textfield.TextInputLayout
             android:id="@+id/y2_text_input_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -301,13 +301,13 @@
             android:layout_weight="1"
             android:hint="@string/cat_transition_config_cubic_bezier_control_y2_hint">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <com.bottombar.navigation.material.textfield.TextInputEditText
               android:id="@+id/y2_edit_text"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:imeOptions="actionDone"
               android:inputType="numberDecimal"/>
-          </com.google.android.material.textfield.TextInputLayout>
+          </com.bottombar.navigation.material.textfield.TextInputLayout>
         </LinearLayout>
       </RadioGroup>
 
@@ -324,7 +324,7 @@
           android:layout_height="wrap_content"
           android:text="@string/cat_transition_config_fade_mode_title"/>
 
-      <com.google.android.material.button.MaterialButtonToggleGroup
+      <com.bottombar.navigation.material.button.MaterialButtonToggleGroup
           android:id="@+id/fade_mode_button_group"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -365,7 +365,7 @@
             android:minWidth="0dp"
             android:text="@string/cat_transition_config_fade_mode_through"/>
 
-      </com.google.android.material.button.MaterialButtonToggleGroup>
+      </com.bottombar.navigation.material.button.MaterialButtonToggleGroup>
 
       <View
         android:layout_width="match_parent"

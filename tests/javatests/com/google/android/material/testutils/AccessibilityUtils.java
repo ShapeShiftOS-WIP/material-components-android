@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import android.view.View;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.testapp.R;
 import java.util.ArrayList;
 import java.util.List;
 

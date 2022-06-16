@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp.custom;
+package com.bottombar.navigation.material.testapp.custom;
 
 import android.view.View;
 import android.widget.TextView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.snackbar.BaseTransientBottomBar;
+import com.bottombar.navigation.material.snackbar.BaseTransientBottomBar;
 
 /**
  * Sample code for a custom snackbar that shows two separate text views and two images in the main

@@ -13,13 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.bottombar.navigation.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:id="@+id/text_input_layout"
   style="?attr/textInputOutlinedStyle"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
   android:hint="@string/label">
-  <com.google.android.material.textfield.TextInputEditText
+  <com.bottombar.navigation.material.textfield.TextInputEditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>

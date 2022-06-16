@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.internal;
+package com.bottombar.navigation.material.internal;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import android.os.Parcel;
 import org.junit.Assert;

@@ -47,11 +47,11 @@ A determinate progress indicator can be added to a layout:
 
 ```xml
 <!-- Linear progress indicator -->
-<com.google.android.material.progressindicator.LinearProgressIndicator
+<com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 <!-- Circular progress indicator -->
-<com.google.android.material.progressindicator.CircularProgressIndicator
+<com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
@@ -64,12 +64,12 @@ An indeterminate progress indicator can be added:
 
 ```xml
 <!-- Linear progress indicator -->
-<com.google.android.material.progressindicator.LinearProgressIndicator
+<com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:indeterminate="true" />
 <!-- Circular progress indicator -->
-<com.google.android.material.progressindicator.CircularProgressIndicator
+<com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:indeterminate="true" />
@@ -168,8 +168,8 @@ operations.
 API and source code:
 
 *   `LinearProgressIndicator`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/progressindicator/LinearProgressIndicator)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/LinearProgressIndicator.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/progressindicator/LinearProgressIndicator)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/LinearProgressIndicator.java)
 
 The following example shows a determinate linear progress indicator.
 
@@ -180,7 +180,7 @@ track](assets/progressindicator/linear_determinate_compact.gif){width="600"}
 In the layout:
 
 ```xml
-<com.google.android.material.progressindicator.LinearProgressIndicator
+<com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 ```
@@ -194,7 +194,7 @@ track](assets/progressindicator/linear_indeterminate_compact.gif){width="600"}
 In the layout:
 
 ```xml
-<com.google.android.material.progressindicator.LinearProgressIndicator
+<com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:indeterminate="true" />
@@ -237,8 +237,8 @@ processes.
 API and source code:
 
 *   `CircularProgressIndicator`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/progressindicator/CircularProgressIndicator)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/CircularProgressIndicator.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/progressindicator/CircularProgressIndicator)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/CircularProgressIndicator.java)
 
 The following example shows a determinate circular progress indicator.
 
@@ -249,7 +249,7 @@ top](assets/progressindicator/circular_determinate_compact.gif){width="600"}
 In the layout:
 
 ```xml
-<com.google.android.material.progressindicator.CircularProgressIndicator
+<com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
@@ -263,7 +263,7 @@ top](assets/progressindicator/circular_indeterminate_compact.gif){width="600"}
 In the layout:
 
 ```xml
-<com.google.android.material.progressindicator.CircularProgressIndicator
+<com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:indeterminate="true" />
@@ -328,9 +328,9 @@ Default linear style theme attribute: `?attr/linearProgressIndicatorStyle`
 Default circular style theme attribute: `?attr/circularProgressIndicatorStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/res/values/styles.xml)
 and
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/res/values/attrs.xml).
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/res/values/attrs.xml).
 
 ## Theming
 
@@ -341,11 +341,11 @@ Progress indicators support Material theming which can customize color and size.
 API and source code:
 
 *   `LinearProgressIndicator`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/progressindicator/LinearProgressIndicator)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/LinearProgressIndicator.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/progressindicator/LinearProgressIndicator)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/LinearProgressIndicator.java)
 *   `CircularProgressIndicator`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/progressindicator/CircularProgressIndicator)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/progressindicator/CircularProgressIndicator.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/progressindicator/CircularProgressIndicator)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/progressindicator/CircularProgressIndicator.java)
 
 The following example shows a circular progress indicator with Material Theming.
 
@@ -388,7 +388,7 @@ Use the style in the layout, which affects only this specific circular progress
 indicator:
 
 ```xml
-<com.google.android.material.progressindicator.CircularProgressIndicator
+<com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
     ...
     style="@style/Widget.App.CircularProgressIndicator"  />
 ```

@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
   android:id="@+id/list_view_item_container"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,7 +36,7 @@
     android:paddingEnd="16dp"
     android:minHeight="?attr/listPreferredItemHeight">
 
-    <com.google.android.material.imageview.ShapeableImageView
+    <com.bottombar.navigation.material.imageview.ShapeableImageView
       android:id="@+id/sender_icon"
       android:layout_width="48dp"
       android:layout_height="48dp"
@@ -98,4 +98,4 @@
       app:layout_constraintBaseline_toBaselineOf="@id/sender_title"/>
 
   </androidx.constraintlayout.widget.ConstraintLayout>
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>

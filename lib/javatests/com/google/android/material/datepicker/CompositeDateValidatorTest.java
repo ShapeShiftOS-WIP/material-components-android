@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.google.android.material.datepicker;
+package com.bottombar.navigation.material.datepicker;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.os.Parcel;
-import com.google.android.material.datepicker.CalendarConstraints.DateValidator;
+import com.bottombar.navigation.material.datepicker.CalendarConstraints.DateValidator;
 import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.material.timepicker;
+package com.bottombar.navigation.material.timepicker;
 
-import static com.google.android.material.timepicker.TimeFormat.CLOCK_12H;
+import static com.bottombar.navigation.material.timepicker.TimeFormat.CLOCK_12H;
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Calendar.HOUR;
 
-import com.google.android.material.internal.ParcelableTestUtils;
+import com.bottombar.navigation.material.internal.ParcelableTestUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;

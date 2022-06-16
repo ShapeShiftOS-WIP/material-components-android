@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 /** Activity that shows an AppBarLayout that has a scrollbar. */
 public class AppBarWithScrollbarsActivity extends BaseTestActivity {

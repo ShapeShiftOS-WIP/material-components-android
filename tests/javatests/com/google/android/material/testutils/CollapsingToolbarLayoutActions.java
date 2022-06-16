@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 
@@ -22,7 +22,7 @@ import android.view.View;
 import androidx.annotation.ColorInt;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.bottombar.navigation.material.appbar.CollapsingToolbarLayout;
 import org.hamcrest.Matcher;
 
 public class CollapsingToolbarLayoutActions {

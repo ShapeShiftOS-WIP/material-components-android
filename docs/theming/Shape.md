@@ -36,9 +36,9 @@ passed to a MaterialShapeDrawable's constructor.
 The `shape` library provides some subclassed `CornerTreatment`s and
 `EdgeTreatment`s to make it easy to build new shapes:
 
--   [`CutCornerTreatment`](https://developer.android.com/reference/com/google/android/material/shape/CutCornerTreatment)
--   [`RoundedCornerTreatment`](https://developer.android.com/reference/com/google/android/material/shape/RoundedCornerTreatment)
--   [`TriangleEdgeTreatment`](https://developer.android.com/reference/com/google/android/material/shape/TriangleEdgeTreatment)
+-   [`CutCornerTreatment`](https://developer.android.com/reference/com.bottombar.navigation.material/shape/CutCornerTreatment)
+-   [`RoundedCornerTreatment`](https://developer.android.com/reference/com.bottombar.navigation.material/shape/RoundedCornerTreatment)
+-   [`TriangleEdgeTreatment`](https://developer.android.com/reference/com.bottombar.navigation.material/shape/TriangleEdgeTreatment)
 
 Both `CornerTreatment` and `EdgeTreatment` can be subclassed to create custom
 corners and edges.
@@ -245,7 +245,7 @@ Then, set the card's `shapeAppearanceOverlay` attribute to that
 `ShapeAppearanceOverlay` style in your layout:
 
 ```xml
-<com.google.android.material.card.MaterialCardView
+<com.bottombar.navigation.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/mtrl_card_spacing"
@@ -256,7 +256,7 @@ Then, set the card's `shapeAppearanceOverlay` attribute to that
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/card_text"/>
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>
 ```
 
 The `cornerFamily` attribute set in the `shapeAppearanceOverlay` will override

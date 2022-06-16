@@ -30,7 +30,7 @@
     android:padding="4dp"
     tools:targetApi="lollipop">
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -46,9 +46,9 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -64,9 +64,9 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -82,9 +82,9 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -100,9 +100,9 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -118,9 +118,9 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
       android:layout_width="0dp"
       android:layout_height="0dp"
       app:layout_rowWeight="1"
@@ -136,6 +136,6 @@
         android:background="?attr/colorSecondary"
         android:contentDescription="@string/cat_transition_image_content_desc"
         app:srcCompat="@drawable/ic_search_24px" />
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 
 </androidx.gridlayout.widget.GridLayout>

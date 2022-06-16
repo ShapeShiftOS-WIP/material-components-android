@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.elevation">
+  package="com.bottombar.navigation.material.elevation">
 
   <uses-sdk
     tools:overrideLibrary="androidx.test.core"/>

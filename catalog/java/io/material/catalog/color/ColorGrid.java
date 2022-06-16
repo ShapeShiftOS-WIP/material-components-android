@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
-import com.google.android.material.color.ColorRoles;
+import com.bottombar.navigation.material.color.ColorRoles;
 
 /** A class to form side-by-side color palettes. */
 final class ColorGrid {

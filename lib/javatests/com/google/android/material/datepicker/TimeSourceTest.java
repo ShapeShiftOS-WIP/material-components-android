@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.datepicker;
+package com.bottombar.navigation.material.datepicker;
 
 import static com.google.common.truth.Truth.assertThat;
 

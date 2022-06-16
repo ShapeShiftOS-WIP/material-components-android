@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomsheet;
+package com.bottombar.navigation.material.bottomsheet;
 
 import static androidx.test.InstrumentationRegistry.getInstrumentation;
 import static org.hamcrest.CoreMatchers.is;
@@ -32,7 +32,7 @@ import androidx.test.espresso.action.ViewActions;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.CoordinatorLayoutActivity;
+import com.bottombar.navigation.material.testapp.CoordinatorLayoutActivity;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

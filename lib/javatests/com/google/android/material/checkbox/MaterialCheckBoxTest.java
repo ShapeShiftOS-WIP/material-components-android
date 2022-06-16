@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.checkbox;
+package com.bottombar.navigation.material.checkbox;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.Mockito.never;
@@ -30,8 +30,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import androidx.core.widget.CompoundButtonCompat;
-import com.google.android.material.checkbox.MaterialCheckBox.OnErrorChangedListener;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.checkbox.MaterialCheckBox.OnErrorChangedListener;
+import com.bottombar.navigation.material.color.MaterialColors;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

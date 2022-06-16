@@ -22,7 +22,7 @@
   android:layout_height="match_parent"
   android:layout_weight="1">
 
-  <com.google.android.material.appbar.AppBarLayout
+  <com.bottombar.navigation.material.appbar.AppBarLayout
     android:id="@+id/email_header"
     android:layout_width="0dp"
     android:layout_height="?attr/actionBarSize"
@@ -31,7 +31,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <com.bottombar.navigation.material.appbar.MaterialToolbar
       android:id="@+id/toolbar"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -40,7 +40,7 @@
       android:textAppearance="?attr/textAppearanceHeadlineLarge"
       app:menu="@menu/cat_adaptive_list_view_detail_menu" />
 
-  </com.google.android.material.appbar.AppBarLayout>
+  </com.bottombar.navigation.material.appbar.AppBarLayout>
 
   <ScrollView
     android:layout_width="0dp"
@@ -54,7 +54,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical">
-      <com.google.android.material.card.MaterialCardView
+      <com.bottombar.navigation.material.card.MaterialCardView
         android:id="@+id/email_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/cat_list_view_email_text"/>
         </LinearLayout>
-      </com.google.android.material.card.MaterialCardView>
+      </com.bottombar.navigation.material.card.MaterialCardView>
     </LinearLayout>
   </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

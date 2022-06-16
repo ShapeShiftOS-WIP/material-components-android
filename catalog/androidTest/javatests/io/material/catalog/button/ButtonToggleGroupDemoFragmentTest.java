@@ -28,7 +28,7 @@ import android.view.View;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.material.button.MaterialButtonToggleGroup;
+import com.bottombar.navigation.material.button.MaterialButtonToggleGroup;
 import io.material.catalog.feature.R;
 import io.material.catalog.main.MainActivity;
 import org.hamcrest.Description;

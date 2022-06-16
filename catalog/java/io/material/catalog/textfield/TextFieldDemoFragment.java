@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.DemoUtils;
 import java.util.List;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.timepicker;
+package com.bottombar.navigation.material.timepicker;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Looper.getMainLooper;
 import static com.google.common.truth.Truth.assertThat;

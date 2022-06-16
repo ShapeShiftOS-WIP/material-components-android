@@ -24,10 +24,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.Nullable;
-import com.google.android.material.button.MaterialButtonToggleGroup;
-import com.google.android.material.imageview.ShapeableImageView;
-import com.google.android.material.shape.CornerFamily;
-import com.google.android.material.shape.ShapeAppearanceModel;
+import com.bottombar.navigation.material.button.MaterialButtonToggleGroup;
+import com.bottombar.navigation.material.imageview.ShapeableImageView;
+import com.bottombar.navigation.material.shape.CornerFamily;
+import com.bottombar.navigation.material.shape.ShapeAppearanceModel;
 import io.material.catalog.feature.DemoFragment;
 import java.util.Random;
 

@@ -20,7 +20,7 @@
   android:layout_height="wrap_content"
   android:orientation="vertical">
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/dropdown_editable"
     style="?attr/textInputOutlinedExposedDropdownMenuStyle"
     android:layout_width="match_parent"
@@ -35,9 +35,9 @@
       android:imeOptions="flagNoExtractUi"
       tools:ignore="LabelFor" />
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/dropdown_noneditable"
     style="?attr/textInputOutlinedExposedDropdownMenuStyle"
     android:layout_width="match_parent"
@@ -53,5 +53,5 @@
       android:imeOptions="flagNoExtractUi"
       tools:ignore="LabelFor"/>
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 </LinearLayout>

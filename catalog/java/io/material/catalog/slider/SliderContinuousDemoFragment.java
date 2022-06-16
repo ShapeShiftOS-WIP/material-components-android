@@ -24,8 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.Nullable;
-import com.google.android.material.materialswitch.MaterialSwitch;
-import com.google.android.material.slider.Slider;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.slider.Slider;
 import io.material.catalog.feature.DemoFragment;
 
 /**

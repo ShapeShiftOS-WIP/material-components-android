@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import android.os.SystemClock;
 import androidx.annotation.NonNull;
-import com.google.android.material.snackbar.BaseTransientBottomBar;
-import com.google.android.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.snackbar.BaseTransientBottomBar;
+import com.bottombar.navigation.material.snackbar.Snackbar;
 
 public class SnackbarUtils {
   public interface TransientBottomBarAction {

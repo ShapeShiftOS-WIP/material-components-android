@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import androidx.annotation.Nullable;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.DemoUtils;
 import java.util.List;

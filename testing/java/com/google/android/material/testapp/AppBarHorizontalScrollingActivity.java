@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 /** Activity with an AppBar that contains horizontally-scrolling content. */
 public class AppBarHorizontalScrollingActivity extends BaseTestActivity {

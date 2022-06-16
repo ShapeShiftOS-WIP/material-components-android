@@ -25,9 +25,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.materialswitch.MaterialSwitch;
-import com.google.android.material.progressindicator.CircularProgressIndicator;
-import com.google.android.material.progressindicator.LinearProgressIndicator;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.progressindicator.CircularProgressIndicator;
+import com.bottombar.navigation.material.progressindicator.LinearProgressIndicator;
 import io.material.catalog.feature.DemoFragment;
 
 /**

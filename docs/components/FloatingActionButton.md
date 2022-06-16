@@ -135,8 +135,8 @@ FABs are the default size and style for a primary action button.
 API and source code:
 
 *   `FloatingActionButton`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 
 ### FAB example
 
@@ -154,7 +154,7 @@ In the layout:
 
   <!-- Main content -->
 
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/floating_action_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -193,8 +193,8 @@ elements.
 API and source code:
 
 *   `FloatingActionButton`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 
 ### Small FAB example
 
@@ -211,7 +211,7 @@ In the layout:
 
   <!-- Main content -->
 
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
       ...
       style="?attr/floatingActionButtonSmallStyle"/>
 
@@ -244,8 +244,8 @@ engage. For example, when appearing on taller and larger device screens.
 API and source code:
 
 *   `FloatingActionButton`
-  *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-  *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+  *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+  *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 
 ### Large FAB example
 
@@ -262,7 +262,7 @@ In the layout:
 
   <!-- Main content -->
 
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
       ...
       style="?attr/floatingActionButtonLargeStyle"/>
 
@@ -292,14 +292,14 @@ A large FAB has a container and an icon.
 
 Element                       | Attribute                                      | Related method(s)                                                                     | Default value
 ----------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------- | -------------
-**Color**                     | `app:backgroundTint`                           | `setBackgroundTintList`<br/>`getBackgroundTintList`                                   | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_background_color_selector.xml))
+**Color**                     | `app:backgroundTint`                           | `setBackgroundTintList`<br/>`getBackgroundTintList`                                   | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_background_color_selector.xml))
 **Stroke**                    | `app:borderWidth`                              | N/A                                                                                   | `0dp`
 **Size**                      | `app:fabSize`<br>`app:fabCustomSize`           | `setSize`<br/>`setCustomSize`<br/>`clearCustomSize`<br/>`getSize`<br/>`getCustomSize` | `auto`
 **Shape**                     | `shapeAppearance`<br/>`shapeAppearanceOverlay` | `setShapeAppearanceModel`<br/>`getShapeAppearanceModel`                               | `ShapeAppearanceOverlay.Material3.FloatingActionButton`<br/>
 **Elevation**                 | `app:elevation`                                | `setElevation`<br/>`getCompatElevation`                                               | `6dp`
 **Hovered/Focused elevation** | `app:hoveredFocusedTranslationZ`               | `setCompatHoveredFocusedTranslationZ`<br/>`getCompatHoveredFocusedTranslationZ`       | `2dp`
 **Pressed elevation**         | `app:pressedTranslationZ`                      | `setCompatPressedTranslationZ`<br/>`getCompatPressedTranslationZ`                     | `6dp`
-**Ripple**                    | `app:rippleColor`                              | `setRippleColor`<br/>`getRippleColor`<br/>`getRippleColorStateList`                   | variations of `?attr/colorOnPrimaryContainer`, see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_ripple_color_selector.xml)
+**Ripple**                    | `app:rippleColor`                              | `setRippleColor`<br/>`getRippleColor`<br/>`getRippleColorStateList`                   | variations of `?attr/colorOnPrimaryContainer`, see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_ripple_color_selector.xml)
 **Motion**                    | `app:showMotionSpec`<br>`app:hideMotionSpec`   | `set*MotionSpec`<br/>`set*MotionSpecResource`<br/>`get*MotionSpec`                    | `@null`
 
 #### Icon attributes
@@ -307,7 +307,7 @@ Element                       | Attribute                                      |
 Element   | Attribute       | Related method(s)                                           | Default value
 --------- | --------------- | ----------------------------------------------------------- | -------------
 **Icon**  | `app:srcCompat` | `setImageDrawable`<br/>`setImageResource`<br/>`getDrawable` | `null`
-**Color** | `app:tint`      | `setImageTintList`<br/>`getImageTintList`                   | `?attr/colorOnPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_foreground_color_selector.xml))
+**Color** | `app:tint`      | `setImageTintList`<br/>`getImageTintList`                   | `?attr/colorOnPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_foreground_color_selector.xml))
 
 #### Styles
 
@@ -318,9 +318,9 @@ Element           | Style
 Default style theme attribute: `?attr/floatingActionButtonStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/res/values/attrs.xml).
 
 ## Extended FABs
 
@@ -337,8 +337,8 @@ different naming in `ExtendedFloatingActionButton`. For example,
 API and source code:
 
 *   `ExtendedFloatingActionButton`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/ExtendedFloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/ExtendedFloatingActionButton.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/ExtendedFloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/ExtendedFloatingActionButton.java)
 
 ### Extended FAB example
 
@@ -355,7 +355,7 @@ In the layout:
 
   <!-- Main content -->
 
-  <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.ExtendedFloatingActionButton
     android:id="@+id/extended_fab"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -390,7 +390,7 @@ An extended FAB has a text label, a transparent container and an optional icon.
 
 Element                       | Attribute                                                                                  | Related method(s)                                                  | Default value
 ----------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------
-**Color**                     | `app:backgroundTint`                                                                       | `setBackgroundTintList`<br/>`getBackgroundTintList`                | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_background_color_selector.xml))
+**Color**                     | `app:backgroundTint`                                                                       | `setBackgroundTintList`<br/>`getBackgroundTintList`                | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_background_color_selector.xml))
 **Stroke color**              | `app:strokeColor`                                                                          | `setStrokeColor`<br/>`getStrokeColor`                              | `null`
 **Stroke width**              | `app:strokeWidth`                                                                          | `setStrokeWidth`<br/>`getStrokeWidth`                              | `0dp`
 **Size**                      | `app:collapsedSize`                                                                        | N/A                                                                |
@@ -398,15 +398,15 @@ Element                       | Attribute                                       
 **Elevation**                 | `app:elevation`                                                                            | `setElevation`<br/>`getElevation`                                  | `6dp`
 **Hovered/Focused elevation** | `app:hoveredFocusedTranslationZ`                                                           | N/A                                                                | `2dp`
 **Pressed elevation**         | `app:pressedTranslationZ`                                                                  | N/A                                                                | `6dp`
-**Ripple**                    | `app:rippleColor`                                                                          |                                                                    | variations of `?attr/colorOnPrimaryContainer`, see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_ripple_color_selector.xml)
-**Motion**                    | `app:showMotionSpec`<br>`app:hideMotionSpec`<br/>`extendMotionSpec`<br/>`shrinkMotionSpec` | `set*MotionSpec`<br/>`set*MotionSpecResource`<br/>`get*MotionSpec` | see [animators](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/res/animator)
+**Ripple**                    | `app:rippleColor`                                                                          |                                                                    | variations of `?attr/colorOnPrimaryContainer`, see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_ripple_color_selector.xml)
+**Motion**                    | `app:showMotionSpec`<br>`app:hideMotionSpec`<br/>`extendMotionSpec`<br/>`shrinkMotionSpec` | `set*MotionSpec`<br/>`set*MotionSpecResource`<br/>`get*MotionSpec` | see [animators](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/res/animator)
 
 #### Icon attributes
 
 Element                           | Attribute         | Related method(s)                                         | Default value
 --------------------------------- | ----------------- | --------------------------------------------------------- | -------------
 **Icon**                          | `app:icon`        | `setIcon`<br/>`setIconResource`<br/>`getIcon`             | `null`
-**Color**                         | `app:iconTint`    | `setIconTint`<br/>`setIconTintResource`<br/>`getIconTint` | `?attr/colorOnPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_foreground_color_selector.xml))
+**Color**                         | `app:iconTint`    | `setIconTint`<br/>`setIconTintResource`<br/>`getIconTint` | `?attr/colorOnPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_foreground_color_selector.xml))
 **Size**                          | `app:iconSize`    | `setIconSize`<br/>`getIconSize`                           | `24dp`
 **Padding between icon and text** | `app:iconPadding` | `setIconPadding`<br/>`getIconPadding`                     | `12dp`
 
@@ -415,7 +415,7 @@ Element                           | Attribute         | Related method(s)       
 Element        | Attribute                | Related method(s)                 | Default value
 -------------- | ------------------------ | --------------------------------- | -------------
 **Text label** | `android:text`           | `setText`<br/>`getText`           | `null`
-**Color**      | `android:textColor`      | `setTextColor`<br/>`getTextColor` | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/color/res/color/m3_button_foreground_color_selector.xml))
+**Color**      | `android:textColor`      | `setTextColor`<br/>`getTextColor` | `?attr/colorPrimaryContainer` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/color/res/color/m3_button_foreground_color_selector.xml))
 **Typography** | `android:textAppearance` | `setTextAppearance`               | `?attr/textAppearanceLabelLarge`
 
 #### Styles
@@ -428,9 +428,9 @@ Element                                   | Style
 Default style theme attribute: `?attr/extendedFloatingActionButtonStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/res/values/attrs.xml).
 
 ## Theming FABs
 
@@ -439,11 +439,11 @@ and
 API and source code:
 
 *   `FloatingActionButton`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 *   `ExtendedFloatingActionButton`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/ExtendedFloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/ExtendedFloatingActionButton.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/ExtendedFloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/ExtendedFloatingActionButton.java)
 
 The following example shows a regular, small, and extended FAB with Material
 Theming.
@@ -491,7 +491,7 @@ FABs in your app but does not affect other components:
 Use one of the styles in the layout. That affects only this FAB:
 
 ```xml
-<com.google.android.material.floatingactionbutton.FloatingActionButton
+<com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     ...
     style="@style/Widget.App.FloatingActionButton"
 />

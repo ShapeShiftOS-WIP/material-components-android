@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
-import static com.google.android.material.slider.SliderHelper.clickDpadCenter;
+import static com.bottombar.navigation.material.slider.SliderHelper.clickDpadCenter;
 import static com.google.common.truth.Truth.assertThat;
 import static com.google.common.truth.Truth.assertWithMessage;
 
@@ -27,7 +27,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import androidx.customview.widget.ExploreByTouchHelper;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.slider.KeyUtils.KeyEventBuilder;
+import com.bottombar.navigation.material.slider.KeyUtils.KeyEventBuilder;
 import org.junit.Before;
 import org.junit.Test;
 import org.robolectric.Robolectric;

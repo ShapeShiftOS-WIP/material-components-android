@@ -15,7 +15,7 @@
   limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.google.android.material.testapp.custom">
+  package="com.bottombar.navigation.material.testapp.custom">
 
   <application/>
 </manifest>

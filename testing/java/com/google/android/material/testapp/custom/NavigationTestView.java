@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp.custom;
+package com.bottombar.navigation.material.testapp.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import androidx.core.view.WindowInsetsCompat;
-import com.google.android.material.navigation.NavigationView;
+import com.bottombar.navigation.material.navigation.NavigationView;
 
 /** Expose hasSystemWindowInsets() for testing. */
 public class NavigationTestView extends NavigationView {

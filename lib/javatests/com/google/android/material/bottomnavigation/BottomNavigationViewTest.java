@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.bottomnavigation;
+package com.bottombar.navigation.material.bottomnavigation;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 

@@ -20,8 +20,8 @@ import android.content.Context;
 import androidx.annotation.ArrayRes;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
-import com.google.android.material.color.ColorRoles;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.color.ColorRoles;
+import com.bottombar.navigation.material.color.MaterialColors;
 
 /** A class that provides data for {@link ColorGrid}. */
 final class ColorGridData {

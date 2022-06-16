@@ -24,7 +24,7 @@
       android:orientation="vertical">
 
     <!-- Default width of text fields should be 245dp. -->
-    <com.google.android.material.textfield.TextInputLayout
+    <com.bottombar.navigation.material.textfield.TextInputLayout
         style="?attr/textInputOutlinedStyle"
         android:layout_width="@dimen/material_textinput_default_width"
         android:layout_height="wrap_content"
@@ -34,12 +34,12 @@
         app:helperText="@string/cat_textfield_outlined_helper_text"
         app:helperTextEnabled="true"
         app:placeholderText="@string/cat_textfield_placeholder_text">
-      <com.google.android.material.textfield.TextInputEditText
+      <com.bottombar.navigation.material.textfield.TextInputEditText
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
+    <com.bottombar.navigation.material.textfield.TextInputLayout
         style="?attr/textInputOutlinedDenseStyle"
         android:layout_width="@dimen/material_textinput_default_width"
         android:layout_height="wrap_content"
@@ -49,12 +49,12 @@
         app:helperText="@string/cat_textfield_outlined_dense_helper_text"
         app:helperTextEnabled="true"
         app:placeholderText="@string/cat_textfield_placeholder_text">
-      <com.google.android.material.textfield.TextInputEditText
+      <com.bottombar.navigation.material.textfield.TextInputEditText
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
+    <com.bottombar.navigation.material.textfield.TextInputLayout
         style="?attr/textInputFilledStyle"
         android:layout_width="@dimen/material_textinput_default_width"
         android:layout_height="wrap_content"
@@ -64,12 +64,12 @@
         app:helperText="@string/cat_textfield_filled_helper_text"
         app:helperTextEnabled="true"
         app:placeholderText="@string/cat_textfield_placeholder_text">
-      <com.google.android.material.textfield.TextInputEditText
+      <com.bottombar.navigation.material.textfield.TextInputEditText
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
+    <com.bottombar.navigation.material.textfield.TextInputLayout
         style="?attr/textInputFilledDenseStyle"
         android:layout_width="@dimen/material_textinput_default_width"
         android:layout_height="wrap_content"
@@ -79,8 +79,8 @@
         app:helperText="@string/cat_textfield_filled_dense_helper_text"
         app:helperTextEnabled="true"
         app:placeholderText="@string/cat_textfield_placeholder_text">
-      <com.google.android.material.textfield.TextInputEditText
+      <com.bottombar.navigation.material.textfield.TextInputEditText
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-    </com.google.android.material.textfield.TextInputLayout>
+    </com.bottombar.navigation.material.textfield.TextInputLayout>
   </LinearLayout>

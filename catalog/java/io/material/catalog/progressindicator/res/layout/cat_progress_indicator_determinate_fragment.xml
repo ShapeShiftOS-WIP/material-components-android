@@ -28,7 +28,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_start_to_end_linear_single_color"/>
-  <com.google.android.material.progressindicator.LinearProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
       android:layout_width="match_parent"
       android:layout_height="wrap_content"/>
 
@@ -36,7 +36,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_rounded_end_to_start_linear_single_color"/>
-  <com.google.android.material.progressindicator.LinearProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:indicatorDirectionLinear="endToStart"
@@ -46,7 +46,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_left_to_right_linear_multiple_colors_anchored_top"/>
-  <com.google.android.material.progressindicator.LinearProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:indicatorColor="@array/cat_custom_progress_colors"
@@ -58,7 +58,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_right_to_left_linear_multiple_colors_anchored_bottom"/>
-  <com.google.android.material.progressindicator.LinearProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:indicatorColor="@array/cat_custom_progress_colors"
@@ -81,7 +81,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:text="@string/cat_progress_indicator_clockwise_circular_single_color"/>
-      <com.google.android.material.progressindicator.CircularProgressIndicator
+      <com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"/>
@@ -96,7 +96,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:text="@string/cat_progress_indicator_rounded_counterclockwise_circular_single_color"/>
-      <com.google.android.material.progressindicator.CircularProgressIndicator
+      <com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
@@ -113,7 +113,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:text="@string/cat_progress_indicator_clockwise_circular_multiple_colors_anchored_outer"/>
-      <com.google.android.material.progressindicator.CircularProgressIndicator
+      <com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
@@ -131,7 +131,7 @@
           android:layout_height="wrap_content"
           android:layout_weight="1"
           android:text="@string/cat_progress_indicator_clockwise_circular_multiple_colors_anchored_inner"/>
-      <com.google.android.material.progressindicator.CircularProgressIndicator
+      <com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
@@ -141,7 +141,7 @@
     </LinearLayout>
   </LinearLayout>
 
-  <com.google.android.material.slider.Slider
+  <com.bottombar.navigation.material.slider.Slider
       android:id="@+id/slider"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

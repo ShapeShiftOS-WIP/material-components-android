@@ -31,7 +31,7 @@ import android.view.Window;
 import androidx.annotation.IdRes;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback;
+import com.bottombar.navigation.material.transition.platform.MaterialContainerTransformSharedElementCallback;
 import io.material.catalog.feature.DemoActivity;
 
 /**

@@ -41,15 +41,15 @@ To use it:
     ```groovy
       dependencies {
         // ...
-        implementation 'com.google.android.material:material:<version>'
+        implementation 'com.bottombar.navigation.material:material:<version>'
         // ...
       }
     ```
 
 Visit
-[Google's Maven Repository](https://maven.google.com/web/index.html#com.google.android.material:material)
+[Google's Maven Repository](https://maven.google.com/web/index.html#com.bottombar.navigation.material:material)
 or
-[MVN Repository](https://mvnrepository.com/artifact/com.google.android.material/material)
+[MVN Repository](https://mvnrepository.com/artifact/com.bottombar.navigation.material/material)
 to find the latest version of the library.
 
 **Note:** In order to use the new `Material3` themes and component styles, you
@@ -61,15 +61,15 @@ If your app currently depends on the original Design Support Library, you can
 make use of the
 [`Refactor to AndroidX…`](https://developer.android.com/jetpack/androidx/migrate)
 option provided by Android Studio. Doing so will update your app's dependencies
-and code to use the newly packaged `androidx` and `com.google.android.material`
+and code to use the newly packaged `androidx` and `com.bottombar.navigation.material`
 libraries.
 
 If you don't want to switch over to the new `androidx` and
-`com.google.android.material` packages yet, you can use Material Components via
+`com.bottombar.navigation.material` packages yet, you can use Material Components via
 the `com.android.support:design:28.0.0` dependency.
 
 **Note:** You should not use the `com.android.support` and
-`com.google.android.material` dependencies in your app at the same time.
+`com.bottombar.navigation.material` dependencies in your app at the same time.
 
 ## 3. Android 12 compilation
 
@@ -170,7 +170,7 @@ following XML components:
 *   `<RadioButton` → [`MaterialRadioButton`](components/RadioButton.md)
 *   `<TextView` → [`MaterialTextView`](components/MaterialTextView.md)
 *   `<AutoCompleteTextView` →
-    [`MaterialAutoCompleteTextView`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/MaterialAutoCompleteTextView.java)
+    [`MaterialAutoCompleteTextView`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/MaterialAutoCompleteTextView.java)
 
 ### **`AppCompat` or `MaterialComponents` Themes**
 
@@ -268,15 +268,15 @@ The default
 XML is defined as:
 
 ```xml
-<com.google.android.material.textfield.TextInputLayout
+<com.bottombar.navigation.material.textfield.TextInputLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="@string/textfield_label">
 
-  <com.google.android.material.textfield.TextInputEditText
+  <com.bottombar.navigation.material.textfield.TextInputEditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"/>
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>
 ```
 
 **Note:** If you are **not** using a theme that inherits from a `Material3`
@@ -289,16 +289,16 @@ in your layout, you can apply the `Material3` `filled` style to the text field
 in XML:
 
 ```xml
-<com.google.android.material.textfield.TextInputLayout
+<com.bottombar.navigation.material.textfield.TextInputLayout
     style="@style/Widget.Material3.TextInputLayout.FilledBox"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="@string/textfield_label">
 
-  <com.google.android.material.textfield.TextInputEditText
+  <com.bottombar.navigation.material.textfield.TextInputEditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"/>
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>
 ```
 
 ## Contributors
@@ -314,7 +314,7 @@ out our [contributing guidelines](contributing.md) as well as an overview of the
 -   [Using Snapshot Version](using-snapshot-version.md)
 -   [Building From Source](building-from-source.md)
 -   [Catalog App](catalog-app.md)
--   [Class documentation](https://developer.android.com/reference/com/google/android/material/classes)
+-   [Class documentation](https://developer.android.com/reference/com.bottombar.navigation.material/classes)
 -   [MDC-Android on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+android)
 -   [Android Developer’s Guide](https://developer.android.com/training/material/index.html)
 -   [Material.io](https://www.material.io)

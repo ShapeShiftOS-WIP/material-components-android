@@ -33,8 +33,8 @@ page.
 API and source code:
 
 *   `MaterialTimePicker`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/timepicker/MaterialTimePicker)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/timepicker/MaterialTimePicker.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/timepicker/MaterialTimePicker)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/timepicker/MaterialTimePicker.java)
 
 A time picker can be instantiated with `MaterialTimePicker.Builder`
 
@@ -148,9 +148,9 @@ Element                          | Affected component                  | Default
 
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/timepicker/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/timepicker/res/values/styles.xml)
 and
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/timepicker/res/values/attrs.xml).
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/timepicker/res/values/attrs.xml).
 
 ## Theming time pickers
 

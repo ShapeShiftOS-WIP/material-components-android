@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.floatingactionbutton;
+package com.bottombar.navigation.material.floatingactionbutton;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
 import static com.google.common.truth.Truth.assertThat;
@@ -31,7 +31,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.MeasureSpec;
 import android.view.ViewGroup.LayoutParams;
-import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.OnChangedCallback;
+import com.bottombar.navigation.material.floatingactionbutton.ExtendedFloatingActionButton.OnChangedCallback;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

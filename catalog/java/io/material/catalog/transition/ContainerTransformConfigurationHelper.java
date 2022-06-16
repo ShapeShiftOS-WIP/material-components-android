@@ -42,13 +42,13 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.view.animation.PathInterpolatorCompat;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.android.material.button.MaterialButtonToggleGroup;
-import com.google.android.material.slider.Slider;
-import com.google.android.material.slider.Slider.OnChangeListener;
-import com.google.android.material.textfield.TextInputLayout;
-import com.google.android.material.transition.MaterialArcMotion;
-import com.google.android.material.transition.MaterialContainerTransform;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetDialog;
+import com.bottombar.navigation.material.button.MaterialButtonToggleGroup;
+import com.bottombar.navigation.material.slider.Slider;
+import com.bottombar.navigation.material.slider.Slider.OnChangeListener;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.transition.MaterialArcMotion;
+import com.bottombar.navigation.material.transition.MaterialContainerTransform;
 
 /**
  * A helper class which manages all configuration UI presented in {@link
@@ -112,7 +112,7 @@ public class ContainerTransformConfigurationHelper {
   /** Set up the platform transition according to the config helper's parameters. */
   @RequiresApi(VERSION_CODES.LOLLIPOP)
   void configure(
-      com.google.android.material.transition.platform.MaterialContainerTransform transform,
+      com.bottombar.navigation.material.transition.platform.MaterialContainerTransform transform,
       boolean entering) {
     long duration = entering ? getEnterDuration() : getReturnDuration();
     if (duration != NO_DURATION) {
@@ -123,7 +123,7 @@ public class ContainerTransformConfigurationHelper {
     }
     if (isArcMotionEnabled()) {
       transform.setPathMotion(
-          new com.google.android.material.transition.platform.MaterialArcMotion());
+          new com.bottombar.navigation.material.transition.platform.MaterialArcMotion());
     }
     transform.setFadeMode(getFadeMode());
     transform.setDrawDebugEnabled(isDrawDebugEnabled());
@@ -131,7 +131,7 @@ public class ContainerTransformConfigurationHelper {
 
   /**
    * Whether or not to a custom container transform should use {@link
-   * com.google.android.material.transition.MaterialArcMotion}.
+   * com.bottombar.navigation.material.transition.MaterialArcMotion}.
    */
   boolean isArcMotionEnabled() {
     return arcMotionEnabled;

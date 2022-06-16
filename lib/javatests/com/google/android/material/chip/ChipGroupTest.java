@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.chip;
+package com.bottombar.navigation.material.chip;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 import static com.google.common.truth.Truth.assertThat;
@@ -31,7 +31,7 @@ import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.CollectionItemInfoCompat;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.chip.ChipGroup.OnCheckedStateChangeListener;
+import com.bottombar.navigation.material.chip.ChipGroup.OnCheckedStateChangeListener;
 import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,7 +40,7 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-/** Tests for {@link com.google.android.material.chip.ChipGroup}. */
+/** Tests for {@link com.bottombar.navigation.material.chip.ChipGroup}. */
 @RunWith(RobolectricTestRunner.class)
 public class ChipGroupTest {
 

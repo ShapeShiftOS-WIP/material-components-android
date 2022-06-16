@@ -30,13 +30,13 @@
       android:clipToPadding="false"
       android:orientation="vertical">
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <com.bottombar.navigation.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:subtitle="Default"
         app:title="Toolbar"/>
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <com.bottombar.navigation.material.appbar.MaterialToolbar
         style="?attr/toolbarSurfaceStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         app:subtitle="Surface"
         app:title="Toolbar"/>
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <com.bottombar.navigation.material.appbar.MaterialToolbar
         style="?attr/toolbarSurfaceStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

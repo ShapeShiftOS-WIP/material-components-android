@@ -28,8 +28,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.Nullable;
-import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.shape.MaterialShapeDrawable;
+import com.bottombar.navigation.material.appbar.AppBarLayout;
+import com.bottombar.navigation.material.shape.MaterialShapeDrawable;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.DemoUtils;
 

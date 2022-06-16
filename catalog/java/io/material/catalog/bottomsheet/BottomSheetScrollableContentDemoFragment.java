@@ -24,8 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetDialog;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.windowpreferences.WindowPreferencesManager;
 

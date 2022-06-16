@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 
@@ -25,8 +25,8 @@ import androidx.annotation.IdRes;
 import androidx.annotation.Nullable;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.bottomnavigation.LabelVisibilityMode;
+import com.bottombar.navigation.material.bottomnavigation.BottomNavigationView;
+import com.bottombar.navigation.material.bottomnavigation.LabelVisibilityMode;
 import org.hamcrest.Matcher;
 
 public class BottomNavigationViewActions {

@@ -31,7 +31,7 @@ maven {
 ```
 
 Then you can use a snapshot version by adding a
-`com.google.android.material:material:<version>-SNAPSHOT` dependency as per
+`com.bottombar.navigation.material:material:<version>-SNAPSHOT` dependency as per
 usual (see latest release
 [here](https://github.com/material-components/material-components-android/packages/81484/versions)).
 This will fetch the latest snapshot version, which your Gradle build won't
@@ -43,7 +43,7 @@ See the offical doc on
 for additional information.
 
 If you prefer to depend on a specific snapshot version, you can add
-`com.google.android.material:material:<version>-<uniqueversion>`, where
+`com.bottombar.navigation.material:material:<version>-<uniqueversion>`, where
 `<uniqueversion>` is a combination of the date, a timestamp, and a counter (see
 all versions
 [here](https://github.com/material-components/material-components-android/packages/81484/versions)).
@@ -78,7 +78,7 @@ to generate library releases based on specific commits.
 -   [Contributing](contributing.md)
 -   [Building From Source](building-from-source.md)
 -   [Catalog App](catalog-app.md)
--   [Class documentation](https://developer.android.com/reference/com/google/android/material/classes)
+-   [Class documentation](https://developer.android.com/reference/com.bottombar.navigation.material/classes)
 -   [MDC-Android on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+android)
 -   [Android Developer’s Guide](https://developer.android.com/training/material/index.html)
 -   [Material.io](https://www.material.io)

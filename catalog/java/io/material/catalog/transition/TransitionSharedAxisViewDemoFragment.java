@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.transition.TransitionManager;
-import com.google.android.material.transition.MaterialSharedAxis;
+import com.bottombar.navigation.material.transition.MaterialSharedAxis;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.OnBackPressedHandler;
 

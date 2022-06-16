@@ -13,13 +13,13 @@ dependencies {
 
 android {
   defaultConfig {
-    testApplicationId "com.google.android.material.tests"
+    testApplicationId "com.bottombar.navigation.material.tests"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     minSdkVersion 14
     targetSdkVersion 31
   }
 
-  targetProjectPath getTransformedProjectPath('testing/java/com/google/android/material/testapp')
+  targetProjectPath getTransformedProjectPath('testing/java/com/bottombar/navigation/material/testapp')
 
   sourceSets {
     main.setRoot('./')
@@ -29,7 +29,7 @@ android {
       '**/build/**',
       '**/theme/**',
     ]
-    main.manifest.srcFile 'javatests/com/google/android/material/AndroidManifest.xml'
+    main.manifest.srcFile 'javatests/com/bottombar/navigation/material/AndroidManifest.xml'
   }
 
   compileOptions {

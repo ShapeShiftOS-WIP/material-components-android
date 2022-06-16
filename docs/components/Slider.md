@@ -36,13 +36,13 @@ Add a `Slider` to a layout:
 
 ```xml
 <!-- Continuous slider -->
-<com.google.android.material.slider.Slider
+<com.bottombar.navigation.material.slider.Slider
     ...
     android:valueFrom="0.0"
     android:valueTo="100.0"  />
 
 <!-- Discrete slider -->
-<com.google.android.material.slider.Slider
+<com.bottombar.navigation.material.slider.Slider
     ...
     android:valueFrom="0.0"
     android:valueTo="100.0"
@@ -73,14 +73,14 @@ Add a `RangeSlider` to a layout:
 
 ```xml
 <!-- Continuous slider -->
-<com.google.android.material.slider.RangeSlider
+<com.bottombar.navigation.material.slider.RangeSlider
     ...
     android:valueFrom="0.0"
     android:valueTo="100.0"
     app:values="@array/initial_slider_values"  />
 
 <!-- Discrete slider -->
-<com.google.android.material.slider.RangeSlider
+<com.bottombar.navigation.material.slider.RangeSlider
     ...
     android:valueFrom="0.0"
     android:valueTo="100.0"
@@ -186,8 +186,8 @@ a specific value.
 API and source code:
 
 *   `Slider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/Slider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/Slider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/Slider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/Slider.java)
 
 The following example shows a continuous slider.
 
@@ -196,7 +196,7 @@ The following example shows a continuous slider.
 In the layout:
 
 ```xml
-<com.google.android.material.slider.Slider
+<com.bottombar.navigation.material.slider.Slider
     android:id="@+id/slider"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -211,8 +211,8 @@ In the layout:
 API and source code:
 
 *   `RangeSlider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/RangeSlider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/RangeSlider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/RangeSlider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/RangeSlider.java)
 
 The following example shows a continuous range slider.
 
@@ -221,7 +221,7 @@ The following example shows a continuous range slider.
 In the layout:
 
 ```xml
-<com.google.android.material.slider.RangeSlider
+<com.bottombar.navigation.material.slider.RangeSlider
   android:id="@+id/range_slider"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
@@ -239,8 +239,8 @@ allows a user to input an exact value.
 API and source code:
 
 *   `Slider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/Slider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/Slider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/Slider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/Slider.java)
 
 The following example shows a discrete slider.
 
@@ -249,7 +249,7 @@ The following example shows a discrete slider.
 In the layout:
 
 ```xml
-<com.google.android.material.slider.Slider
+<com.bottombar.navigation.material.slider.Slider
     ...
     android:stepSize="10.0" />
 ```
@@ -259,8 +259,8 @@ In the layout:
 API and source code:
 
 *   `RangeSlider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/RangeSlider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/RangeSlider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/RangeSlider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/RangeSlider.java)
 
 The following example shows a discrete range slider.
 
@@ -269,7 +269,7 @@ The following example shows a discrete range slider.
 In the layout:
 
 ```xml
-<com.google.android.material.slider.RangeSlider
+<com.bottombar.navigation.material.slider.RangeSlider
     ...
     android:stepSize="10.0"  />
 ```
@@ -326,7 +326,7 @@ Element       | Attribute           | Related method(s)                         
 **Behavior**  | `app:labelBehavior` | `setLabelBehavior`<br/>`getLabelBehavior`   | `floating`
 
 **Note:** The value label is a
-[Tooltip](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tooltip/TooltipDrawable.java).
+[Tooltip](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tooltip/TooltipDrawable.java).
 
 #### Tick mark attributes
 
@@ -350,9 +350,9 @@ Element           | Style
 Default style theme attribute: `?attr/sliderStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/res/values/styles.xml)
 and
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/res/values/attrs.xml).
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/res/values/attrs.xml).
 
 ## Theming sliders
 
@@ -365,11 +365,11 @@ customize color and typography.
 API and source code:
 
 *   `Slider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/Slider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/Slider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/Slider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/Slider.java)
 *   `RangeSlider`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/slider/RangeSlider)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/slider/RangeSlider.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/slider/RangeSlider)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/slider/RangeSlider.java)
 
 The following example shows a range slider with Material Theming.
 
@@ -424,7 +424,7 @@ all sliders but does not affect other components:
 Use the style in the layout, which affects only this specific slider:
 
 ```xml
-<com.google.android.material.slider.RangeSlider
+<com.bottombar.navigation.material.slider.RangeSlider
     ...
     style="@style/Widget.App.Slider"  />
 ```

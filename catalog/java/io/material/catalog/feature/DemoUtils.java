@@ -25,8 +25,8 @@ import android.view.ViewGroup;
 import android.widget.ScrollView;
 import androidx.core.view.ViewCompat;
 import androidx.core.widget.NestedScrollView;
-import com.google.android.material.internal.ContextUtils;
-import com.google.android.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.internal.ContextUtils;
+import com.bottombar.navigation.material.snackbar.Snackbar;
 import java.util.ArrayList;
 import java.util.List;
 

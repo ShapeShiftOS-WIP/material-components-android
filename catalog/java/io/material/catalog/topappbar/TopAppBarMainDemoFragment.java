@@ -28,10 +28,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.Nullable;
-import com.google.android.material.badge.BadgeDrawable;
-import com.google.android.material.badge.BadgeUtils;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.badge.BadgeDrawable;
+import com.bottombar.navigation.material.badge.BadgeUtils;
+import com.bottombar.navigation.material.button.MaterialButton;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.DemoUtils;
 

@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.tabs">
+  package="com.bottombar.navigation.material.tabs">
 
   <uses-sdk
     android:minSdkVersion="14"
@@ -29,5 +29,5 @@
 
   <instrumentation
     android:name="androidx.test.runner.AndroidJUnitRunner"
-    android:targetPackage="com.google.android.material.testapp.theme"/>
+    android:targetPackage="com.bottombar.navigation.material.testapp.theme"/>
 </manifest>

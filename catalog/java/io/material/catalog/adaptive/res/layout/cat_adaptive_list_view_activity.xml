@@ -35,7 +35,7 @@
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintBottom_toBottomOf="parent">
         <!-- Navigation drawer to be used for large screens. -->
-        <com.google.android.material.navigation.NavigationView
+        <com.bottombar.navigation.material.navigation.NavigationView
           android:id="@+id/nav_drawer"
           android:visibility="gone"
           android:layout_width="232dp"
@@ -44,7 +44,7 @@
           app:menu="@menu/cat_adaptive_nav_menu"/>
 
         <!-- Navigation rail to be used for medium screens. -->
-        <com.google.android.material.navigationrail.NavigationRailView
+        <com.bottombar.navigation.material.navigationrail.NavigationRailView
           android:id="@+id/nav_rail"
           android:visibility="gone"
           android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
     </FrameLayout>
 
     <!-- FAB and bottom nav to be used for small screens. -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/fab"
       style="?attr/floatingActionButtonTertiaryStyle"
       android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintBottom_toTopOf="@id/bottom_nav"/>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <com.bottombar.navigation.material.bottomnavigation.BottomNavigationView
       android:id="@+id/bottom_nav"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
       app:layout_constraintTop_toTopOf="parent"/>
   </androidx.constraintlayout.widget.ConstraintLayout>
 
-  <com.google.android.material.navigation.NavigationView
+  <com.bottombar.navigation.material.navigation.NavigationView
     android:id="@+id/modal_nav_drawer"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.elevation;
+package com.bottombar.navigation.material.elevation;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -29,8 +29,8 @@ import android.widget.FrameLayout;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.view.ViewCompat;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.color.MaterialColors;
-import com.google.android.material.resources.MaterialAttributes;
+import com.bottombar.navigation.material.color.MaterialColors;
+import com.bottombar.navigation.material.resources.MaterialAttributes;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

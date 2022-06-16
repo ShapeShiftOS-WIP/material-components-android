@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static com.google.android.material.testutils.TestUtilsActions.addTabs;
+import static com.bottombar.navigation.material.testutils.TestUtilsActions.addTabs;
 import static org.junit.Assert.assertEquals;
 
 import android.os.SystemClock;
@@ -27,9 +27,9 @@ import androidx.annotation.StringRes;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.test.filters.LargeTest;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.Cheeses;
+import com.bottombar.navigation.material.tabs.TabLayout;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.Cheeses;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

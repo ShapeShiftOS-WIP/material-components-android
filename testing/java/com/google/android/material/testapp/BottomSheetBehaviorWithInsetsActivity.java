@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
 import android.view.View;
 import androidx.annotation.VisibleForTesting;

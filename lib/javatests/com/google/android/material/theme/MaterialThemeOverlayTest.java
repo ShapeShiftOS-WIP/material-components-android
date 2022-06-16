@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.theme;
+package com.bottombar.navigation.material.theme;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 import static com.google.common.truth.Truth.assertThat;
@@ -26,7 +26,7 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import androidx.appcompat.view.ContextThemeWrapper;
-import com.google.android.material.theme.overlay.MaterialThemeOverlay;
+import com.bottombar.navigation.material.theme.overlay.MaterialThemeOverlay;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -13,19 +13,19 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Looper.getMainLooper;
-import static com.google.android.material.slider.BaseSlider.UNIT_PX;
-import static com.google.android.material.slider.BaseSlider.UNIT_VALUE;
+import static com.bottombar.navigation.material.slider.BaseSlider.UNIT_PX;
+import static com.bottombar.navigation.material.slider.BaseSlider.UNIT_VALUE;
 import static org.robolectric.Shadows.shadowOf;
 import static org.robolectric.annotation.LooperMode.Mode.PAUSED;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.slider.BaseSlider.SeparationUnit;
+import com.bottombar.navigation.material.slider.BaseSlider.SeparationUnit;
 import com.google.common.collect.ImmutableList;
 import org.junit.Before;
 import org.junit.Rule;
@@ -38,7 +38,7 @@ import org.robolectric.ParameterizedRobolectricTestRunner.Parameters;
 import org.robolectric.Robolectric;
 import org.robolectric.annotation.LooperMode;
 
-/** Tests for {@link com.google.android.material.slider.RangeSlider}. */
+/** Tests for {@link com.bottombar.navigation.material.slider.RangeSlider}. */
 @LooperMode(PAUSED)
 @RunWith(ParameterizedRobolectricTestRunner.class)
 public class RangeSliderConfigTest {

@@ -40,7 +40,7 @@ interactive elements.
 A `Chip` can be added in a layout with the following:
 
 ```xml
-<com.google.android.material.chip.Chip
+<com.bottombar.navigation.material.chip.Chip
     android:id="@+id/chip"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -107,14 +107,14 @@ A `ChipGroup` rearranges chips across multiple rows by default.
 are light purple and include checkmarks."](assets/chips/chips_filter.png)
 
 ```xml
-<com.google.android.material.chip.ChipGroup
+<com.bottombar.navigation.material.chip.ChipGroup
     android:id="@+id/chipGroup"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
   <!-- Chips can be declared here, or added dynamically. -->
 
-</com.google.android.material.chip.ChipGroup>
+</com.bottombar.navigation.material.chip.ChipGroup>
 ```
 
 A `ChipGroup` can also constrain its chips to a single row using the
@@ -127,13 +127,13 @@ partly visible"](assets/chips/chips_singleline.png)
 ```xml
 <HorizontalScrollView
     ... >
-  <com.google.android.material.chip.ChipGroup
+  <com.bottombar.navigation.material.chip.ChipGroup
       ...
       app:singleLine="true">
 
     <!-- Chips can be declared here, or added dynamically. -->
 
-  </com.google.android.material.chip.ChipGroup>
+  </com.bottombar.navigation.material.chip.ChipGroup>
 </HorizontalScrollView>
 ```
 
@@ -228,14 +228,14 @@ There are four types of chips: 1\. [assist](#assist-chip), 2\.
 API and source code:
 
 *   `Chip`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/Chip)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/Chip.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/Chip)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/Chip.java)
 *   `ChipGroup`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/ChipGroup)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/ChipGroup.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/ChipGroup)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/ChipGroup.java)
 *   `ChipDrawable`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/ChipDrawable)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/ChipDrawable.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/ChipDrawable)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/ChipDrawable.java)
 
 ## Assist chip
 
@@ -260,7 +260,7 @@ In the layout:
   android:text="@string/label_1"
   android:textAlignment="viewEnd"/>
 
-<com.google.android.material.chip.Chip
+<com.bottombar.navigation.material.chip.Chip
   android:id="@+id/chip_1"
   style="@style/Widget.Material3.Chip.Assist"
   android:layout_width="wrap_content"
@@ -287,9 +287,9 @@ are light purple and include checkmarks."](assets/chips/chips_filter.png)
 In the layout:
 
 ```xml
-<com.google.android.material.chip.ChipGroup
+<com.bottombar.navigation.material.chip.ChipGroup
     ...>
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       android:id="@+id/chip_1"
       style="@style/Widget.Material3.Chip.Filter"
       android:layout_width="wrap_content"
@@ -297,33 +297,33 @@ In the layout:
       android:checked="true"
       android:text="@string/text_filter_1"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
        style="@style/Widget.Material3.Chip.Filter"
        android:text="@string/text_filter_2"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Filter"
       android:checked="true"
       android:text="@string/text_filter_3"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Filter"
       android:text="@string/text_filter_4"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Filter"
       android:text="@string/text_filter_5"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Filter"
       android:text="@string/text_filter_6"/>
 
-</com.google.android.material.chip.ChipGroup>
+</com.bottombar.navigation.material.chip.ChipGroup>
 ```
 
 ## Input chip
@@ -341,26 +341,26 @@ The following example shows input chips.
 In the layout:
 
 ```xml
-<com.google.android.material.chip.ChipGroup
+<com.bottombar.navigation.material.chip.ChipGroup
     ...>
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       android:id="@+id/chip_1"
       style="@style/Widget.Material3.Chip.Input"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/text_input_1"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Input"
       android:text="@string/text_input_2"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.Material3.Chip.Input"
       android:text="@string/text_input_3"/>
 
-</com.google.android.material.chip.ChipGroup>
+</com.bottombar.navigation.material.chip.ChipGroup>
 ```
 
 ## Suggestion chip
@@ -380,23 +380,23 @@ and a light grey background."](assets/chips/chips_suggestion.png)
 In the layout:
 
 ```xml
-<com.google.android.material.chip.ChipGroup
+<com.bottombar.navigation.material.chip.ChipGroup
     ...>
-   <com.google.android.material.chip.Chip
+   <com.bottombar.navigation.material.chip.Chip
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     style="@style/Widget.Material3.Chip.Suggestion"
     android:text="@string/chip_text_1"/>
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     ...
     style="@style/Widget.Material3.Chip.Suggestion"
     android:text="@string/chip_text_2"/>
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     ...
     style="@style/Widget.Material3.Chip.Suggestion.Elevated"
     android:text="@string/chip_text_3"/>
 
-</com.google.android.material.chip.ChipGroup>
+</com.bottombar.navigation.material.chip.ChipGroup>
 ```
 
 ### Anatomy and key properties
@@ -493,9 +493,9 @@ Element            | Theme attribute             | Default style
 **`ChipDrawable`** | `?attr/chipStandaloneStyle` | `Widget.Material3.Chip.Input`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/res/values/styles.xml)
 and
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/res/values/attrs.xml).
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/res/values/attrs.xml).
 
 ## Theming chips
 
@@ -507,14 +507,14 @@ which customizes color, typography and shape.
 API and source code:
 
 *   `Chip`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/Chip)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/Chip.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/Chip)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/Chip.java)
 *   `ChipGroup`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/ChipGroup)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/ChipGroup.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/ChipGroup)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/ChipGroup.java)
 *   `ChipDrawable`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/chip/ChipDrawable)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/ChipDrawable.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/chip/ChipDrawable)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/chip/ChipDrawable.java)
 
 The following example shows chips with Material Theming.
 
@@ -587,7 +587,7 @@ the theme to all chips but does not affect other components:
 Use the style in the layout, which affects only specific chips:
 
 ```xml
-<com.google.android.material.chip.Chip
+<com.bottombar.navigation.material.chip.Chip
       ...
       style="@style/Widget.App.Chip."  />
 ```

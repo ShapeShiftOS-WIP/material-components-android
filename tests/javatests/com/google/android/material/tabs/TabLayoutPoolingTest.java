@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.tabs;
+package com.bottombar.navigation.material.tabs;
 
 import static org.junit.Assert.assertTrue;
 
@@ -23,8 +23,8 @@ import androidx.test.annotation.UiThreadTest;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testapp.TabLayoutPoolingActivity;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testapp.TabLayoutPoolingActivity;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

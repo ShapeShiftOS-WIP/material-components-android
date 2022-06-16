@@ -16,7 +16,7 @@
   -->
 
 <manifest xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.color">
+  package="com.bottombar.navigation.material.color">
 
   <uses-sdk
     tools:overrideLibrary="androidx.test.core"/>

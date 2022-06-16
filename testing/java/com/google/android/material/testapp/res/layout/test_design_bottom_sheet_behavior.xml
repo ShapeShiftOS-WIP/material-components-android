@@ -33,7 +33,7 @@
 
     </LinearLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -25,8 +25,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.LayoutRes;
 import androidx.core.view.ViewCompat;
-import com.google.android.material.color.MaterialColors;
-import com.google.android.material.shape.MaterialShapeDrawable;
+import com.bottombar.navigation.material.color.MaterialColors;
+import com.bottombar.navigation.material.shape.MaterialShapeDrawable;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -35,7 +35,7 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 import org.robolectric.annotation.internal.DoNotInstrument;
 
-/** Tests for {@link com.google.android.material.appbar.MaterialToolbar}. */
+/** Tests for {@link com.bottombar.navigation.material.appbar.MaterialToolbar}. */
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = VERSION_CODES.LOLLIPOP)
 @DoNotInstrument

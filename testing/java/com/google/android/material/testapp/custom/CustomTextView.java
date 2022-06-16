@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp.custom;
+package com.bottombar.navigation.material.testapp.custom;
 
 import android.content.Context;
 import androidx.appcompat.widget.AppCompatTextView;

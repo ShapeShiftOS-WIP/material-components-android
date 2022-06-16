@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.divider;
+package com.bottombar.navigation.material.divider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 

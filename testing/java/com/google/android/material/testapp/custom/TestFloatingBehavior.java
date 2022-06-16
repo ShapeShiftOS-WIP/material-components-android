@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp.custom;
+package com.bottombar.navigation.material.testapp.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.snackbar.Snackbar;
+import com.bottombar.navigation.material.snackbar.Snackbar;
 
 public class TestFloatingBehavior extends CoordinatorLayout.Behavior<TextView> {
   // Default constructor is needed to instantiate a Behavior object when it is attached

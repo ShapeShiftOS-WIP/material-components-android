@@ -112,25 +112,25 @@ mentioned:
       android:id="@+id/nav_container"
       ...>
       <!-- Navigation drawer to be used for large screens. -->
-      <com.google.android.material.navigation.NavigationView
+      <com.bottombar.navigation.material.navigation.NavigationView
         android:id="@+id/nav_drawer"
         android:visibility="gone"
         ... />
 
       <!-- Navigation rail to be used for medium screens. -->
-      <com.google.android.material.navigationrail.NavigationRailView
+      <com.bottombar.navigation.material.navigationrail.NavigationRailView
         android:id="@+id/nav_rail"
         android:visibility="gone"
         ... />
     </FrameLayout>
 
     <!-- FAB and bottom nav to be used for small screens. -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/fab"
       ... />
 
     <!-- Bottom nav to be used for small screens. -->
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <com.bottombar.navigation.material.bottomnavigation.BottomNavigationView
       android:id="@+id/bottom_nav"
       ... />
 
@@ -147,7 +147,7 @@ mentioned:
   </androidx.constraintlayout.widget.ConstraintLayout>
 
   <!-- Modal nav drawer to be shown on medium screens on menu button click. -->
-  <com.google.android.material.navigation.NavigationView
+  <com.bottombar.navigation.material.navigation.NavigationView
     android:id="@+id/modal_nav_drawer"
     ... />
 </androidx.drawerlayout.widget.DrawerLayout>

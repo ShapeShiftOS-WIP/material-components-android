@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.google.android.material.animation">
+  package="com.bottombar.navigation.material.animation">
 
   <uses-sdk
     tools:overrideLibrary="androidx.test, android.app, androidx.test.rule,
@@ -28,5 +28,5 @@
 
   <instrumentation
     android:name="androidx.test.runner.AndroidJUnitRunner"
-    android:targetPackage="com.google.android.material.testapp.animation"/>
+    android:targetPackage="com.bottombar.navigation.material.testapp.animation"/>
 </manifest>

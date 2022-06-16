@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
 
@@ -34,9 +34,9 @@ import androidx.annotation.DimenRes;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
 import androidx.test.espresso.matcher.ViewMatchers;
-import com.google.android.material.internal.CheckableImageButton;
-import com.google.android.material.testapp.R;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.internal.CheckableImageButton;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 import org.hamcrest.Matcher;
 
 public class TextInputLayoutActions {

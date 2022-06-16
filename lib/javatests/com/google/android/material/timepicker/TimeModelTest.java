@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.material.timepicker;
+package com.bottombar.navigation.material.timepicker;
 
-import static com.google.android.material.timepicker.TimeFormat.CLOCK_12H;
-import static com.google.android.material.timepicker.TimeFormat.CLOCK_24H;
+import static com.bottombar.navigation.material.timepicker.TimeFormat.CLOCK_12H;
+import static com.bottombar.navigation.material.timepicker.TimeFormat.CLOCK_24H;
 import static com.google.common.truth.Truth.assertThat;
 
 import org.junit.Test;

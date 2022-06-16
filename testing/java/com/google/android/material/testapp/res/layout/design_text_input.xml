@@ -22,57 +22,57 @@
     android:padding="16dp"
     android:orientation="vertical">
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:errorEnabled="true">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:id="@+id/textinput_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/textinput_hint"
         android:imeOptions="flagNoExtractUi"/>
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput_noedittext"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"/>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput_with_text"
       android:layout_width="match_parent"
       android:layout_height="wrap_content">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/textinput_hint"
         android:imeOptions="flagNoExtractUi"
         android:text="@string/snackbar_text"/>
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput_box_filled"
       style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       app:helperText="@string/textinput_helper_not_enabled">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:id="@+id/textinput_edittext_filled"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/textinput_hint"
         android:imeOptions="flagNoExtractUi"/>
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput_box_outline"
       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
       android:layout_width="match_parent"
@@ -81,29 +81,29 @@
       app:helperTextEnabled="true"
       app:placeholderText="@string/textinput_placeholder">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:id="@+id/textinput_edittext_outline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/textinput_hint"
         android:imeOptions="flagNoExtractUi"/>
 
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       android:id="@+id/textinput_box_outline_no_hint"
       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
       android:layout_width="match_parent"
       android:layout_height="wrap_content">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <com.bottombar.navigation.material.textfield.TextInputEditText
         android:id="@+id/textinput_edittext_outline_no_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:imeOptions="flagNoExtractUi"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/textinput_layout_with_hint"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -114,9 +114,9 @@
       android:layout_height="wrap_content"
       android:autofillHints="someHint"
       android:inputType="text" />
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/textinput_layout_without_hint"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -127,5 +127,5 @@
       android:hint="@string/textinput_nested_hint"
       android:autofillHints="someHint"
       android:inputType="text"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 </LinearLayout>

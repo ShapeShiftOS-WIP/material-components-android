@@ -34,7 +34,7 @@
     android:layout_gravity="center"
     android:layout_columnSpan="3"
     android:text="@string/m3_surface_fab_label"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSurfaceStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_surface_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSmallSurfaceStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_surface_small_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonLargeSurfaceStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
     android:layout_gravity="center"
     android:layout_columnSpan="3"
     android:text="@string/m3_primary_fab_label"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonPrimaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_primary_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSmallPrimaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_primary_small_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonLargePrimaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
     android:layout_gravity="center"
     android:layout_columnSpan="3"
     android:text="@string/m3_secondary_fab_label"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSecondaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_secondary_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSmallSecondaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_secondary_small_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonLargeSecondaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
     android:layout_gravity="center"
     android:layout_columnSpan="3"
     android:text="@string/m3_tertiary_fab_label"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonTertiaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_tertiary_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonSmallTertiaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
     android:layout_gravity="center"
     android:contentDescription="@string/m3_tertiary_small_fab_content_desc"
     app:srcCompat="@drawable/ic_add_24px"/>
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
+  <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     style="?attr/floatingActionButtonLargeTertiaryStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

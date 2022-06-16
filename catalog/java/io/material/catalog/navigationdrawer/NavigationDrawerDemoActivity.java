@@ -29,7 +29,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
-import com.google.android.material.navigation.NavigationView;
+import com.bottombar.navigation.material.navigation.NavigationView;
 import io.material.catalog.feature.DemoActivity;
 
 /** A fragment that displays the main Navigation Drawer demo for the Catalog app. */

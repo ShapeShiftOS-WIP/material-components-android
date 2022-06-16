@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.bottomnavigation;
+package com.bottombar.navigation.material.bottomnavigation;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -22,12 +22,12 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static com.google.android.material.testutils.BottomNavigationViewActions.addMenuItem;
-import static com.google.android.material.testutils.BottomNavigationViewActions.setIconForMenuItem;
-import static com.google.android.material.testutils.BottomNavigationViewActions.setIconSize;
-import static com.google.android.material.testutils.BottomNavigationViewActions.setItemIconTintList;
-import static com.google.android.material.testutils.BottomNavigationViewActions.setLabelVisibilityMode;
-import static com.google.android.material.testutils.BottomNavigationViewActions.showBadgeNumberForMenuItem;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.addMenuItem;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.setIconForMenuItem;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.setIconSize;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.setItemIconTintList;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.setLabelVisibilityMode;
+import static com.bottombar.navigation.material.testutils.BottomNavigationViewActions.showBadgeNumberForMenuItem;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.core.AllOf.allOf;
 import static org.junit.Assert.assertEquals;
@@ -67,16 +67,16 @@ import androidx.test.filters.SdkSuppress;
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.navigation.NavigationBarItemView;
-import com.google.android.material.navigation.NavigationBarMenuView;
-import com.google.android.material.navigation.NavigationBarView;
-import com.google.android.material.navigation.NavigationBarView.OnItemReselectedListener;
-import com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener;
-import com.google.android.material.testapp.BottomNavigationViewActivity;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.AccessibilityUtils;
-import com.google.android.material.testutils.TestDrawable;
-import com.google.android.material.testutils.TestUtilsMatchers;
+import com.bottombar.navigation.material.navigation.NavigationBarItemView;
+import com.bottombar.navigation.material.navigation.NavigationBarMenuView;
+import com.bottombar.navigation.material.navigation.NavigationBarView;
+import com.bottombar.navigation.material.navigation.NavigationBarView.OnItemReselectedListener;
+import com.bottombar.navigation.material.navigation.NavigationBarView.OnItemSelectedListener;
+import com.bottombar.navigation.material.testapp.BottomNavigationViewActivity;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.AccessibilityUtils;
+import com.bottombar.navigation.material.testutils.TestDrawable;
+import com.bottombar.navigation.material.testutils.TestUtilsMatchers;
 import java.util.HashMap;
 import java.util.Map;
 import org.junit.Assert;

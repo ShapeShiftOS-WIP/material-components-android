@@ -33,7 +33,7 @@ import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.card.MaterialCardView;
+import com.bottombar.navigation.material.card.MaterialCardView;
 import io.material.catalog.draggable.DraggableCoordinatorLayout;
 import io.material.catalog.draggable.DraggableCoordinatorLayout.ViewDragListener;
 import io.material.catalog.feature.DemoFragment;

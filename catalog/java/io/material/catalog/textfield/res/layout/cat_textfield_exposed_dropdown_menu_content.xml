@@ -23,7 +23,7 @@
     android:orientation="vertical">
 
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputFilledExposedDropdownMenuStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -39,10 +39,10 @@
         android:layout_height="wrap_content"
         android:inputType="none"
         app:simpleItems="@array/cat_textfield_exposed_dropdown_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
     style="?attr/textInputFilledExposedDropdownMenuStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -57,9 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:simpleItems="@array/cat_textfield_exposed_dropdown_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedExposedDropdownMenuStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -75,10 +75,10 @@
         android:layout_height="wrap_content"
         android:inputType="none"
         app:simpleItems="@array/cat_textfield_exposed_dropdown_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
 
-  <com.google.android.material.textfield.TextInputLayout
+  <com.bottombar.navigation.material.textfield.TextInputLayout
       style="?attr/textInputOutlinedExposedDropdownMenuStyle"
       android:layout_width="@dimen/material_textinput_default_width"
       android:layout_height="wrap_content"
@@ -93,6 +93,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:simpleItems="@array/cat_textfield_exposed_dropdown_content"/>
-  </com.google.android.material.textfield.TextInputLayout>
+  </com.bottombar.navigation.material.textfield.TextInputLayout>
 
 </LinearLayout>

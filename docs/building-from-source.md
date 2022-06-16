@@ -42,7 +42,7 @@ dependency as you would normally, using the version specified as
 -   [Contributing](contributing.md)
 -   [Catalog App](catalog-app.md)
 -   [Using Snapshot Version](using-snapshot-version.md)
--   [Class documentation](https://developer.android.com/reference/com/google/android/material/classes)
+-   [Class documentation](https://developer.android.com/reference/com.bottombar.navigation.material/classes)
 -   [MDC-Android on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+android)
 -   [Android Developer’s Guide](https://developer.android.com/training/material/index.html)
 -   [Material.io](https://www.material.io)

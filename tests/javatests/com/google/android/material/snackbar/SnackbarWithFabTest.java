@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.snackbar;
+package com.bottombar.navigation.material.snackbar;
 
 import static org.junit.Assert.assertEquals;
 
@@ -23,9 +23,9 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testapp.SnackbarWithFabActivity;
-import com.google.android.material.testutils.SnackbarUtils;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testapp.SnackbarWithFabActivity;
+import com.bottombar.navigation.material.testutils.SnackbarUtils;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

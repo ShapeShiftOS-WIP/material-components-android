@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 public class NavigationViewActivity extends BaseTestActivity {
   @Override

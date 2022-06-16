@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import android.view.View;
 import androidx.test.espresso.matcher.BoundedMatcher;
-import com.google.android.material.appbar.AppBarLayout;
+import com.bottombar.navigation.material.appbar.AppBarLayout;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 

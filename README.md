@@ -31,7 +31,7 @@ Bugs or feature requests should be submitted at our [GitHub Issues section](http
 - [Building From Source](docs/building-from-source.md)
 - [Catalog App](docs/catalog-app.md)
 - [Class
-  documentation](https://developer.android.com/reference/com/google/android/material/classes)
+  documentation](https://developer.android.com/reference/com/bottombar/navigation/material/classes)
   (external site)
 - [MDC-Android on Stack
   Overflow](https://www.stackoverflow.com/questions/tagged/material-components+android)

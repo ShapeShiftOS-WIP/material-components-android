@@ -33,8 +33,8 @@ import android.view.ViewGroup;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.appbar.CollapsingToolbarLayout;
+import com.bottombar.navigation.material.color.MaterialColors;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays a collapsing Top App Bar demo for the Catalog app. */

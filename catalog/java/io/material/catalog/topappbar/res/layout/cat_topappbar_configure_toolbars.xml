@@ -38,18 +38,18 @@
       android:layout_marginBottom="16dp"
       android:orientation="horizontal">
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginEnd="8dp"
         android:hint="@string/cat_topappbar_configure_title_text">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
           android:id="@+id/toolbar_title_edittext"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
       <CheckBox
         android:id="@+id/toolbar_title_centered_checkbox"
@@ -64,18 +64,18 @@
       android:layout_marginBottom="16dp"
       android:orientation="horizontal">
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginEnd="8dp"
         android:hint="@string/cat_topappbar_configure_subtitle_text">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
           android:id="@+id/toolbar_subtitle_edittext"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
       <CheckBox
         android:id="@+id/toolbar_subtitle_centered_checkbox"

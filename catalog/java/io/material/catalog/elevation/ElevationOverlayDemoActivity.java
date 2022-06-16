@@ -28,8 +28,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
-import com.google.android.material.elevation.ElevationOverlayProvider;
-import com.google.android.material.internal.ViewUtils;
+import com.bottombar.navigation.material.elevation.ElevationOverlayProvider;
+import com.bottombar.navigation.material.internal.ViewUtils;
 import io.material.catalog.feature.DemoActivity;
 import java.util.Locale;
 

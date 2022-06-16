@@ -29,9 +29,9 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 import android.view.View;
 import androidx.annotation.Nullable;
-import com.google.android.material.color.MaterialColors;
-import com.google.android.material.transition.Hold;
-import com.google.android.material.transition.MaterialContainerTransform;
+import com.bottombar.navigation.material.color.MaterialColors;
+import com.bottombar.navigation.material.transition.Hold;
+import com.bottombar.navigation.material.transition.MaterialContainerTransform;
 
 /** Utils for feature demos. */
 public abstract class FeatureDemoUtils {

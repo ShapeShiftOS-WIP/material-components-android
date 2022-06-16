@@ -29,9 +29,9 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.lists.SingleLineItemViewHolder;
-import com.google.android.material.lists.ThreeLineItemViewHolder;
-import com.google.android.material.lists.TwoLineItemViewHolder;
+import com.bottombar.navigation.material.lists.SingleLineItemViewHolder;
+import com.bottombar.navigation.material.lists.ThreeLineItemViewHolder;
+import com.bottombar.navigation.material.lists.TwoLineItemViewHolder;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays the main List demos for the Catalog app. */

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.material.floatingactionbutton;
+package com.bottombar.navigation.material.floatingactionbutton;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static android.os.Build.VERSION_CODES.LOLLIPOP;
-import static com.google.android.material.floatingactionbutton.FloatingActionButton.SIZE_MINI;
-import static com.google.android.material.internal.ViewUtils.dpToPx;
+import static com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton.SIZE_MINI;
+import static com.bottombar.navigation.material.internal.ViewUtils.dpToPx;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;

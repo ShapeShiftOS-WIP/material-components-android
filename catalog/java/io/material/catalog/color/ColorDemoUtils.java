@@ -18,7 +18,7 @@ package io.material.catalog.color;
 
 import android.graphics.Color;
 import androidx.annotation.ColorInt;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.color.MaterialColors;
 
 /** Utility methods for Color. */
 final class ColorDemoUtils {

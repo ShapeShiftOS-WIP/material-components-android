@@ -30,9 +30,9 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.StringRes;
-import com.google.android.material.color.MaterialColors;
-import com.google.android.material.transition.platform.MaterialContainerTransform;
-import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback;
+import com.bottombar.navigation.material.color.MaterialColors;
+import com.bottombar.navigation.material.transition.platform.MaterialContainerTransform;
+import com.bottombar.navigation.material.transition.platform.MaterialContainerTransformSharedElementCallback;
 import io.material.catalog.preferences.BaseCatalogActivity;
 import io.material.catalog.windowpreferences.WindowPreferencesManager;
 

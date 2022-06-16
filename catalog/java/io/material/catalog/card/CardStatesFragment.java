@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioGroup;
 import androidx.annotation.Nullable;
-import com.google.android.material.card.MaterialCardView;
+import com.bottombar.navigation.material.card.MaterialCardView;
 import io.material.catalog.feature.DemoFragment;
 
 /**

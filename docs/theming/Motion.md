@@ -40,14 +40,14 @@ the
 
 **AndroidX (preferred)**
 
-*   Available in the `com.google.android.material.transition` package
+*   Available in the `com.bottombar.navigation.material.transition` package
 *   Supports API Level 14+
 *   Supports Fragments and Views, but not Activities or Windows
 *   Contains backported bug fixes and consistent behavior across API Levels
 
 **Platform**
 
-*   Available in the `com.google.android.material.transition.platform` package
+*   Available in the `com.bottombar.navigation.material.transition.platform` package
 *   Supports API Level 21+
 *   Supports Fragments, Views, Activities, and Windows
 *   Bug fixes not backported and may have different behavior across API Levels
@@ -58,10 +58,10 @@ the
 *   [Codelab](https://codelabs.developers.google.com/codelabs/material-motion-android)
 *   [Blog Post](https://medium.com/androiddevelopers/material-motion-with-mdc-c1f09bb90bf9)
 *   [Reply (example email app)](https://github.com/material-components/material-components-android-examples/tree/develop/Reply)
-*   [Javadocs (AndroidX)](https://developer.android.com/reference/com/google/android/material/transition/package-summary)
-*   [Javadocs (Platform)](https://developer.android.com/reference/com/google/android/material/transition/platform/package-summary)
+*   [Javadocs (AndroidX)](https://developer.android.com/reference/com.bottombar.navigation.material/transition/package-summary)
+*   [Javadocs (Platform)](https://developer.android.com/reference/com.bottombar.navigation.material/transition/platform/package-summary)
 *   [Catalog Demos](https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/transition)
-*   [Library Source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/transition)
+*   [Library Source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/transition)
 *   [Android Platform Transition Guide](https://developer.android.com/training/transitions)
 *   [AndroidX Transition Library](https://developer.android.com/reference/androidx/transition/package-summary)
 
@@ -232,7 +232,7 @@ Transitions system.
 #### Transition between activities
 
 **Note:** Activity and Window transitions require using Android Framework
-Transitions provided in the `com.google.android.material.transition.platform`
+Transitions provided in the `com.bottombar.navigation.material.transition.platform`
 package and are only available on API level 21 and above.
 
 In Activity A’s layout, identify the start View to be used as the “shared
@@ -556,7 +556,7 @@ respective axis. Alternatively, try replacing `MaterialSharedAxis` with a
 #### Transition between Activities
 
 **Note:** Activity and Window transitions require using Android Framework
-Transitions provided in the `com.google.android.material.transition.platform`
+Transitions provided in the `com.bottombar.navigation.material.transition.platform`
 package and are only available on API level 21 and above.
 
 Enable Activity transitions by either setting
@@ -807,7 +807,7 @@ supportFragmentManager
 #### Transition between Activities
 
 **Note:** Activity and Window transitions require using Android Framework
-Transitions provided in the `com.google.android.material.transition.platform`
+Transitions provided in the `com.bottombar.navigation.material.transition.platform`
 package and are only available on API level 21 and above.
 
 Enable Activity transitions by either setting

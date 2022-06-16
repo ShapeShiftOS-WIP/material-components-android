@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomsheet;
+package com.bottombar.navigation.material.bottomsheet;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -37,7 +37,7 @@ import androidx.test.espresso.Espresso;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.BottomSheetDialogActivity;
+import com.bottombar.navigation.material.testapp.BottomSheetDialogActivity;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;

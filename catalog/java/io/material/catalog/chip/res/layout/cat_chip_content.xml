@@ -34,7 +34,7 @@
     android:text="@string/cat_chip_input_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_input_chip"
     style="@style/Widget.Material3.Chip.Input"
     android:layout_width="wrap_content"
@@ -67,7 +67,7 @@
     android:text="@string/cat_chip_input_icon_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_input_icon_chip"
     style="@style/Widget.Material3.Chip.Input.Icon"
     android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
     android:text="@string/cat_chip_input_no_icon_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_input_no_icon_chip"
     style="@style/Widget.Material3.Chip.Input"
     android:layout_width="wrap_content"
@@ -133,7 +133,7 @@
     android:text="@string/m3_chip_suggestion_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_suggestion_chip"
     style="@style/Widget.Material3.Chip.Suggestion"
     android:layout_width="wrap_content"
@@ -163,7 +163,7 @@
     android:text="@string/m3_chip_suggestion_elevated_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_suggestion_elevated_chip"
     style="@style/Widget.Material3.Chip.Suggestion.Elevated"
     android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
     android:text="@string/m3_chip_assist_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/m3_chip_assist_chip"
     style="@style/Widget.Material3.Chip.Assist"
     android:layout_width="wrap_content"
@@ -230,7 +230,7 @@
     android:text="@string/m3_chip_assist_elevated_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/m3_chip_assist_elevated_chip"
     style="@style/Widget.Material3.Chip.Assist.Elevated"
     android:layout_width="wrap_content"
@@ -265,7 +265,7 @@
     android:text="@string/m3_chip_assist_no_icon_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/m3_chip_assist_no_icon_chip"
     style="@style/Widget.Material3.Chip.Assist"
     android:layout_width="wrap_content"
@@ -299,7 +299,7 @@
     android:text="@string/cat_chip_filter_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/cat_chip_filter_chip"
     style="@style/Widget.Material3.Chip.Filter"
     android:layout_width="wrap_content"
@@ -332,7 +332,7 @@
     android:text="@string/m3_chip_filter_elevated_label"
     android:textAlignment="viewEnd"/>
 
-  <com.google.android.material.chip.Chip
+  <com.bottombar.navigation.material.chip.Chip
     android:id="@+id/m3_chip_filter_elevated_chip"
     style="@style/Widget.Material3.Chip.Filter.Elevated"
     android:layout_width="wrap_content"
@@ -351,7 +351,7 @@
     android:text="@string/cat_chip_text"
     app:ensureMinTouchTargetSize="true"/>
 
-  <com.google.android.material.materialswitch.MaterialSwitch
+  <com.bottombar.navigation.material.materialswitch.MaterialSwitch
     android:id="@+id/cat_chip_text_length_switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -360,7 +360,7 @@
     android:layout_centerHorizontal="true"
     android:text="@string/cat_chip_long_text_switch_label"/>
 
-  <com.google.android.material.materialswitch.MaterialSwitch
+  <com.bottombar.navigation.material.materialswitch.MaterialSwitch
     android:id="@+id/cat_chip_enabled_switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

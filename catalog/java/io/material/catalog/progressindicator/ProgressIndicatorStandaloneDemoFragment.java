@@ -24,11 +24,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.chip.Chip;
-import com.google.android.material.materialswitch.MaterialSwitch;
-import com.google.android.material.progressindicator.CircularProgressIndicatorSpec;
-import com.google.android.material.progressindicator.IndeterminateDrawable;
+import com.bottombar.navigation.material.button.MaterialButton;
+import com.bottombar.navigation.material.chip.Chip;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.progressindicator.CircularProgressIndicatorSpec;
+import com.bottombar.navigation.material.progressindicator.IndeterminateDrawable;
 import io.material.catalog.feature.DemoFragment;
 
 /**

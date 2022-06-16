@@ -30,7 +30,7 @@ import android.view.ViewGroup;
 import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.tabs.TabLayout;
+import com.bottombar.navigation.material.tabs.TabLayout;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.DemoUtils;
 

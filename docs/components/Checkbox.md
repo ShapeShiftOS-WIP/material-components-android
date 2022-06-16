@@ -43,7 +43,7 @@ page.
 ```
 
 **Note:** `<CheckBox>` is auto-inflated as
-`<com.google.android.material.button.MaterialCheckBox>` via
+`<com.bottombar.navigation.material.button.MaterialCheckBox>` via
 `MaterialComponentsViewInflater` when using a `Theme.Material3.*`
 theme.
 
@@ -96,8 +96,8 @@ checkboxes.
 API and source code:
 
 *   `MaterialCheckBox`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/checkbox/MaterialCheckBox)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/checkbox/MaterialCheckBox.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/checkbox/MaterialCheckBox)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/checkbox/MaterialCheckBox.java)
 
 The following example shows a list of five checkboxes.
 
@@ -150,7 +150,7 @@ checkbox.setOnCheckedChangeListener { buttonView, isChecked ->
 Element                      | Attribute                                  | Related method(s)                                          | Default value
 --------------------------   | ------------------------------------------ | ---------------------------------------------------------- | -------------
 **To use material colors**   | `app:useMaterialThemeColors`               | `setUseMaterialThemeColors`<br/>`isUseMaterialThemeColors` | `true` (ignored if `app:buttonTint` is set)
-**Color**                    | `app:buttonTint`                           | `setButtonTintList`<br/>`getButtonTintList`                | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/checkbox/res/color/m3_checkbox_button_tint.xml))
+**Color**                    | `app:buttonTint`                           | `setButtonTintList`<br/>`getButtonTintList`                | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/checkbox/res/color/m3_checkbox_button_tint.xml))
 **Min size**                 | `android:minWidth`<br/>`android:minHeight` | `(set/get)MinWidth`<br/>`(set/get)MinHeight`               | `?attr/minTouchTargetSize`
 **Centered icon if no text** | `app:centerIfNoTextEnabled`                | `setCenterIfNoTextEnabled`<br/>`isCenterIfNoTextEnabled`   | `true`
 
@@ -195,9 +195,9 @@ Element           | Style
 Default style theme attribute: `?attr/checkboxStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/checkbox/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/checkbox/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/checkbox/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/checkbox/res/values/attrs.xml).
 
 ## Theming checkboxes
 
@@ -210,8 +210,8 @@ which can customize color and typography.
 API and source code:
 
 *   `MaterialCheckBox`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/checkbox/MaterialCheckBox)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/checkbox/MaterialCheckBox.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/checkbox/MaterialCheckBox)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/checkbox/MaterialCheckBox.java)
 
 The following example shows a checkbox with Material Theming.
 

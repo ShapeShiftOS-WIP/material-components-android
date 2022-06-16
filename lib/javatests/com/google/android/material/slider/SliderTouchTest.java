@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
-import static com.google.android.material.slider.SliderHelper.calculateXPositionFromValue;
-import static com.google.android.material.slider.SliderHelper.dragSliderBetweenValues;
-import static com.google.android.material.slider.SliderHelper.endSliderDragBetweenValues;
-import static com.google.android.material.slider.SliderHelper.startSliderDragBetweenValues;
-import static com.google.android.material.slider.SliderHelper.touchSliderAtValue;
+import static com.bottombar.navigation.material.slider.SliderHelper.calculateXPositionFromValue;
+import static com.bottombar.navigation.material.slider.SliderHelper.dragSliderBetweenValues;
+import static com.bottombar.navigation.material.slider.SliderHelper.endSliderDragBetweenValues;
+import static com.bottombar.navigation.material.slider.SliderHelper.startSliderDragBetweenValues;
+import static com.bottombar.navigation.material.slider.SliderHelper.touchSliderAtValue;
 import static com.google.common.truth.Truth.assertThat;
 import static junit.framework.TestCase.assertTrue;
 import static org.robolectric.annotation.LooperMode.Mode.LEGACY;

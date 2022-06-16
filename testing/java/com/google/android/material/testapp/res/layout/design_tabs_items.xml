@@ -15,19 +15,19 @@
      limitations under the License.
 -->
 
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
             android:text="@string/tab_layout_text"/>
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
             android:icon="@android:drawable/star_on"/>
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
             android:layout="@layout/design_tab_item_custom"/>
 
-</com.google.android.material.tabs.TabLayout>
+</com.bottombar.navigation.material.tabs.TabLayout>

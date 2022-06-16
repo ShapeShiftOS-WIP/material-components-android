@@ -22,7 +22,7 @@ import android.content.SharedPreferences;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
-import com.google.android.material.internal.ContextUtils;
+import com.bottombar.navigation.material.internal.ContextUtils;
 import com.google.common.collect.ImmutableList;
 
 /**

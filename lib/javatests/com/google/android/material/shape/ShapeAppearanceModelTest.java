@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.shape;
+package com.bottombar.navigation.material.shape;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -30,7 +30,7 @@ import org.robolectric.Robolectric.AttributeSetBuilder;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.internal.DoNotInstrument;
 
-/** Tests for {@link com.google.android.material.shape.ShapeAppearanceModel}. */
+/** Tests for {@link com.bottombar.navigation.material.shape.ShapeAppearanceModel}. */
 @RunWith(RobolectricTestRunner.class)
 @DoNotInstrument
 public class ShapeAppearanceModelTest {

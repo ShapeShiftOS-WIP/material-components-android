@@ -26,7 +26,7 @@ Android Studio or run the following Gradle command:
 -   [Contributing](contributing.md)
 -   [Using Snapshot Version](using-snapshot-version.md)
 -   [Building From Source](building-from-source.md)
--   [Class documentation](https://developer.android.com/reference/com/google/android/material/classes)
+-   [Class documentation](https://developer.android.com/reference/com.bottombar.navigation.material/classes)
 -   [MDC-Android on Stack Overflow](https://www.stackoverflow.com/questions/tagged/material-components+android)
 -   [Android Developer’s Guide](https://developer.android.com/training/material/index.html)
 -   [Material.io](https://www.material.io)

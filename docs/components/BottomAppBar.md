@@ -73,11 +73,11 @@ API and source code:
 *   `CoordinatorLayout`
     *   [Class definition](https://developer.android.com/reference/androidx/coordinatorlayout/widget/CoordinatorLayout)
 *   `BottomAppBar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomappbar/BottomAppBar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomappbar/BottomAppBar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomappbar/BottomAppBar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomappbar/BottomAppBar.java)
 *   `FloatingActionButton`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 
 The following example shows a bottom app bar with an action icon, a cradled FAB,
 and an overflow menu.
@@ -103,7 +103,7 @@ In the layout:
 
     </androidx.core.widget.NestedScrollView>
 
-    <com.google.android.material.bottomappbar.BottomAppBar
+    <com.bottombar.navigation.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,7 +113,7 @@ In the layout:
         app:menu="@menu/bottom_app_bar"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_add_24dp"
@@ -190,7 +190,7 @@ scrollable content down, and appearing when scrolling up.
 
     ...
 
-    <com.google.android.material.bottomappbar.BottomAppBar
+    <com.bottombar.navigation.material.bottomappbar.BottomAppBar
         ...
         app:hideOnScroll="true"
         />
@@ -266,9 +266,9 @@ Element           | Style
 Default style theme attribute: `bottomAppBarStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomappbar/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomappbar/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomappbar/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomappbar/res/values/attrs.xml).
 
 ## Theming bottom app bars
 
@@ -283,11 +283,11 @@ API and source code:
 *   `CoordinatorLayout`
     *   [Class definition](https://developer.android.com/reference/androidx/coordinatorlayout/widget/CoordinatorLayout)
 *   `BottomAppBar`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomappbar/BottomAppBar)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomappbar/BottomAppBar.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomappbar/BottomAppBar)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomappbar/BottomAppBar.java)
 *   `FloatingActionButton`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/floatingactionbutton/FloatingActionButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/floatingactionbutton/FloatingActionButton.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/floatingactionbutton/FloatingActionButton.java)
 *   `BottomAppBarCutCornersTopEdge`:
     *   [Class source](https://github.com/material-components/material-components-android/tree/master/catalog/java/io/material/catalog/bottomappbar/BottomAppBarCutCornersTopEdge.java)
 
@@ -356,12 +356,12 @@ theme to all bottom app bars and FABs but does not affect other components:
 Use the styles in the layout, which affects only this bottom app bar and FAB:
 
 ```xml
-<com.google.android.material.bottomappbar.BottomAppBar
+<com.bottombar.navigation.material.bottomappbar.BottomAppBar
     ...
     style="@style/Widget.App.BottomAppBar"
     />
 
-<com.google.android.material.floatingactionbutton.FloatingActionButton
+<com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton
     ...
     style="@style/Widget.App.FloatingActionButton"
     />

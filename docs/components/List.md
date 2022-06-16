@@ -36,5 +36,5 @@ in the Material Android Catalog.
 ## Code
 
 The
-[Lists Package](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/lists)
+[Lists Package](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/lists)
 contains the code for this component.

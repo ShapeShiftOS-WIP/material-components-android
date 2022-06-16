@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testing;
+package com.bottombar.navigation.material.testing;
 
 import android.annotation.TargetApi;
 import com.google.common.collect.ImmutableMap;

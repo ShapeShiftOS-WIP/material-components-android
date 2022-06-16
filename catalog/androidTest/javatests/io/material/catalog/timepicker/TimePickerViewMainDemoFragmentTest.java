@@ -57,7 +57,7 @@ public class TimePickerViewMainDemoFragmentTest {
     // launch picker
     onView(withId(R.id.timepicker_button)).perform(click());
 
-    onView(withId(com.google.android.material.timepicker.R.id.material_timepicker_view))
+    onView(withId(com.bottombar.navigation.material.timepicker.R.id.material_timepicker_view))
         .check(matches(isDisplayed()));
   }
 }

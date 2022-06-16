@@ -43,7 +43,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
 
-      <com.google.android.material.slider.RangeSlider
+      <com.bottombar.navigation.material.slider.RangeSlider
           android:id="@+id/slider_1"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
 
-      <com.google.android.material.slider.RangeSlider
+      <com.bottombar.navigation.material.slider.RangeSlider
           android:id="@+id/slider_2"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
 
-      <com.google.android.material.slider.RangeSlider
+      <com.bottombar.navigation.material.slider.RangeSlider
           android:id="@+id/slider_3"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
 
-      <com.google.android.material.slider.RangeSlider
+      <com.bottombar.navigation.material.slider.RangeSlider
           android:id="@+id/slider_4"
           android:layout_width="0dp"
           android:layout_height="wrap_content"

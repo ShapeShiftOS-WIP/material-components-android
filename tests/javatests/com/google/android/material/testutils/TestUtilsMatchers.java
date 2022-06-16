@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static org.junit.Assert.assertEquals;
 
@@ -39,8 +39,8 @@ import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.widget.TextViewCompat;
 import androidx.test.espresso.matcher.BoundedMatcher;
-import com.google.android.material.expandable.ExpandableWidget;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.expandable.ExpandableWidget;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;

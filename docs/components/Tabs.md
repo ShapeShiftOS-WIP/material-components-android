@@ -33,33 +33,33 @@ page.
 ![Three fixed tabs with one tab selected.](assets/tabs/tabs_basic.png)
 
 A
-[`TabLayout`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabLayout.java)
+[`TabLayout`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabLayout.java)
 can be added to a layout:
 
 ```xml
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     ...
 
-</com.google.android.material.tabs.TabLayout>
+</com.bottombar.navigation.material.tabs.TabLayout>
 ```
 
-[`TabItem`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabItem.java)s
+[`TabItem`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabItem.java)s
 can then be added as children of the `TabLayout` and adjusted as needed:
 
 ```xml
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
     ...>
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_label_1"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_label_2"
@@ -67,7 +67,7 @@ can then be added as children of the `TabLayout` and adjusted as needed:
 
     ...
 
-</com.google.android.material.tabs.TabLayout>
+</com.bottombar.navigation.material.tabs.TabLayout>
 ```
 
 Observe changes to tab selections:
@@ -166,7 +166,7 @@ Setting up a `TabLayout` with a
 [`ViewPager2`](https://developer.android.com/reference/androidx/viewpager2/widget/ViewPager2)
 relies on the same concepts as doing so with a `ViewPager`, but the
 implementation is different. Everything is handled by the
-[`TabLayoutMediator`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabLayoutMediator.java)
+[`TabLayoutMediator`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabLayoutMediator.java)
 class:
 
 ```kt
@@ -191,7 +191,7 @@ TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
 "88", and a red badge with "999".](assets/tabs/tabs_badged.png)
 
 Tabs support badging with the
-[`BadgeDrawable`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/badge/BadgeDrawable.java)
+[`BadgeDrawable`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/badge/BadgeDrawable.java)
 class:
 
 ```kt
@@ -223,11 +223,11 @@ only tabs available.
 API and source code:
 
 *   `TabLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabLayout.java)
 *   `TabItem`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabItem)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabItem.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabItem)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabItem.java)
 
 The following example shows a row of fixed tabs.
 
@@ -236,33 +236,33 @@ The following example shows a row of fixed tabs.
 In the layout:
 
 ```xml
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:tabMode="fixed">
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_1"
         android:icon="@drawable/ic_favorite_24dp"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_2"
         android:icon="@drawable/ic_music_24dp"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_3"
         android:icon="@drawable/ic_search_24dp"
         />
 
-</com.google.android.material.tabs.TabLayout>
+</com.bottombar.navigation.material.tabs.TabLayout>
 ```
 
 ## Scrollable tabs
@@ -275,11 +275,11 @@ that some tabs will remain off-screen until scrolled.
 API and source code:
 
 *   `TabLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabLayout.java)
 *   `TabItem`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabItem)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabItem.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabItem)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabItem.java)
 
 The following example shows a row of scrollable tabs.
 
@@ -288,43 +288,43 @@ The following example shows a row of scrollable tabs.
 In the layout:
 
 ```xml
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:tabMode="scrollable"
     app:tabContentStart="56dp">
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_1"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_2"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_3"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_4"
         />
 
-    <com.google.android.material.tabs.TabItem
+    <com.bottombar.navigation.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tab_5"
         />
     ...
-</com.google.android.material.tabs.TabLayout>
+</com.bottombar.navigation.material.tabs.TabLayout>
 ```
 
 ### Anatomy and key properties
@@ -357,14 +357,14 @@ Element       | Attribute            | Related method(s)                  | Defa
 Element   | Attribute      | Related method(s)                                                | Default value
 --------- | -------------- | ---------------------------------------------------------------- | -------------
 **Icon**  | `android:icon` | `setIcon`<br>`getIcon`                                           | `null`
-**Color** | `tabIconTint`  | `setTabIconTint`<br>`setTabIconTintResource`<br>`getTabIconTint` | `colorOnSurfaceVariant` and `colorPrimary` (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/color/m3_tabs_icon_color.xml))
+**Color** | `tabIconTint`  | `setTabIconTint`<br>`setTabIconTintResource`<br>`getTabIconTint` | `colorOnSurfaceVariant` and `colorPrimary` (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/color/m3_tabs_icon_color.xml))
 
 ### Tab item text label attributes
 
 Element          | Attribute           | Related method(s)                                               | Default value
 ---------------- | ------------------- | --------------------------------------------------------------- | -------------
 **Text**         | `android:text`      | `setText`<br>`getText`                                          | `null`
-**Color**        | `tabTextColor`      | `setTabTextColors`<br>`getTabTextColors`                        | `colorOnSurfaceVariant` and `colorPrimary` (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/color/m3_tabs_icon_color.xml))
+**Color**        | `tabTextColor`      | `setTabTextColors`<br>`getTabTextColors`                        | `colorOnSurfaceVariant` and `colorPrimary` (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/color/m3_tabs_icon_color.xml))
 **Typography**   | `tabTextAppearance` | N/A                                                             | `?attr/textAppearanceLabelLarge`
 **Inline label** | `tabInlineLabel`    | `setInlineLabel`<br>`setInlineLabelResource`<br>`isInlineLabel` | `false`
 
@@ -372,7 +372,7 @@ Element          | Attribute           | Related method(s)                      
 
 Element              | Attribute                                                                                     | Related method(s)                                                            | Default value
 -------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------
-**Ripple color**     | `tabRippleColor`                                                                              | `setTabRippleColor`<br>`setTabRippleColorResource`<br>`getTabRippleColor`    | `colorOnSurfaceVariant` at 16% opacity and `colorPrimary` at 16% opacity (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/color/m3_tabs_ripple_color.xml))
+**Ripple color**     | `tabRippleColor`                                                                              | `setTabRippleColor`<br>`setTabRippleColorResource`<br>`getTabRippleColor`    | `colorOnSurfaceVariant` at 16% opacity and `colorPrimary` at 16% opacity (activated) (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/color/m3_tabs_ripple_color.xml))
 **Unbounded ripple** | `tabUnboundedRipple`                                                                          | `setUnboundedRipple`<br>`setUnboundedRippleResource`<br>`hasUnboundedRipple` | `true`
 **Gravity**          | `tabGravity`                                                                                  | `setTabGravity`<br>`getTabGravity`                                           | `fill`
 **Min width**        | `tabMinWidth`                                                                                 | N/A                                                                          | `72dp` (scrollable) or `wrap_content`
@@ -384,7 +384,7 @@ Element              | Attribute                                                
 Element                | Attribute                       | Related method(s)                                                | Default value
 ---------------------- | ------------------------------- | ---------------------------------------------------------------- | -------------
 **Color**              | `tabIndicatorColor`             | `setSelectedTabIndicatorColor`                                   | `colorPrimary`
-**Drawable**           | `tabIndicator`                  | `setSelectedTabIndicator`<br>`getSelectedTabIndicator`           | [`m3_tabs_rounded_line_indicator`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/drawable/m3_tabs_rounded_line_indicator.xml)
+**Drawable**           | `tabIndicator`                  | `setSelectedTabIndicator`<br>`getSelectedTabIndicator`           | [`m3_tabs_rounded_line_indicator`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/drawable/m3_tabs_rounded_line_indicator.xml)
 **Height**             | `tabIndicatorHeight`            | `setSelectedTabIndicatorHeight`                                  | `2dp`
 **Full width**         | `tabIndicatorFullWidth`         | `setTabIndicatorFullWidth`<br>`isTabIndicatorFullWidth`          | `false`
 **Animation mode**     | `tabIndicatorAnimationMode`     | `setTabIndicatorAnimationMode`<br>`getTabIndicatorAnimationMode` | `elastic`
@@ -404,9 +404,9 @@ Default style theme attribute: `?attr/tabStyle`
 Additional style theme attributes: `?attr/tabSecondaryStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/res/values/attrs.xml).
 
 ## Theming tabs
 
@@ -419,11 +419,11 @@ which can customize color and typography.
 API and source code:
 
 *   `TabLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabLayout.java)
 *   `TabItem`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/tabs/TabItem)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/TabItem.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/tabs/TabItem)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/tabs/TabItem.java)
 
 The following example shows a row of scrollable tabs with Material Theming.
 
@@ -474,7 +474,7 @@ all tabs but do not affect other components:
 Use the style in the layout, which affects only these tabs:
 
 ```xml
-<com.google.android.material.tabs.TabLayout
+<com.bottombar.navigation.material.tabs.TabLayout
     ...
     style="@style/Widget.App.TabLayout"
     />

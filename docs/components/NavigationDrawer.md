@@ -37,7 +37,7 @@ The content of all navigation drawer types can be implemented using a
 `NavigationView`.
 
 ```xml
-<com.google.android.material.navigation.NavigationView
+<com.bottombar.navigation.material.navigation.NavigationView
   android:id="@+id/navigationView"
   ... />
 ```
@@ -53,7 +53,7 @@ navigation drawer type and parent `ViewGroup`.
 In the layout:
 
 ```xml
-<com.google.android.material.navigation.NavigationView
+<com.bottombar.navigation.material.navigation.NavigationView
     ...
     app:menu="@menu/navigation_drawer" />
 ```
@@ -97,7 +97,7 @@ selected.](assets/navigationdrawer/navigation-drawer-header.png)
 In the layout:
 
 ```xml
-<com.google.android.material.navigation.NavigationView
+<com.bottombar.navigation.material.navigation.NavigationView
     ...
     app:headerLayout="@layout/header_navigation_drawer" />
 ```
@@ -273,7 +273,7 @@ Element    | Attribute          | Related method(s)                             
 Element     | Attribute                                                                                                                                                                                                                    | Related method(s)                                                                                   | Default value
 ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------
 **Divider** | `android:listDivider` in app theme                                                                                                                                                                                           | N/A                                                                                                 | Varies per platform version
-**Height**  | N/A (see [layout](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/internal/res/layout/design_navigation_item_separator.xml)) | N/A                                                                                                 | `1dp`
+**Height**  | N/A (see [layout](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/internal/res/layout/design_navigation_item_separator.xml)) | N/A                                                                                                 | `1dp`
 **Inset**   | `app:dividerInsetStart`<br/>`app:dividerInsetEnd`                                                                                                                                                                            | `setDividerInsetStart`<br/>`getDividerInsetStart`<br/>`setDividerInsetEnd`<br/>`getDividerInsetEnd` | `28dp`<br/>`28dp`
 
 ### Item attributes
@@ -352,8 +352,8 @@ due to limited screen size.
 API and source code:
 
 *   `NavigationView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/navigation/NavigationView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/NavigationView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/navigation/NavigationView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/NavigationView.java)
 
 The following example shows a permanently visible standard navigation drawer.
 
@@ -369,7 +369,7 @@ In the layout:
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.navigation.NavigationView
+    <com.bottombar.navigation.material.navigation.NavigationView
         ...
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -414,8 +414,8 @@ can be replaced by standard drawers on tablet and desktop.
 API and source code:
 
 *   `NavigationView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/navigation/NavigationView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/NavigationView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/navigation/NavigationView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/NavigationView.java)
 *   `DrawerLayout`
     *   [Class definition](https://developer.android.com/reference/kotlin/androidx/drawerlayout/widget/DrawerLayout)
 
@@ -445,7 +445,7 @@ In the layout:
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <com.google.android.material.navigation.NavigationView
+    <com.bottombar.navigation.material.navigation.NavigationView
         ...
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -506,11 +506,11 @@ They are only for use on mobile devices.
 API and source code:
 
 *   `NavigationView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/navigation/NavigationView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/NavigationView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/navigation/NavigationView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/NavigationView.java)
 *   `BottomSheetBehavior`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetBehavior)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/bottomsheet/BottomSheetBehavior.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/bottomsheet/BottomSheetBehavior.java)
 
 The following example shows a bottom navigation drawer with a bottom app bar.
 
@@ -537,7 +537,7 @@ In the layout:
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <com.google.android.material.navigation.NavigationView
+        <com.bottombar.navigation.material.navigation.NavigationView
             ...
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -546,7 +546,7 @@ In the layout:
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <com.google.android.material.bottomappbar.BottomAppBar
+    <com.bottombar.navigation.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -607,8 +607,8 @@ can customize color, typography and shape.
 API and source code:
 
 *   `NavigationView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/navigation/NavigationView)
-    *   [GitHub source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/NavigationView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/navigation/NavigationView)
+    *   [GitHub source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/NavigationView.java)
 
 The following example shows a navigation drawer with Material Theming.
 
@@ -708,7 +708,7 @@ navigation drawers but do not affect other components:
 Use the style in the layout, which affects only this navigation drawer:
 
 ```xml
-<com.google.android.material.navigation.NavigationView
+<com.bottombar.navigation.material.navigation.NavigationView
     ...
     style="@style/Widget.App.NavigationView" />
 ```

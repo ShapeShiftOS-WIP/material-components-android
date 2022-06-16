@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.datepicker;
+package com.bottombar.navigation.material.datepicker;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -28,8 +28,8 @@ import android.widget.GridView;
 import android.widget.TextView.BufferType;
 import androidx.core.util.Pair;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.internal.ParcelableTestUtils;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.internal.ParcelableTestUtils;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import org.junit.Assert;

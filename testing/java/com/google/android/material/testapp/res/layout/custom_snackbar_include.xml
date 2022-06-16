@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 
-<com.google.android.material.testapp.custom.CustomSnackbarMainContent
+<com.bottombar.navigation.material.testapp.custom.CustomSnackbarMainContent
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:layout_width="wrap_content"
@@ -59,4 +59,4 @@
         android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
         android:singleLine="true" />
 
-</com.google.android.material.testapp.custom.CustomSnackbarMainContent>
+</com.bottombar.navigation.material.testapp.custom.CustomSnackbarMainContent>

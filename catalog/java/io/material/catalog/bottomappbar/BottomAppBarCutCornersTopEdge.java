@@ -16,10 +16,10 @@
 
 package io.material.catalog.bottomappbar;
 
-import com.google.android.material.bottomappbar.BottomAppBar;
-import com.google.android.material.bottomappbar.BottomAppBarTopEdgeTreatment;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.shape.ShapePath;
+import com.bottombar.navigation.material.bottomappbar.BottomAppBar;
+import com.bottombar.navigation.material.bottomappbar.BottomAppBarTopEdgeTreatment;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.shape.ShapePath;
 
 /**
  * A {@link BottomAppBar} top edge that works with a Diamond shaped {@link FloatingActionButton}

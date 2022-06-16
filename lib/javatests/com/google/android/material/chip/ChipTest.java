@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.chip;
+package com.bottombar.navigation.material.chip;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
-import static com.google.android.material.internal.ViewUtils.dpToPx;
+import static com.bottombar.navigation.material.internal.ViewUtils.dpToPx;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertEquals;
 
@@ -42,7 +42,7 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.TextLayoutMode;
 import org.robolectric.annotation.internal.DoNotInstrument;
 
-/** Tests for {@link com.google.android.material.chip.Chip}. */
+/** Tests for {@link com.bottombar.navigation.material.chip.Chip}. */
 @TextLayoutMode(value = TextLayoutMode.Mode.LEGACY, issueId = "130377392")
 @RunWith(RobolectricTestRunner.class)
 @DoNotInstrument

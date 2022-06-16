@@ -30,7 +30,7 @@ page.
 A typical layout will look similar to this:
 
 ```xml
-<com.google.android.material.navigationrail.NavigationRailView
+<com.bottombar.navigation.material.navigationrail.NavigationRailView
     android:id="@+id/navigation_rail"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
@@ -154,7 +154,7 @@ The rail provides a convenient container for anchoring a header view, such as a
 ![Navigation rail with badges](assets/navigationrail/navigation-rail-fab.png)
 
 ```xml
-<com.google.android.material.navigationrail.NavigationRailView
+<com.bottombar.navigation.material.navigationrail.NavigationRailView
     android:id="@+id/navigation_rail"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -218,8 +218,8 @@ See the [`BadgeDrawable`](BadgeDrawable.md) documentation for more information.
 API and source code:
 
 *   `NavigationRailView`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/navigationrail/NavigationRailView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigationrail/NavigationRailView.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/navigationrail/NavigationRailView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigationrail/NavigationRailView.java)
 
 The following example shows a navigation rail with four icons:
 
@@ -304,8 +304,8 @@ for more attributes.
 **Element**               | **Attribute**             | **Related methods**                                   | **Default value**
 ------------------------- | ------------------------- | ----------------------------------------------------- | -----------------
 **Menu resource**         | `app:menu`                | `inflateMenu`<br/>`getMenu`                           | N/A
-**Ripple (inactive)**     | `app:itemRippleColor`     | `setItemRippleColor`<br/>`getItemRippleColor`         | `?attr/colorPrimary` at 12% (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/res/color/mtrl_navigation_bar_ripple_color.xml))
-**Ripple (active)**       | `app:itemRippleColor`     | `setItemRippleColor`<br/>`getItemRippleColor`         | `?attr/colorPrimary` at 12% (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/res/color/mtrl_navigation_bar_ripple_color.xml))
+**Ripple (inactive)**     | `app:itemRippleColor`     | `setItemRippleColor`<br/>`getItemRippleColor`         | `?attr/colorPrimary` at 12% (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/res/color/mtrl_navigation_bar_ripple_color.xml))
+**Ripple (active)**       | `app:itemRippleColor`     | `setItemRippleColor`<br/>`getItemRippleColor`         | `?attr/colorPrimary` at 12% (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/res/color/mtrl_navigation_bar_ripple_color.xml))
 **Label visibility mode** | `app:labelVisibilityMode` | `setLabelVisibilityMode`<br/>`getLabelVisibilityMode` | `LABEL_VISIBILITY_AUTO`
 **Item minimum height**   | `app:itemMinHeight`       | `setItemMinimumHeight`<br/>`getItemMinimumHeight`     | `NO_ITEM_MINIMUM_HEIGHT`
 
@@ -347,10 +347,10 @@ for more attributes.
 Default style theme attribute: `?attr/navigationRailStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigationrail/res/values/styles.xml),
-[navigation bar attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigation/res/values/attrs.xml),
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigationrail/res/values/styles.xml),
+[navigation bar attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigation/res/values/attrs.xml),
 and
-[navigation rail attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigationrail/res/values/attrs.xml).
+[navigation rail attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigationrail/res/values/attrs.xml).
 
 ## Theming a navigation rail
 
@@ -363,8 +363,8 @@ which can customize color and typography.
 API and source code:
 
 *   `NavigationRailView`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/navigationrail/NavigationRailView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/navigationrail/NavigationRailView.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/navigationrail/NavigationRailView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/navigationrail/NavigationRailView.java)
 
 The following example shows a navigation rail with Material Theming.
 
@@ -426,7 +426,7 @@ Or use the style in the layout, which affects only this specific navigation rail
 bar:
 
 ```xml
-<com.google.android.material.navigationrail.NavigationRailView
+<com.bottombar.navigation.material.navigationrail.NavigationRailView
     ...
     style="@style/Widget.App.NavigationRailView"
 />

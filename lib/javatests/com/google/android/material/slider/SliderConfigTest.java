@@ -13,9 +13,9 @@
  *   See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.google.android.material.slider;
+package com.bottombar.navigation.material.slider;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static org.robolectric.annotation.LooperMode.Mode.LEGACY;
 
@@ -33,7 +33,7 @@ import org.robolectric.ParameterizedRobolectricTestRunner.Parameters;
 import org.robolectric.Robolectric;
 import org.robolectric.annotation.LooperMode;
 
-/** Tests for {@link com.google.android.material.slider.Slider}. */
+/** Tests for {@link com.bottombar.navigation.material.slider.Slider}. */
 @LooperMode(LEGACY)
 @RunWith(ParameterizedRobolectricTestRunner.class)
 public class SliderConfigTest {

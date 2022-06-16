@@ -36,13 +36,13 @@ dependencies {
 android {
   defaultConfig {
     multiDexEnabled true
-    testApplicationId "com.google.android.material.tests"
+    testApplicationId "com.bottombar.navigation.material.tests"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     minSdkVersion 14
     targetSdkVersion 31
   }
 
-  targetProjectPath getTransformedProjectPath('testing/java/com/google/android/material/testapp/theme')
+  targetProjectPath getTransformedProjectPath('testing/java/com/bottombar/navigation/material/testapp/theme')
 
   sourceSets {
     main.manifest.srcFile 'AndroidManifest.xml'

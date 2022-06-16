@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static androidx.test.InstrumentationRegistry.getInstrumentation;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static com.google.android.material.testutils.CollapsingToolbarLayoutActions.setContentScrimColor;
-import static com.google.android.material.testutils.SwipeUtils.swipeDown;
-import static com.google.android.material.testutils.SwipeUtils.swipeUp;
-import static com.google.android.material.testutils.TestUtilsActions.setText;
-import static com.google.android.material.testutils.TestUtilsActions.setTitle;
+import static com.bottombar.navigation.material.testutils.CollapsingToolbarLayoutActions.setContentScrimColor;
+import static com.bottombar.navigation.material.testutils.SwipeUtils.swipeDown;
+import static com.bottombar.navigation.material.testutils.SwipeUtils.swipeUp;
+import static com.bottombar.navigation.material.testutils.TestUtilsActions.setText;
+import static com.bottombar.navigation.material.testutils.TestUtilsActions.setTitle;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -47,10 +47,10 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.StringRes;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
-import com.google.android.material.internal.BaseDynamicCoordinatorLayoutTest;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testutils.AccessibilityUtils;
-import com.google.android.material.testutils.Shakespeare;
+import com.bottombar.navigation.material.internal.BaseDynamicCoordinatorLayoutTest;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testutils.AccessibilityUtils;
+import com.bottombar.navigation.material.testutils.Shakespeare;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;

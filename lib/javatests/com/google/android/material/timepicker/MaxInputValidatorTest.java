@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.timepicker;
+package com.bottombar.navigation.material.timepicker;
 
 import static android.view.KeyEvent.KEYCODE_0;
 import static android.view.KeyEvent.KEYCODE_1;

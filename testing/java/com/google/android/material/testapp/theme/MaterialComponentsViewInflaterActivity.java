@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp.theme;
+package com.bottombar.navigation.material.testapp.theme;
 
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 /** Test activity for testing various aspects of {@link MaterialComponentsViewInflater}. */
 public class MaterialComponentsViewInflaterActivity extends BaseTestActivity {

@@ -26,8 +26,8 @@ import android.view.ViewGroup;
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.slider.RangeSlider;
-import com.google.android.material.slider.Slider;
+import com.bottombar.navigation.material.slider.RangeSlider;
+import com.bottombar.navigation.material.slider.Slider;
 import io.material.catalog.feature.DemoFragment;
 
 /**

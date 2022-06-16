@@ -48,7 +48,7 @@ A typical menu resource looks like this:
 A typical exposed dropdown menu looks like this:
 
 ```xml
-<com.google.android.material.textfield.TextInputLayout
+<com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/menu"
     style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
     android:layout_width="match_parent"
@@ -61,7 +61,7 @@ A typical exposed dropdown menu looks like this:
         android:inputType="none"
     />
 
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>
 ```
 
 See the [dropdown menus](#dropdown-menus) and
@@ -440,9 +440,9 @@ Element                     | **Theme attribute**              | **Default value
 **Overflow menus**          | `?attr/actionOverflowMenuStyle`  | `@style/Widget.Material3.PopupMenu.Overflow`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/menu/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/menu/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/menu/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/menu/res/values/attrs.xml).
 
 ## Exposed dropdown menus
 
@@ -459,17 +459,17 @@ and their usage, see the [TextInputLayout documentation](TextField.md).
 API and source code:
 
 *   `TextInputLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/textfield/TextInputLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/TextInputLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/textfield/TextInputLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/TextInputLayout.java)
 *   `AutoCompleteTextView`
     *   [Class definition](https://developer.android.com/reference/android/widget/AutoCompleteTextView)
 *   `MaterialAutoCompleteTextView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/textfield/MaterialAutoCompleteTextView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/MaterialAutoCompleteTextView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/textfield/MaterialAutoCompleteTextView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/MaterialAutoCompleteTextView.java)
 
 **Note:** `MaterialComponentsViewInflater` auto-inflates
 `<AutoCompleteTextView>` to
-`<com.google.android.material.textfield.MaterialAutoCompleteTextView>` when
+`<com.bottombar.navigation.material.textfield.MaterialAutoCompleteTextView>` when
 using `Theme.Material3.*` themes.
 
 The following is an example of a filled exposed dropdown menu:
@@ -480,7 +480,7 @@ The following is an example of a filled exposed dropdown menu:
 In the layout:
 
 ```xml
-<com.google.android.material.textfield.TextInputLayout
+<com.bottombar.navigation.material.textfield.TextInputLayout
     android:id="@+id/menu"
     style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
     android:layout_width="match_parent"
@@ -494,7 +494,7 @@ In the layout:
         app:simpleItems="@array/simple_items"
     />
 
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>
 ```
 
 The string array specified by `app:simpleItems` will be used as the default
@@ -590,9 +590,9 @@ Element            | Style
 Default style theme attribute: `?attr/textInputStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/res/values/attrs.xml).
 
 ## Theming menus
 
@@ -685,13 +685,13 @@ work, see the [TextInputLayout documentation](TextField.md).
 API and source code:
 
 *   `TextInputLayout`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/textfield/TextInputLayout)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/TextInputLayout.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/textfield/TextInputLayout)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/TextInputLayout.java)
 *   `AutoCompleteTextView`
     *   [Class definition](https://developer.android.com/reference/android/widget/AutoCompleteTextView)
 *   `MaterialAutoCompleteTextView`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/textfield/MaterialAutoCompleteTextView)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textfield/MaterialAutoCompleteTextView.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/textfield/MaterialAutoCompleteTextView)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textfield/MaterialAutoCompleteTextView.java)
 
 The following example shows filled and outlined exposed dropdown menu types with
 Material Theming.
@@ -746,13 +746,13 @@ to all menus but does not affect other components:
 or use the style in the layout, which affects only this menu:
 
 ```xml
-<com.google.android.material.textfield.TextInputLayout
+<com.bottombar.navigation.material.textfield.TextInputLayout
     ...
     style="@style/Widget.App.ExposedDropdownMenu">
 
     ...
 
-</com.google.android.material.textfield.TextInputLayout>
+</com.bottombar.navigation.material.textfield.TextInputLayout>
 ```
 
 **Note:** When setting a `materialThemeOverlay` on a custom `TextInputLayout`

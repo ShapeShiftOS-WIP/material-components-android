@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.datepicker;
+package com.bottombar.navigation.material.datepicker;
 
 import static com.google.common.truth.Truth.assertThat;
 import static java.util.Calendar.APRIL;
@@ -32,7 +32,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 
-/** Test for {@link com.google.android.material.datepicker.MaterialDatePicker}. */
+/** Test for {@link com.bottombar.navigation.material.datepicker.MaterialDatePicker}. */
 @RunWith(RobolectricTestRunner.class)
 public class MaterialDatePickerTest {
 

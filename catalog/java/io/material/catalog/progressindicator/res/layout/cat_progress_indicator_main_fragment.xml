@@ -25,7 +25,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_linear" />
-  <com.google.android.material.progressindicator.LinearProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.LinearProgressIndicator
       android:id="@+id/linear_indicator"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -35,14 +35,14 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/cat_progress_indicator_circular" />
-  <com.google.android.material.progressindicator.CircularProgressIndicator
+  <com.bottombar.navigation.material.progressindicator.CircularProgressIndicator
       android:id="@+id/circular_indicator"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:indeterminate="true"/>
 
-  <com.google.android.material.materialswitch.MaterialSwitch
+  <com.bottombar.navigation.material.materialswitch.MaterialSwitch
       android:id="@+id/determinate_mode_switch"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

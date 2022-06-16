@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp.base;
+package com.bottombar.navigation.material.testapp.base;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

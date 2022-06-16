@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.google.android.material.resources;
+package com.bottombar.navigation.material.resources;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static org.junit.Assert.assertEquals;
 

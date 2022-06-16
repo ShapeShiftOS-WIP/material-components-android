@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
 import android.view.View;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 /** Test Activity for ExpandableTransformationBehaviors. */
 public class ExpandableTransformationActivity extends BaseTestActivity {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import android.text.TextUtils;
 import android.view.View;
-import com.google.android.material.internal.CheckableImageButton;
-import com.google.android.material.testapp.R;
-import com.google.android.material.textfield.TextInputLayout;
+import com.bottombar.navigation.material.internal.CheckableImageButton;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.textfield.TextInputLayout;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;

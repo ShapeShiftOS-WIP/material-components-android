@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.textfield;
+package com.bottombar.navigation.material.textfield;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
-import static com.google.android.material.textfield.TextInputLayout.END_ICON_CUSTOM;
+import static com.bottombar.navigation.material.textfield.TextInputLayout.END_ICON_CUSTOM;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 

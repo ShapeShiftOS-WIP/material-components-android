@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
 
@@ -25,8 +25,8 @@ import androidx.annotation.DrawableRes;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.test.espresso.UiController;
 import androidx.test.espresso.ViewAction;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.shape.ShapeAppearanceModel;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.shape.ShapeAppearanceModel;
 import org.hamcrest.Matcher;
 
 public class FloatingActionButtonActions {

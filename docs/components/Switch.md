@@ -61,8 +61,8 @@ indicate its current state.
 API and source code:
 
 *   `SwitchMaterial`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/switchmaterial/SwitchMaterial)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/switchmaterial/SwitchMaterial.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/switchmaterial/SwitchMaterial)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/switchmaterial/SwitchMaterial.java)
 
 The following example shows a list of five switches.
 
@@ -71,24 +71,24 @@ The following example shows a list of five switches.
 In the layout:
 
 ```xml
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:checked="true"
     android:text="@string/label_1"/>
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:text="@string/label_2"/>
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:text="@string/label_3"/>
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:text="@string/label_4"/>
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:enabled="false"
@@ -131,7 +131,7 @@ with a custom drawable that should not be tinted, set
 `app:useMaterialThemeColors` to `false`:
 
 ```xml
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
         ...
     app:useMaterialThemeColors="false"
     />
@@ -182,9 +182,9 @@ Element           | Style
 Default style theme attribute: `?attr/switchStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/switchmaterial/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/switchmaterial/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/switchmaterial/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/switchmaterial/res/values/attrs.xml).
 
 ## Theming switches
 
@@ -197,8 +197,8 @@ which can customize color and typography.
 API and source code:
 
 *   `SwitchMaterial`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/switchmaterial/SwitchMaterial)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/switchmaterial/SwitchMaterial.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/switchmaterial/SwitchMaterial)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/switchmaterial/SwitchMaterial.java)
 
 The following example shows a list of switches with Material Theming.
 
@@ -240,7 +240,7 @@ all switches but do not affect other components:
 Use the styles in the layout, which affects only this switch:
 
 ```xml
-<com.google.android.material.switchmaterial.SwitchMaterial
+<com.bottombar.navigation.material.switchmaterial.SwitchMaterial
         ...
     style="@style/Widget.App.Switch"
     />

@@ -18,9 +18,9 @@ package io.material.catalog.color;
 
 import android.view.View;
 import androidx.annotation.ColorInt;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.color.ColorRoles;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.button.MaterialButton;
+import com.bottombar.navigation.material.color.ColorRoles;
+import com.bottombar.navigation.material.color.MaterialColors;
 
 /** A class for {@link MaterialButton} that can be harmonized. */
 final class HarmonizableButton {

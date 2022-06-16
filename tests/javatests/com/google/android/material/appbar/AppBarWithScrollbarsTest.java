@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import androidx.test.filters.SmallTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.AppBarWithScrollbarsActivity;
+import com.bottombar.navigation.material.testapp.AppBarWithScrollbarsActivity;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;

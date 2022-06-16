@@ -20,13 +20,13 @@ dependencies {
   api compatibility("appcompat")
   api compatibility("core")
 
- /* api project(fromPath("lib/java/com/google/android/material/theme"))
-  api project(fromPath("lib/java/com/google/android/material/button"))
-  api project(fromPath("lib/java/com/google/android/material/radiobutton"))
-  api project(fromPath("lib/java/com/google/android/material/checkbox"))
+ /* api project(fromPath("lib/java/com/bottombar/navigation/material/theme"))
+  api project(fromPath("lib/java/com/bottombar/navigation/material/button"))
+  api project(fromPath("lib/java/com/bottombar/navigation/material/radiobutton"))
+  api project(fromPath("lib/java/com/bottombar/navigation/material/checkbox"))
 */
   api project(fromPath("lib"))
-  api project(fromPath("testing/java/com/google/android/material/testapp/base"))
+  api project(fromPath("testing/java/com/bottombar/navigation/material/testapp/base"))
 
   api 'androidx.multidex:multidex:2.0.1'
 }

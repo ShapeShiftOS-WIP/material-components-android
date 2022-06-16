@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
 import android.widget.FrameLayout;
 import androidx.annotation.VisibleForTesting;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 public class CoordinatorLayoutActivity extends BaseTestActivity {
 

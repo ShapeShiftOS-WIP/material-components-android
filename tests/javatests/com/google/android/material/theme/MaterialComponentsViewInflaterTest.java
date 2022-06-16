@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.theme;
+package com.bottombar.navigation.material.theme;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -22,13 +22,13 @@ import android.view.View;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.checkbox.MaterialCheckBox;
-import com.google.android.material.radiobutton.MaterialRadioButton;
-import com.google.android.material.testapp.theme.MaterialComponentsViewInflaterActivity;
-import com.google.android.material.testapp.theme.R;
-import com.google.android.material.textfield.MaterialAutoCompleteTextView;
-import com.google.android.material.textview.MaterialTextView;
+import com.bottombar.navigation.material.button.MaterialButton;
+import com.bottombar.navigation.material.checkbox.MaterialCheckBox;
+import com.bottombar.navigation.material.radiobutton.MaterialRadioButton;
+import com.bottombar.navigation.material.testapp.theme.MaterialComponentsViewInflaterActivity;
+import com.bottombar.navigation.material.testapp.theme.R;
+import com.bottombar.navigation.material.textfield.MaterialAutoCompleteTextView;
+import com.bottombar.navigation.material.textview.MaterialTextView;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

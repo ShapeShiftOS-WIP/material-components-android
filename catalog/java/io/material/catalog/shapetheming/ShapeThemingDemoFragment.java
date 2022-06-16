@@ -28,10 +28,10 @@ import android.view.Window;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 import androidx.appcompat.view.ContextThemeWrapper;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetBehavior;
+import com.bottombar.navigation.material.bottomsheet.BottomSheetDialog;
+import com.bottombar.navigation.material.button.MaterialButton;
+import com.bottombar.navigation.material.dialog.MaterialAlertDialogBuilder;
 import io.material.catalog.feature.DemoFragment;
 
 /** A base class for Shape Theming demos in the Catalog app. */

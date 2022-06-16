@@ -21,7 +21,7 @@ import androidx.annotation.AttrRes;
 import androidx.annotation.ColorInt;
 import androidx.annotation.ColorRes;
 import androidx.core.content.ContextCompat;
-import com.google.android.material.color.MaterialColors;
+import com.bottombar.navigation.material.color.MaterialColors;
 
 /**
  * Represents a color value as defined in the Material Spec.

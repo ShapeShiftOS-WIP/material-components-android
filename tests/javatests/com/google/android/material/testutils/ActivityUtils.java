@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import static org.junit.Assert.assertTrue;
 
 import android.os.Looper;
 import androidx.test.rule.ActivityTestRule;
-import com.google.android.material.testapp.base.RecreatableAppCompatActivity;
+import com.bottombar.navigation.material.testapp.base.RecreatableAppCompatActivity;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 

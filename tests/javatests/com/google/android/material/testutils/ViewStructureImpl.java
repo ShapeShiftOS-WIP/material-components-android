@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testutils;
+package com.bottombar.navigation.material.testutils;
 
 import android.graphics.Matrix;
 import android.graphics.Rect;

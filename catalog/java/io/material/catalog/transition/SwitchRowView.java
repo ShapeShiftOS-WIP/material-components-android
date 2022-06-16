@@ -26,7 +26,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.bottombar.navigation.material.materialswitch.MaterialSwitch;
 
 class SwitchRowView extends FrameLayout {
 

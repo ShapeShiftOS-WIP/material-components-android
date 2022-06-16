@@ -60,8 +60,8 @@ ext {
 
   // Current version of the library (could be in-development/unreleased).
   mdcLibraryVersion = '1.7.0-alpha02'
-  mdcLibraryPackage = "com.google.android.material"
-  mdcLibraryDir = "com/google/android/material"
+  mdcLibraryPackage = "com.bottombar.navigation.material"
+  mdcLibraryDir = "com/bottombar/navigation/material"
 }
 
 task clean(type: Delete) {
@@ -137,7 +137,7 @@ def getArchivesBaseName(name) {
     return 'material'
   }
   def pathComponents = name.tokenize('-')
-  def knownComponents = ['lib', 'java', 'com', 'google', 'android', 'material']
+  def knownComponents = ['lib', 'java', 'com', 'bottombar', 'navigation', 'material']
   def firstUnknownComponent = knownComponents.size();
   for (def i = 0; i < knownComponents.size() && i < pathComponents.size(); i++) {
     if (pathComponents[i] != knownComponents[i]) {
@@ -163,7 +163,7 @@ subprojects {
 
 subprojects {
   version = rootProject.ext.mdcLibraryVersion
-  group = 'com.google.android.material'
+  group = 'com.bottombar.navigation.material'
 
   // Disable strict dependency resolution version constraints for test projects
   if (project.name.contains("tests")) {

@@ -17,8 +17,8 @@ the user. To provide user-editable text, see
 
 ## Design & API Documentation
 
--   [Class definition](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/textview/MaterialTextView.java)
--   [Class overview](https://developer.android.com/reference/com/google/android/material/textview/MaterialTextView)
+-   [Class definition](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/textview/MaterialTextView.java)
+-   [Class overview](https://developer.android.com/reference/com.bottombar.navigation.material/textview/MaterialTextView)
 
 ## Usage
 
@@ -40,7 +40,7 @@ reference.
 
 **Note:** If you use our full themes (which we recommend), `TextView` will
 auto-inflate to `MaterialTextView`, otherwise, you will need to specify
-`<com.google.android.material.textview.MaterialTextView` in your xml.
+`<com.bottombar.navigation.material.textview.MaterialTextView` in your xml.
 
 ### Attributes
 

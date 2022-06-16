@@ -41,11 +41,11 @@ The following image shows a date picker and a range date picker.
 API and source code:
 
 *   `MaterialDatePicker`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/datepicker/MaterialDatePicker)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/MaterialDatePicker.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/datepicker/MaterialDatePicker)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/MaterialDatePicker.java)
 *   `CalendarConstraints`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/datepicker/CalendarConstraints)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/CalendarConstraints.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/datepicker/CalendarConstraints)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/CalendarConstraints.java)
 
 A date picker can be instantiated with
 `MaterialDatePicker.Builder.datePicker()`:
@@ -343,7 +343,7 @@ Element              | Attribute              | Related method(s) | Default valu
 Element        | Attribute                                | Related method(s) | Default value
 -------------- | ---------------------------------------- | ----------------- | -------------
 **Style**      | `app:materialCalendarHeaderCancelButton` | N/A               | `@style/Widget.Material3.MaterialCalendar.HeaderCancelButton`
-**Text color** | `android:textColor`                      | N/A               | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/button/res/color/m3_text_button_foreground_color_selector.xml))
+**Text color** | `android:textColor`                      | N/A               | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/button/res/color/m3_text_button_foreground_color_selector.xml))
 **Icon color** | `app:iconTint`                           | N/A               | `?attr/colorOnSurfaceVariant`
 
 ### Styles and theme overlays
@@ -362,10 +362,10 @@ Default theme attribute (set on the app's theme): `?attr/materialCalendarTheme`,
 `?attr/materialCalendarFullscreenTheme` (fullscreen)
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/res/values/styles.xml),
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/res/values/attrs.xml),
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/res/values/styles.xml),
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/res/values/attrs.xml),
 and
-[theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/res/values/themes.xml).
+[theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/res/values/themes.xml).
 
 ## Theming date pickers
 
@@ -378,11 +378,11 @@ can customize color, shape and typography.
 API and source code:
 
 *   `MaterialDatePicker`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/datepicker/MaterialDatePicker)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/MaterialDatePicker.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/datepicker/MaterialDatePicker)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/MaterialDatePicker.java)
 *   `CalendarConstraints`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/datepicker/CalendarConstraints)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/datepicker/CalendarConstraints.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/datepicker/CalendarConstraints)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/datepicker/CalendarConstraints.java)
 
 The following example shows a date picker with Material Theming.
 

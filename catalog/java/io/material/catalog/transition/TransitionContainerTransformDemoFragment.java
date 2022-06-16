@@ -33,9 +33,9 @@ import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
-import com.google.android.material.color.MaterialColors;
-import com.google.android.material.transition.Hold;
-import com.google.android.material.transition.MaterialContainerTransform;
+import com.bottombar.navigation.material.color.MaterialColors;
+import com.bottombar.navigation.material.transition.Hold;
+import com.bottombar.navigation.material.transition.MaterialContainerTransform;
 import io.material.catalog.feature.DemoFragment;
 import io.material.catalog.feature.OnBackPressedHandler;
 

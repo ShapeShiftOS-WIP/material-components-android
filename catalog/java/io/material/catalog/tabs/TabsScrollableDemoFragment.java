@@ -27,8 +27,8 @@ import android.widget.RadioButton;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.tabs.TabLayout.Tab;
+import com.bottombar.navigation.material.tabs.TabLayout;
+import com.bottombar.navigation.material.tabs.TabLayout.Tab;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays a scrollable tabs demo for the Catalog app. */

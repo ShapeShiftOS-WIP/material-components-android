@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.bottombar.navigation.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
   android:id="@+id/list_view_detail_item_container"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
@@ -38,4 +38,4 @@
       android:layout_marginTop="16dp"
       android:text="@string/cat_list_view_email_text"/>
   </LinearLayout>
-</com.google.android.material.card.MaterialCardView>
+</com.bottombar.navigation.material.card.MaterialCardView>

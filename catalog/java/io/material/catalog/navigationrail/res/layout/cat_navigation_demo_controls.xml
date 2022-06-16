@@ -40,7 +40,7 @@
     android:layout_marginRight="@dimen/cat_navigation_rail_standard_spacing"
     android:text="@string/cat_navigation_rail_remove_header_view"
     android:visibility="gone"/>
-  <com.google.android.material.card.MaterialCardView
+  <com.bottombar.navigation.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -97,8 +97,8 @@
           android:text="@string/cat_navigation_rail_slider_max" />
       </RelativeLayout>
     </LinearLayout>
-  </com.google.android.material.card.MaterialCardView>
-  <com.google.android.material.card.MaterialCardView
+  </com.bottombar.navigation.material.card.MaterialCardView>
+  <com.bottombar.navigation.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -139,8 +139,8 @@
           android:text="@string/cat_navigation_rail_menu_gravity_bottom" />
       </RadioGroup>
     </LinearLayout>
-  </com.google.android.material.card.MaterialCardView>
-  <com.google.android.material.card.MaterialCardView
+  </com.bottombar.navigation.material.card.MaterialCardView>
+  <com.bottombar.navigation.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -186,5 +186,5 @@
           android:text="@string/cat_navigation_rail_label_visibility_mode_unlabeled" />
       </RadioGroup>
     </LinearLayout>
-  </com.google.android.material.card.MaterialCardView>
+  </com.bottombar.navigation.material.card.MaterialCardView>
 </LinearLayout>

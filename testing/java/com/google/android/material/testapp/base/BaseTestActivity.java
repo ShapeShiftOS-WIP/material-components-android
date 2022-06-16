@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.testapp.base;
+package com.bottombar.navigation.material.testapp.base;
 
 import android.os.Bundle;
 import android.view.WindowManager;

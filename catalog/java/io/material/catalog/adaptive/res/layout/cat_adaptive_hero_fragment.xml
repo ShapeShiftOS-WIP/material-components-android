@@ -31,7 +31,7 @@
     android:layout_marginEnd="@dimen/cat_adaptive_hero_margin"
     android:layout_marginLeft="@dimen/cat_adaptive_hero_margin"
     android:layout_marginRight="@dimen/cat_adaptive_hero_margin">
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
       android:id="@+id/hero_top_content"
       android:layout_width="0dp"
       android:layout_height="0dp"
@@ -49,7 +49,7 @@
       app:cardBackgroundColor="?attr/colorSurfaceVariant"
       tools:ignore="NegativeMargin" />
 
-    <com.google.android.material.card.MaterialCardView
+    <com.bottombar.navigation.material.card.MaterialCardView
       android:id="@+id/hero_main_content"
       android:layout_width="0dp"
       android:layout_height="0dp"

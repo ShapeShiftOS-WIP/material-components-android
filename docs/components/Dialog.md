@@ -62,8 +62,8 @@ Dialogs are purposefully interruptive, so they should be used sparingly.
 API and source code:
 
 *   `MaterialAlertDialogBuilder`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/dialog/MaterialAlertDialogBuilder)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/MaterialAlertDialogBuilder.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/dialog/MaterialAlertDialogBuilder)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/MaterialAlertDialogBuilder.java)
 
 ## Basic dialog
 
@@ -149,12 +149,12 @@ Element        | **Attribute**            | **Related methods** | **Default valu
 
 Element                                 | **Attribute**                  | **Related methods**    | **Default value**
 --------------------------------------- | ------------------------------ | ---------------------- | -----------------
-**List item layout**                    | `app:listItemLayout`           | `setItems`             | [`@layout/mtrl_alert_select_dialog_item`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/layout/mtrl_alert_select_dialog_item.xml)
+**List item layout**                    | `app:listItemLayout`           | `setItems`             | [`@layout/mtrl_alert_select_dialog_item`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/layout/mtrl_alert_select_dialog_item.xml)
 **List item layout style**              | N/A                            | N/A                    | `?attr/materialAlertDialogBodyTextStyle`
 **List item text color**                | `android:textColor`            | N/A                    | `?attr/colorOnSurfaceVariant`
 **List item typography**                | `android:textAppearance`       | N/A                    | `?attr/textAppearanceBodyMedium`
-**Multi choice item layout**            | `app:multiChoiceItemLayout`    | `setMultiChoiceItems`  | [`@layout/mtrl_alert_select_dialog_multichoice`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/layout/mtrl_alert_select_dialog_multichoice.xml)
-**Single choice item layout**           | `app:singleChoiceItemLayout`   | `setSingleChoiceItems` | [`@layout/mtrl_alert_select_dialog_singlechoice`](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/layout/mtrl_alert_select_dialog_singlechoice.xml)
+**Multi choice item layout**            | `app:multiChoiceItemLayout`    | `setMultiChoiceItems`  | [`@layout/mtrl_alert_select_dialog_multichoice`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/layout/mtrl_alert_select_dialog_multichoice.xml)
+**Single choice item layout**           | `app:singleChoiceItemLayout`   | `setSingleChoiceItems` | [`@layout/mtrl_alert_select_dialog_singlechoice`](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/layout/mtrl_alert_select_dialog_singlechoice.xml)
 **Multi/single choice item style**      | `android:checkedTextViewStyle` | N/A                    | `@style/Widget.Material3.CheckedTextView`
 **Multi/single choice item text color** | `android:textColor`            | N/A                    | `?attr/colorOnSurfaceVariant`
 **Multi/single choice item typography** | `android:textAppearance`       | N/A                    | `?attr/textAppearanceBodyLarge`
@@ -198,10 +198,10 @@ Element                   | **Theme attribute**                       | **Defaul
 **Supporting text style** | `?attr/materialAlertDialogBodyTextStyle`  | `@style/MaterialAlertDialog.Material3.Body.Text`
 
 See full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/values/styles.xml),
-[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/values/attrs.xml),
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/values/styles.xml),
+[attributes](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/values/attrs.xml),
 and
-[theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/values/themes.xml).
+[theme overlays](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/res/values/themes.xml).
 
 ## Theming dialogs
 
@@ -214,8 +214,8 @@ customize color, typography and shape.
 API and source code:
 
 *   `MaterialAlertDialogBuilder`
-    *   [Class description](https://developer.android.com/reference/com/google/android/material/dialog/MaterialAlertDialogBuilder)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/MaterialAlertDialogBuilder.java)
+    *   [Class description](https://developer.android.com/reference/com.bottombar.navigation.material/dialog/MaterialAlertDialogBuilder)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/dialog/MaterialAlertDialogBuilder.java)
 
 The following example shows a dialog with Material Theming.
 

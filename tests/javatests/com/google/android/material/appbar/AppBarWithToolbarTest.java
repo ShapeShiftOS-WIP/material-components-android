@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
-import static com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_NO_SCROLL;
+import static com.bottombar.navigation.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_NO_SCROLL;
 import static org.junit.Assert.assertEquals;
 
 import android.graphics.Rect;
@@ -29,7 +29,7 @@ import androidx.core.view.ViewCompat;
 import androidx.test.InstrumentationRegistry;
 import androidx.test.filters.MediumTest;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.testapp.R;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

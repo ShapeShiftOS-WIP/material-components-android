@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.button;
+package com.bottombar.navigation.material.button;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -27,17 +27,17 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.shape.CornerFamily;
-import com.google.android.material.shape.CornerTreatment;
-import com.google.android.material.shape.CutCornerTreatment;
-import com.google.android.material.shape.ShapeAppearanceModel;
+import com.bottombar.navigation.material.shape.CornerFamily;
+import com.bottombar.navigation.material.shape.CornerTreatment;
+import com.bottombar.navigation.material.shape.CutCornerTreatment;
+import com.bottombar.navigation.material.shape.ShapeAppearanceModel;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-/** Tests for {@link com.google.android.material.button.MaterialButton}. */
+/** Tests for {@link com.bottombar.navigation.material.button.MaterialButton}. */
 @RunWith(RobolectricTestRunner.class)
 public class MaterialButtonTest {
 

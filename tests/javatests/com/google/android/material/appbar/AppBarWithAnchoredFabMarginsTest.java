@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.google.android.material.appbar;
+package com.bottombar.navigation.material.appbar;
 
 import static org.junit.Assert.assertEquals;
 
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.test.filters.SmallTest;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.testapp.R;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

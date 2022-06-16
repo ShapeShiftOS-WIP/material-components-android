@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.bottomsheet;
+package com.bottombar.navigation.material.bottomsheet;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -46,8 +46,8 @@ import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.BottomSheetDialogActivity;
-import com.google.android.material.testapp.R;
+import com.bottombar.navigation.material.testapp.BottomSheetDialogActivity;
+import com.bottombar.navigation.material.testapp.R;
 import java.util.concurrent.atomic.AtomicBoolean;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;

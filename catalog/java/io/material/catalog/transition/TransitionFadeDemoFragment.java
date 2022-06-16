@@ -26,8 +26,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.transition.TransitionManager;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.transition.MaterialFade;
+import com.bottombar.navigation.material.floatingactionbutton.FloatingActionButton;
+import com.bottombar.navigation.material.transition.MaterialFade;
 import io.material.catalog.feature.DemoFragment;
 
 /** A fragment that displays the Fade Transition demo for the Catalog app. */

@@ -33,10 +33,10 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.math.MathUtils;
-import com.google.android.material.badge.BadgeDrawable;
-import com.google.android.material.badge.BadgeDrawable.BadgeGravity;
-import com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener;
-import com.google.android.material.navigationrail.NavigationRailView;
+import com.bottombar.navigation.material.badge.BadgeDrawable;
+import com.bottombar.navigation.material.badge.BadgeDrawable.BadgeGravity;
+import com.bottombar.navigation.material.navigation.NavigationBarView.OnItemSelectedListener;
+import com.bottombar.navigation.material.navigationrail.NavigationRailView;
 import io.material.catalog.feature.DemoFragment;
 
 /** A base class that provides a demo screen structure for a single navigation rail demo. */

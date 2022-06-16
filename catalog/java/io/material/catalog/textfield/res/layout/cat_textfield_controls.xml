@@ -42,7 +42,7 @@
       android:text="@string/cat_textfield_show_leading_icon"
       android:visibility="gone"/>
 
-    <com.google.android.material.materialswitch.MaterialSwitch
+    <com.bottombar.navigation.material.materialswitch.MaterialSwitch
       android:id="@+id/cat_textfield_enabled_switch"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
         android:paddingBottom="@dimen/cat_textfield_standard_spacing"
         android:orientation="vertical">
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/text_input_label"
           android:layout_width="@dimen/material_textinput_default_width"
           android:layout_height="wrap_content"
@@ -80,14 +80,14 @@
           android:layout_margin="4dp"
           android:hint="@string/cat_textfield_customize_label_text"
           app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:imeOptions="actionDone"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/text_input_error"
           android:layout_width="@dimen/material_textinput_default_width"
           android:layout_height="wrap_content"
@@ -95,14 +95,14 @@
           android:layout_gravity="center_horizontal"
           android:hint="@string/cat_textfield_customize_error_text"
           app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
            android:imeOptions="actionDone"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/text_input_helper_text"
           android:layout_width="@dimen/material_textinput_default_width"
           android:layout_height="wrap_content"
@@ -110,14 +110,14 @@
           android:layout_gravity="center_horizontal"
           android:hint="@string/cat_textfield_customize_helper_text"
           app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:imeOptions="actionDone"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/text_input_counter_max"
           android:layout_width="@dimen/material_textinput_default_width"
           android:layout_height="wrap_content"
@@ -125,14 +125,14 @@
           android:layout_gravity="center_horizontal"
           android:hint="@string/cat_textfield_customize_counter_text"
           app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:imeOptions="actionDone"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
-      <com.google.android.material.textfield.TextInputLayout
+      <com.bottombar.navigation.material.textfield.TextInputLayout
           android:id="@+id/text_input_placeholder"
           android:layout_width="@dimen/material_textinput_default_width"
           android:layout_height="wrap_content"
@@ -140,12 +140,12 @@
           android:layout_gravity="center_horizontal"
           android:hint="@string/cat_textfield_customize_placeholder_text"
           app:errorEnabled="true">
-        <com.google.android.material.textfield.TextInputEditText
+        <com.bottombar.navigation.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:imeOptions="actionDone"/>
-      </com.google.android.material.textfield.TextInputLayout>
+      </com.bottombar.navigation.material.textfield.TextInputLayout>
 
       <Button
         android:id="@+id/button_update"

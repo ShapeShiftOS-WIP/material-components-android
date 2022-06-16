@@ -35,7 +35,7 @@ Material Components for Android library. For more information, go to the
 page.
 
 **Note:** `<RadioButton>` is auto-inflated as
-`<com.google.android.material.button.MaterialRadioButton>` via
+`<com.bottombar.navigation.material.button.MaterialRadioButton>` via
 `MaterialComponentsViewInflater` when using a `Theme.Material3.*` theme.
 
 ### Making radio buttons accessible
@@ -64,8 +64,8 @@ collapsed, consider using a dropdown menu because it uses less space.
 API and source code:
 
 *   `MaterialRadioButton`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/radiobutton/MaterialRadioButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/radiobutton/MaterialRadioButton.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/radiobutton/MaterialRadioButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/radiobutton/MaterialRadioButton.java)
 *   `RadioGroup`
     *   [Class definition](https://developer.android.com/reference/android/widget/RadioGroup)
 
@@ -135,7 +135,7 @@ radioButton.setOnCheckedChangeListener { buttonView, isChecked
 Element                    | Attribute                                  | Related method(s)                                          | Default value
 -------------------------- | ------------------------------------------ | ---------------------------------------------------------- | -------------
 **To use material colors** | `app:useMaterialThemeColors`               | `setUseMaterialThemeColors`<br/>`isUseMaterialThemeColors` | `true` (ignored if `app:buttonTint` is set)
-**Color**                  | `app:buttonTint`                           | `setButtonTintList`<br/>`getButtonTintList`                | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/radiobutton/res/color/m3_radiobutton_button_tint.xml))
+**Color**                  | `app:buttonTint`                           | `setButtonTintList`<br/>`getButtonTintList`                | `?attr/colorOnSurface` (see all [states](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/radiobutton/res/color/m3_radiobutton_button_tint.xml))
 **Min size**               | `android:minWidth`<br/>`android:minHeight` | `(set/get)MinWidth`<br/>`(set/get)MinHeight`               | `?attr/minTouchTargetSize`
 
 The color of the radio button defaults to `?attr/colorOnSurface` (unchecked) and
@@ -176,9 +176,9 @@ Element           | Style
 Default style theme attribute: `?attr/radioButtonStyle`
 
 See the full list of
-[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/radiobutton/res/values/styles.xml)
+[styles](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/radiobutton/res/values/styles.xml)
 and
-[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/radiobutton/res/values/attrs.xml).
+[attrs](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/radiobutton/res/values/attrs.xml).
 
 ## Theming radio buttons
 
@@ -191,8 +191,8 @@ which can customize color and typography.
 API and source code:
 
 *   `MaterialRadioButton`
-    *   [Class definition](https://developer.android.com/reference/com/google/android/material/radiobutton/MaterialRadioButton)
-    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/radiobutton/MaterialRadioButton.java)
+    *   [Class definition](https://developer.android.com/reference/com.bottombar.navigation.material/radiobutton/MaterialRadioButton)
+    *   [Class source](https://github.com/material-components/material-components-android/tree/master/lib/java/com.bottombar.navigation.material/radiobutton/MaterialRadioButton.java)
 *   `RadioGroup`
     *   [Class definition](https://developer.android.com/reference/android/widget/RadioGroup)
 

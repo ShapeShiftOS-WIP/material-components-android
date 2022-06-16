@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.testapp;
+package com.bottombar.navigation.material.testapp;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import com.google.android.material.testapp.base.BaseTestActivity;
+import com.bottombar.navigation.material.testapp.base.BaseTestActivity;
 
 /** Test activity that has the different variations of the Exposed Dropdown Menu. */
 public class ExposedDropdownMenuActivity extends BaseTestActivity {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.snackbar;
+package com.bottombar.navigation.material.snackbar;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -39,11 +39,11 @@ import androidx.test.filters.LargeTest;
 import androidx.test.filters.MediumTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
-import com.google.android.material.testapp.R;
-import com.google.android.material.testapp.SnackbarActivity;
-import com.google.android.material.testapp.custom.CustomSnackbar;
-import com.google.android.material.testapp.custom.CustomSnackbarMainContent;
-import com.google.android.material.testutils.SnackbarUtils;
+import com.bottombar.navigation.material.testapp.R;
+import com.bottombar.navigation.material.testapp.SnackbarActivity;
+import com.bottombar.navigation.material.testapp.custom.CustomSnackbar;
+import com.bottombar.navigation.material.testapp.custom.CustomSnackbarMainContent;
+import com.bottombar.navigation.material.testutils.SnackbarUtils;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.material.ripple;
+package com.bottombar.navigation.material.ripple;
 
 import static com.google.common.truth.Truth.assertThat;
 

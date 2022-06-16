@@ -33,62 +33,62 @@ dependencies {
 }
 
 def srcDirs = [
-  'com/google/android/material/animation',
-  'com/google/android/material/appbar',
-  'com/google/android/material/badge',
-  'com/google/android/material/behavior',
-  'com/google/android/material/bottomappbar',
-  'com/google/android/material/bottomnavigation',
-  'com/google/android/material/bottomsheet',
-  'com/google/android/material/button',
-  'com/google/android/material/canvas',
-  'com/google/android/material/card',
-  'com/google/android/material/checkbox',
-  'com/google/android/material/chip',
-  'com/google/android/material/circularreveal',
-  'com/google/android/material/circularreveal/cardview',
-  'com/google/android/material/circularreveal/coordinatorlayout',
-  'com/google/android/material/color',
-  'com/google/android/material/datepicker',
-  'com/google/android/material/dialog',
-  'com/google/android/material/divider',
-  'com/google/android/material/drawable',
-  'com/google/android/material/elevation',
-  'com/google/android/material/expandable',
-  'com/google/android/material/floatingactionbutton',
-  'com/google/android/material/imageview',
-  'com/google/android/material/internal',
-  'com/google/android/material/materialswitch',
-  'com/google/android/material/math',
-  'com/google/android/material/menu',
-  'com/google/android/material/motion',
-  'com/google/android/material/navigation',
-  'com/google/android/material/navigationrail',
-  'com/google/android/material/progressindicator',
-  'com/google/android/material/radiobutton',
-  'com/google/android/material/resources',
-  'com/google/android/material/ripple',
-  'com/google/android/material/shape',
-  'com/google/android/material/shadow',
-  'com/google/android/material/slider',
-  'com/google/android/material/snackbar',
-  'com/google/android/material/stateful',
-  'com/google/android/material/switchmaterial',
-  'com/google/android/material/tabs',
-  'com/google/android/material/textfield',
-  'com/google/android/material/textview',
-  'com/google/android/material/theme',
-  'com/google/android/material/theme/overlay',
-  'com/google/android/material/timepicker',
-  'com/google/android/material/tooltip',
-  'com/google/android/material/transition',
-  'com/google/android/material/transformation',
-  'com/google/android/material/typography',
+  'com/bottombar/navigation/material/animation',
+  'com/bottombar/navigation/material/appbar',
+  'com/bottombar/navigation/material/badge',
+  'com/bottombar/navigation/material/behavior',
+  'com/bottombar/navigation/material/bottomappbar',
+  'com/bottombar/navigation/material/bottomnavigation',
+  'com/bottombar/navigation/material/bottomsheet',
+  'com/bottombar/navigation/material/button',
+  'com/bottombar/navigation/material/canvas',
+  'com/bottombar/navigation/material/card',
+  'com/bottombar/navigation/material/checkbox',
+  'com/bottombar/navigation/material/chip',
+  'com/bottombar/navigation/material/circularreveal',
+  'com/bottombar/navigation/material/circularreveal/cardview',
+  'com/bottombar/navigation/material/circularreveal/coordinatorlayout',
+  'com/bottombar/navigation/material/color',
+  'com/bottombar/navigation/material/datepicker',
+  'com/bottombar/navigation/material/dialog',
+  'com/bottombar/navigation/material/divider',
+  'com/bottombar/navigation/material/drawable',
+  'com/bottombar/navigation/material/elevation',
+  'com/bottombar/navigation/material/expandable',
+  'com/bottombar/navigation/material/floatingactionbutton',
+  'com/bottombar/navigation/material/imageview',
+  'com/bottombar/navigation/material/internal',
+  'com/bottombar/navigation/material/materialswitch',
+  'com/bottombar/navigation/material/math',
+  'com/bottombar/navigation/material/menu',
+  'com/bottombar/navigation/material/motion',
+  'com/bottombar/navigation/material/navigation',
+  'com/bottombar/navigation/material/navigationrail',
+  'com/bottombar/navigation/material/progressindicator',
+  'com/bottombar/navigation/material/radiobutton',
+  'com/bottombar/navigation/material/resources',
+  'com/bottombar/navigation/material/ripple',
+  'com/bottombar/navigation/material/shape',
+  'com/bottombar/navigation/material/shadow',
+  'com/bottombar/navigation/material/slider',
+  'com/bottombar/navigation/material/snackbar',
+  'com/bottombar/navigation/material/stateful',
+  'com/bottombar/navigation/material/switchmaterial',
+  'com/bottombar/navigation/material/tabs',
+  'com/bottombar/navigation/material/textfield',
+  'com/bottombar/navigation/material/textview',
+  'com/bottombar/navigation/material/theme',
+  'com/bottombar/navigation/material/theme/overlay',
+  'com/bottombar/navigation/material/timepicker',
+  'com/bottombar/navigation/material/tooltip',
+  'com/bottombar/navigation/material/transition',
+  'com/bottombar/navigation/material/transformation',
+  'com/bottombar/navigation/material/typography',
 ]
 
 android {
   sourceSets {
-    main.manifest.srcFile 'java/com/google/android/material/AndroidManifest.xml'
+    main.manifest.srcFile 'java/com/bottombar/navigation/material/AndroidManifest.xml'
     main.java.srcDir 'java'
     main.java.includes = srcDirs.collect { it + '/**/*.java' }
     main.java.excludes = [
@@ -121,7 +121,7 @@ task generateJavadocs(type: Javadoc) {
     options.addStringOption("hdf", "dac")
     options.addBooleanOption("devsite", true)
     options.addBooleanOption("yamlV2", true)
-    options.addStringOption("dac_libraryroot", "com/google/android/material")
+    options.addStringOption("dac_libraryroot", "com/bottombar/navigation/material")
     options.addStringOption("dac_dataname", "MATERIAL_DATA")
   }
 
@@ -208,7 +208,7 @@ task generateJdiffReport(type: Javadoc) {
   }
 }
 
-def R_CLASS_PATH = "build/generated/not_namespaced_r_class_sources/releaseUnitTest/processReleaseUnitTestResources/r/com/google/android/material/R.java"
+def R_CLASS_PATH = "build/generated/not_namespaced_r_class_sources/releaseUnitTest/processReleaseUnitTestResources/r/com/bottombar/navigation/material/R.java"
 Attribute<String> ARTIFACT_TYPE = Attribute.of("artifactType", String.class)
 afterEvaluate {
   [generateJavadocs, generateApiXml].forEach { task ->
@@ -260,7 +260,7 @@ afterEvaluate {
 
         artifact androidSourcesJar
 
-        groupId = 'com.google.android.material'
+        groupId = 'com.bottombar.navigation.material'
         artifactId = 'material'
         version project.version
         pom {

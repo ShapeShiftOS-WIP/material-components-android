@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.material.datepicker;
+package com.bottombar.navigation.material.datepicker;
 
-import com.google.android.material.test.R;
+import com.bottombar.navigation.material.test.R;
 
 import static org.junit.Assert.assertEquals;
 
@@ -30,7 +30,7 @@ import android.os.Build.VERSION_CODES;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 import androidx.test.core.app.ApplicationProvider;
-import com.google.android.material.shape.MaterialShapeDrawable;
+import com.bottombar.navigation.material.shape.MaterialShapeDrawable;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

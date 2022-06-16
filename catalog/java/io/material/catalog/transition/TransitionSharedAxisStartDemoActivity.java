@@ -28,7 +28,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import com.google.android.material.transition.platform.MaterialSharedAxis;
+import com.bottombar.navigation.material.transition.platform.MaterialSharedAxis;
 import io.material.catalog.feature.DemoActivity;
 
 /** An Activity that displays the starting Shared Axis Transition demo for the Catalog app. */
